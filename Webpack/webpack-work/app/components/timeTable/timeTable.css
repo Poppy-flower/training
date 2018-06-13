@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.timeTable{
+  margin:0 20px;
+}
+.head{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.add-line{
+  display:inline-block;
+  padding:0px 10px;
+  height:40px;
+  margin-right:20px;
+  background-color:red;
+  border-radius:5px;
+  color:#fff;
+  line-height:40px;
+}
+.leave-input{
+  display:inline-block;
+  height:40px;
+  line-height:40px;
+}
+.leave-home{
+  display:inline-block;
+  padding:0px 10px;
+  height:40px;
+  margin-left:20px;
+  background-color:red;
+  border-radius:5px;
+  color:#fff;
+  line-height:40px;
+}
+.shortestLine{
+  line-height:40px;
+  text-align:center;
+}
+.bus-table{
+  border-collapse: collapse;
+}
