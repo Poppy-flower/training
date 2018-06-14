@@ -1,0 +1,150 @@
+html,body,p,ul,li{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.dujia {
+    margin: 20px;
+    width: 945px;
+}
+.dujia-title{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    color:#00afc7;
+    margin:0;
+}
+.content{
+    position:relative;
+    overflow:hidden;
+    border-top:2px solid #00afc7;
+    padding-top:15px;
+}
+aside{
+    width:177px;
+    float:left;
+}
+.aside-item{
+    width:177px;
+    border:1px solid #e2f3f8;
+    margin-bottom:11px;
+}
+.aside-item .aside-title{
+    color:#0286a0;
+    background-color:#e2f3f8;
+    padding:0 10px;
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+    font-weight:600;
+}
+.aside-item ul{
+    height:77px;
+    padding:10px 0 10px 10px;
+    font-size:12px;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.aside-item ul li{
+    display:inline-block;
+    height:18px;
+    line-height:18px;
+    color:#666;
+    float:left;
+    margin-right:15px;
+    margin-bottom:7px;
+}
+.aside-item ul li a{
+    color:#666;
+}
+.right-items{
+    margin-left: 177px;
+}
+.right-items li{
+    display:inline-block;
+    width:240px;
+    margin-left: 11px;
+    margin-bottom: 12px;
+}
+.right-items li a{
+    display:inline-block;
+    width:240px;
+    height: 263px;
+    border:1px solid #eee;
+    position:relative;
+    cursor: pointer;
+}
+.right-items li a:hover{
+    border:1px solid #00afc7;
+}
+.img-box{
+    position:relative;
+    width:240px;
+    height:160px;
+}
+.has-hot{
+    display:inline-block;
+    width:50px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    position:absolute;
+    right:10px;
+    top:0;
+    background-color: red;
+    color:#fff;
+}
+.has-hot:after{
+    content:'';
+    display:inline-block;
+    width:0;
+    position:absolute;
+    top:40px;
+    left:0;
+    border-top:10px solid red;
+    border-left:25px solid transparent;
+    border-right:25px solid transparent;
+}
+.img-box img{
+    width:240px;
+    height:160px;
+}
+.img-box .flight-box{
+    display:inline-block;
+    width:130px;
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    bottom:0;
+    left:55px;
+    text-align:center;
+}
+.flight-msg{
+    color:#fff;
+    font-size:20px;
+    font-weight:900;
+    line-height:26px;
+}
+.count-msg{
+    color:#ffde00;
+    font-size:14px;
+}
+.item-header{
+    color: #666;
+    font-size: 14px;
+    line-height:20px;
+    font-weight: 600;
+    padding:13px 10px;
+}
+.money{
+    color:#f55;
+    position:absolute;
+    bottom:15px;
+    left:10px;
+    font:bold 20px arial,sans-serif;
+}
