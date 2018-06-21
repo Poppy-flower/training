@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+.content{
+    display:flex;
+}
+.left-tree{
+    display:inline-block;
+    width:30%;
+    background-color:pink;
+}
+.right-side{
+    display:inline-block;
+    width:100%;
+    background-color:#ccc;
+}
