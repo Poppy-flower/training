@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素类型</title>
+    <style>
+        /*通配符选择器,页面所有的都多加载八次，浪费性能，为了方便暂时使用通配符，会造成很多问题*/
+        /**{*/
+            /*margin: 0;*/
+            /*padding: 0;*/
+        /*}*/
+        /*天猫的，我用的，我就写上,用多元素选择器做样式初始化*/
+        ul li{
+            list-style: none;  /*去掉小圆点等*/
+        }
+        a{
+            /*text-decoration: none;  !*去掉下划线*!*/
+            text-decoration:underline;  /*加上下划线*/
+            color: #000;
+        }
+        img{
+            border: 0;  /*border:none  低版本ie 可能会不兼容*/
+        }
+        .wrap{
+            font-size:0;
+        }
+        .wrap span{
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+<!--
+    块级元素的特性：  display:block;
+        1.支持宽高
+            如果没有设置宽高 默认继承父元素内容宽度
+            如果没有设置高度 高度可以由内容撑开
+            溢出部分不会影响别的部分，不会影响文档流
+            一旦高度宽度固定死，都不能撑开 宽度一定不能撑开
+        2. 会换行显示，独占一行
+        3. 支持margin auto padding
+-->
+
+
+<!--
+    内联元素，行内元素的特性：  display:inline;
+        1. 只占自己的位置，能友好横排显示
+        2. 不支持宽高
+            宽度高度靠内容撑开
+        3. 支持margin  左右有效而上下无效
+           不支持 auto
+        4. 支持padding 完全有效 对上下元素没有影响 自己还是可以撑大的
+        5. 会解析空格  给父元素设置字体大小=0  去掉空格，比较常用来解决空格问题的
+        6. 会存在基线对其问题
+-->
+
+<!--
+    行内元素不能套块级
+            a 可以套块级，div包住a 实现一大块可以点击
+            a 不能套a标签
+            变成行内块 还是不能套块级
+            行内元素还是可以套行内元素
+-->
+
+<div>镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月镜花水月</div>
+<span>我想上去</span>
+<span>我也想上去</span>
+<div>哈哈哈哈，我是独占一行的div 啊</div>
+<div class="wrap">
+    <span>啊时间啊大家</span>
+    <span>啊时间啊大家</span>
+    <span>啊时间啊大家</span>
+    <span>啊时间啊大家</span>
+    <span>啊时间啊大家</span>
+</div>
+<ul>
+    <li></li>
+</ul>
+<ul>
+    <li></li>
+</ul>
+ul>li>
+</body>
+</html>
