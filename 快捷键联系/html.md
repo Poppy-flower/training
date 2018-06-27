@@ -35,26 +35,25 @@ ul>li*3
 ul>.item{$}
 
 
+div+div>p>span+em^bq
 
-#### css快捷键生成
+div>(header>ul>li*2>a)+footer>p
 
-m100
-
-h10p+m5e    p==%  e==em  x==ex
-
-@f  @f+  @ff
-
-@font-face
+td[rowspan=2 colspan=3 title]
 
 
+[a='value1' b="value2"]
 
-ovh  ov-h  ov
+p>{Click }+a{here}+{ to continue}
 
 
 
-trs
+em>.class
+
+table>.row>.col
+
+a:link
 
 
--wm-trs
 
 
