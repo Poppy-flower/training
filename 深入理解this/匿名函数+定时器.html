@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    /**
+     * @type 1:
+     *  匿名函数、定时器中的函数由于没有默认的宿主对象，所以默认this 指向 window
+     *
+     */
+    var obj = {};
+    obj.say = function(){
+        setTimeout(function(){ alert(this)});
+    };
+    obj.say();  //window
+
+    /**
+     * 问题如果想要在定时器函数等函数中使用 this 呢？
+     * @method1 可以使用 var that = this,将this  保存下来
+     *
+     * @method2 可以使用function(){}.bind(this) 给回调函数直接绑定宿主对象，bind 绑定宿主对象之后依然返回这个函数，这是更优雅的做法
+     */
+
+    //method1
+    var obj = {
+        say: function(){
+            var that = this;
+            setTimeout(function(){alert(that)});
+        }
+    };
+    obj.say();  //obj
+
+    //method2
+    var obj = {
+        say: function(){
+            setTimeout(
+                function(){alert(this)}.bind(this)
+            );
+        }
+    };
+    obj.say();
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

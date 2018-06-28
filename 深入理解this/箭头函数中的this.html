@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     *
+     * 箭头函数没有 this, 它的 this 是继承而来 ;
+     * 默认指向在 定义它时所处的对象，也就是 宿主对象; 而不是 执行时的对象 ;
+     * 定义它的时候, 环境可能是window ;
+     * 箭头函数可以让我们方便的 在 setTimeout / setInterval 中方便的 使用 this
+     */
+
+    //@1
+    var obj = {
+        say: function(){ setTimeout(()=>{alert(this)})}
+    };
+    obj.say();  //obj
+
+    //@2 多层嵌套的箭头函数
+    var obj = {
+        say: function(){
+            var f1 = ()=>{
+                alert(this);  //obj
+                setTimeout(()=>{ alert(this)})  //obj
+            };
+            f1();
+        }
+    };
+    obj.say();
+
+
+    //@3 普通函数和箭头函数混杂嵌套
+
+    var obj = {
+        say: function(){
+            var f1 = function(){
+                alert(this);  //window
+                setTimeout(()=>{alert(this)})  //window
+            };
+            f1();
+        }
+    };
+    obj.say();
+
+
+    //@4 严格模式下的混杂嵌套
+
+    var obj = {
+        say: function(){
+            'use strict';
+            var f1 = function(){
+                alert(this);  //undefined
+                setTimeout(()=>{alert(this)})  //undefined
+            }
+            f1();
+        }
+    };
+    obj.say();
+
+
+
+</script>
+</body>
+</html>
