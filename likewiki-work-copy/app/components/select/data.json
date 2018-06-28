@@ -7,17 +7,17 @@
         {
           "title": "水生植物",
           "key": "0-0-0",
-          "src": "src0-0-0",
+          "src": "/app/files/file1/file1",
           "children":[
             {
               "title": "海带",
               "key": "0-0-0-0",
-              "src": "src0-0-0-0"
+              "src": "/app/files/file1/file1"
             },
             {
               "title": "水草",
               "key": "0-0-0-1",
-              "src": "src0-0-0-1"
+              "src": "/app/files/file1/file1"
             }
           ]
         },

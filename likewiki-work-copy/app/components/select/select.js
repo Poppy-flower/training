@@ -2,6 +2,7 @@ import React from 'react';
 import LeftTree from '../leftTree/leftTree.js';
 import RightSide from '../rightSide/rightSide.js';
 
+import 'antd/dist/antd.css';
 
 const jsonData = require('./data.json');
 
@@ -78,7 +79,6 @@ class Select extends React.Component {
                 window.location.href = '?src=' + src + '&selected=' + key;
             }else{
                 //非叶子节点
-                console.log('点击非叶子节点');
                 key = keyArr[0];
                 var i = defaultExpandedKeys.indexOf(key);
                 if(i >=0){
@@ -86,6 +86,7 @@ class Select extends React.Component {
                 }else{
                     defaultExpandedKeys.push(key);
                 }
+                console.log(defaultExpandedKeys);
                 _this.setState({
                     defaultExpandedKeys: defaultExpandedKeys
                 });

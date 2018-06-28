@@ -2,6 +2,8 @@ import React from 'react';
 import{Tree} from 'antd';
 const TreeNode = Tree.TreeNode;
 
+import 'antd/dist/antd.css';
+
 class LeftTree extends React.Component {
 
     constructor(props){
@@ -12,6 +14,8 @@ class LeftTree extends React.Component {
         var {renderDate, src, selected, onSelect, defaultExpandedKeys} = this.props;
         var selectedKeys = [];
         selectedKeys.push(selected);
+
+        console.log(defaultExpandedKeys);
 
         /**
          * func  轮询
