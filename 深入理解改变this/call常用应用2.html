@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 这个例子的意思就是用 add 来 代替 sub, add.call(sub,3,2)====add(3,2),所以运行结果为 console.log（5）;
+     *
+     * 注意： js 里面的函数其实就是对象， 函数名是对function 的引用
+     */
+
+    function add(a,b){
+        console.log(a+b);
+    }
+
+    function sub(a,b){
+        console.log(a-b);
+    }
+
+    add.call(sub,3,2);  //5========add(3,2)
+
+
+
+</script>
+</body>
+</html>

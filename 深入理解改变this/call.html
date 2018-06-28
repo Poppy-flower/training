@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * call 用来改变函数中的this 指向， 会调用
+     * 1.  不传参数,传null,传 undefined,函数中的this 指向 window
+     * 2.  传入 另一个函数的函数名， this指向这个函数的引用
+     * 3.  传入字符串、 布尔值 、数字 等基础类型， this 指向其对应的包装对象 ，比如 String Boolean Number
+     * 4.  传入一个 数组、对象，函数中的 this 指向这个对象
+     */
+
+    function printThis(){
+        console.log(this);   //输出函数中的this
+    }
+
+    function anotherFunc(){}   //定义一个别的函数
+
+    var obj = {name: 'xioahong'}   //定义一个对象
+
+    //执行printThis  只是里面this变了
+    //@1
+    printThis.call();  //window
+    printThis.call(null);  //window
+    printThis.call(undefined);  //window
+
+    //@2
+    printThis.call(anotherFunc);  //function anotherFunc(){}
+
+    //@3
+    printThis.call('this is a string');  //String
+    printThis.call(true);  //Boolean
+    printThis.call(123);  //Number
+
+    //@4
+    printThis.call([1,2,3,4]);  //Array(4)
+    printThis.call(obj);  //Object obj
+
+
+</script>
+</body>
+</html>

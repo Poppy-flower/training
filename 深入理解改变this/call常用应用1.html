@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function class1(){
+        this.name = function(){console.log('我是class1 内的方法');}
+    }
+
+    function class2(){
+        class1.call(this);  //执行class1  实现继承
+    }
+
+    var f = new class2();
+    f.name();
+</script>
+</body>
+</html>

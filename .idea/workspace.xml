@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解this/window.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解this/严格模式.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解this/匿名函数+定时器.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解this/箭头函数中的this.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/apply.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/bind.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/call - 继承.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/call.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/call常用应用1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/call常用应用2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解改变this/call常用应用3.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,56 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ajax.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ajax/ajax.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/快捷键练习/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="369" column="5" lean-forward="false" selection-start-line="369" selection-start-column="5" selection-end-line="369" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/快捷键练习/html.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="52" column="15" lean-forward="false" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/快捷键练习/css.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="匿名函数+定时器.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/深入理解this/匿名函数+定时器.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +33,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="window.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="window.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/深入理解this/window.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/apply.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call常用应用1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call常用应用2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call常用应用3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="call - 继承.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/call - 继承.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bind.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -95,26 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="箭头函数中的this.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/深入理解this/箭头函数中的this.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/快捷键练习/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,6 +173,13 @@
         <option value="$PROJECT_DIR$/深入理解this/严格模式.html" />
         <option value="$PROJECT_DIR$/深入理解this/箭头函数中的this.html" />
         <option value="$PROJECT_DIR$/深入理解this/window.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/bind.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/call.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/call常用应用1.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/call常用应用2.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/call常用应用3.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/call - 继承.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/apply.html" />
       </list>
     </option>
   </component>
@@ -238,7 +248,7 @@
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="深入理解this" type="462c0819:PsiDirectoryNode" />
+              <item name="深入理解改变this" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,12 +317,12 @@
       <workItem from="1529562835171" duration="13000" />
       <workItem from="1529847731102" duration="5778000" />
       <workItem from="1529890065922" duration="4950000" />
-      <workItem from="1530099340131" duration="9822000" />
+      <workItem from="1530099340131" duration="13474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39434000" />
+    <option name="totallyTimeSpent" value="43086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -348,62 +358,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vediojs/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vediojs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a-tanzhou/02-CSS/优-63-20180609-陈红/作业练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webpack/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/work.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a-tanzhou/00开班典礼作业/优-63-20180609-陈红/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红/作业练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Webpack/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -662,6 +616,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call - 继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding />
         </state>
       </provider>
