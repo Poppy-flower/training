@@ -25,6 +25,22 @@
      * apply ----------对象，数组
      */
 
+    function class1(args1, args2){
+        this.name = function(){
+            console.log(args1, args2);
+        }
+    }
+
+    function class2(){
+        var args1 = '1';
+        var args2 = '2';
+        // class1.call(this, args1, args2);
+        class1.apply(this, [args1, args2]);
+    }
+
+    var c = new class2();
+    c.name();   //1 2
+
 
 </script>
 </body>

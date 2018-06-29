@@ -9,6 +9,36 @@
 </head>
 <body>
 <script>
+    /**
+     * bind()  方法是es5 中扩展的方法
+     * bind()  ,call(), apply()  都是函数的方法，都可以改变函数内部this  的指向；
+     * bind()  与 call() 、apply()  区别？
+     *
+     * MDN 的解释是：  bind() 方法会创建一个新函数，称为绑定函数，当调用这个绑定函数时，绑定函数会以创建它时传入bind()方法
+     *             的第一个参数作为 this, 传入bind()方法 的第二个以及以后的参数加上绑定函数运行时本身的参数按照顺序作为
+     *             原函数的参数来调用原函数。
+     * 注意： bind() 函数返回的是函数
+     */
+
+    var bar = function(){
+        console.log(this.x);
+    };
+
+    var foo = {
+        x: 3
+    };
+
+    // bar();  //undefined
+    // bar.bind(foo)();  //3
+
+    //或者写成：
+
+    bar();
+    var func = bar.bind(foo);
+    func();
+
+
+
 
 </script>
 </body>

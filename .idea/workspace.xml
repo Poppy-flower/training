@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/快捷键练习/index.html" afterPath="$PROJECT_DIR$/快捷键练习/index.html" />
+      <change beforePath="$PROJECT_DIR$/深入理解改变this/apply.html" afterPath="$PROJECT_DIR$/深入理解改变this/apply.html" />
+      <change beforePath="$PROJECT_DIR$/深入理解改变this/bind.html" afterPath="$PROJECT_DIR$/深入理解改变this/bind.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="call.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="366">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,18 +41,18 @@
       <file leaf-file-name="apply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/深入理解改变this/apply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="341">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/快捷键练习/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="229" column="8" lean-forward="true" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
+            <state relative-caret-position="237">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bind.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bind.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -166,14 +168,14 @@
         <option value="$PROJECT_DIR$/深入理解this/严格模式.html" />
         <option value="$PROJECT_DIR$/深入理解this/箭头函数中的this.html" />
         <option value="$PROJECT_DIR$/深入理解this/window.html" />
-        <option value="$PROJECT_DIR$/深入理解改变this/bind.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call常用应用1.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call常用应用2.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call常用应用3.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call - 继承.html" />
-        <option value="$PROJECT_DIR$/深入理解改变this/apply.html" />
         <option value="$PROJECT_DIR$/快捷键练习/index.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/apply.html" />
+        <option value="$PROJECT_DIR$/深入理解改变this/bind.html" />
       </list>
     </option>
   </component>
@@ -238,11 +240,6 @@
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="快捷键练习" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
@@ -316,12 +313,12 @@
       <workItem from="1529562835171" duration="13000" />
       <workItem from="1529847731102" duration="5778000" />
       <workItem from="1529890065922" duration="4950000" />
-      <workItem from="1530099340131" duration="14038000" />
+      <workItem from="1530099340131" duration="16301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43650000" />
+    <option name="totallyTimeSpent" value="45913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -619,22 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -667,18 +648,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/apply.html">
+    <entry file="file://$PROJECT_DIR$/快捷键练习/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="237">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/快捷键练习/index.html">
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/apply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="229" column="8" lean-forward="true" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
+        <state relative-caret-position="341">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解改变this/bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
           <folding />
         </state>
       </provider>
