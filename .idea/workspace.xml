@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/00开班典礼作业/优-63-20180609-陈红/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红/imgs/1.JPG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红/作业练习.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/02-CSS/优-63-20180609-陈红/作业练习.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/images/food.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/案例一 ：天猫产品列表.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业/案列二：美食.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/作业/images/img.JPG" afterPath="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/images/01.jpg" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/作业/work1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/作业/work2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/元素类型转换.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/小三角形.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/a-tanzhou/05-样式初始化，元素类型/样式初始化-元素类型.html" afterPath="" />
-    </list>
+    <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -111,7 +87,7 @@
       <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="-63">
               <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding />
             </state>
@@ -261,14 +237,6 @@
               <item name="9" type="462c0819:PsiDirectoryNode" />
               <item name="08-6,7节课作业" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
-              <item name="9" type="462c0819:PsiDirectoryNode" />
-              <item name="08-6,7节课作业" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -336,12 +304,12 @@
       <workItem from="1529847731102" duration="5778000" />
       <workItem from="1529890065922" duration="4950000" />
       <workItem from="1530099340131" duration="18997000" />
-      <workItem from="1530329990628" duration="6956000" />
+      <workItem from="1530329990628" duration="8298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55565000" />
+    <option name="totallyTimeSpent" value="56907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -687,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="-63">
           <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
           <folding />
         </state>
