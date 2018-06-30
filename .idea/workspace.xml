@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="" />
+    <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/images/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -75,7 +79,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index.html">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
               <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
@@ -84,11 +88,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="362">
+              <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -154,6 +168,7 @@
         <option value="$PROJECT_DIR$/深入理解改变this/bind.html" />
         <option value="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index.html" />
         <option value="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html" />
+        <option value="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html" />
       </list>
     </option>
   </component>
@@ -235,7 +250,7 @@
               <item name="training" type="462c0819:PsiDirectoryNode" />
               <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
               <item name="9" type="462c0819:PsiDirectoryNode" />
-              <item name="08-6,7节课作业" type="462c0819:PsiDirectoryNode" />
+              <item name="08-6节课作业" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,11 +280,11 @@
       <recent name="$PROJECT_DIR$/a-tanzhou/01-常用标签/优-63-20180609-陈红" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/潭州课堂/9/08-7节课作业" />
       <recent name="$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/images" />
       <recent name="$PROJECT_DIR$/likewiki-work-copy" />
       <recent name="$PROJECT_DIR$/teching" />
       <recent name="$PROJECT_DIR$/a-tanzhou/04-元素类型/作业" />
-      <recent name="$PROJECT_DIR$/a-tanzhou/04/作业" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,12 +319,12 @@
       <workItem from="1529847731102" duration="5778000" />
       <workItem from="1529890065922" duration="4950000" />
       <workItem from="1530099340131" duration="18997000" />
-      <workItem from="1530329990628" duration="8298000" />
+      <workItem from="1530329990628" duration="10015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56907000" />
+    <option name="totallyTimeSpent" value="58624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -345,13 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a-tanzhou/00-第一节开班典礼/优-63-20180609-陈红/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -645,7 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index.html">
+    <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
@@ -653,10 +661,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6,7节课作业/index2.html">
+    <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="362">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
           <folding />
         </state>
       </provider>
