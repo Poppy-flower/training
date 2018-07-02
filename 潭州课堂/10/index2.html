@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 800px;
+            height: 800px;
+            padding: 50px;
+            border: 50px solid rgba(0,0,0,.3);
+            background: hsla(240,50%,50%,0.5);
+            background-image: url("./images/xiao hai.jpg");
+            background-repeat: no-repeat;
+            bacground-position: 10% 50%;
+            background-size: 100% 100%;
+            background-origin: border-box;
+            -webkit-background-clip: text;
+            font-size:300px;
+            font-weight:bold;
+            color:transparent;
+        }
+    </style>
+</head>
+<body>
+<!--
+    背景属性：
+    background-color: 背景颜色
+        颜色的取值:
+            英文单词
+            十六进制 0-9 a-f
+        rgb():
+            r === red (0-255)
+            g === green (0-255)
+            b === blue (0-255)
+
+        rgba():
+            a === opacity (0-1)
+        hsl():
+            h  色调 (0-360)
+            s  饱和度(0% - 100%)
+            l  亮度 (0% -100%)
+        hsla
+			a  a === opacity (0-1)
+		background-image:url("路径") 背景图片
+			background-repeat     背景平铺方式
+				no-repeat   不平铺
+				repeat-x	x轴上平铺
+				repeat-x	y轴上平铺
+			background-position:x轴 y轴  背景定位(如果加背景固定定位它的数值是相对与浏览窗口·来的)
+				英文单词	right center left top bottom;
+					如果当取值只有一个的时候，它的第二值默认是center
+				px	如果当取值只有一个的时候，它的第二值默认是center
+
+				%
+					相对与剩余空间来计算
+			background-size(x轴,y轴) 背景图片的大小
+				取值
+					像素
+					%
+					如果值有一个值，它的第二个值等比例缩放
+					cover 图片缩放,直到整个背景图片占满背景框
+					contain 图片缩放,直到背景图片有一边触碰到背景边框就停止缩放
+			background-origin 背景图片显示基点
+				padding-box  从padding区域开始显示(默认)
+				content-box   从content区域开始显示
+				border-box 从border区域开始显示
+			background-clip 背景图片裁剪区域
+				1) content-box 背景被裁剪到内容区域
+				2) padding-box 背景被裁剪到内边距
+				3) border-box 背景被裁剪到盒子边框
+				4) text  要加-webkit-兼容前缀 只有谷歌浏览支持
+-->
+    <div class="wrap">
+        我什么也不会
+    </div>
+</body>
+</html>
