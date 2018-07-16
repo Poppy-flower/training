@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <!--
+        对象解构与数组解构赋值在申明的时候的区别：
+   -->
+   <script type="text/javascript">
+       let a;
+       [a] = [3];
+       console.log(a);  //3
+
+
+       /**
+        * 代码解读：JavaScript引擎会将[a]理解成一个数组，而将{a}理解成什么呢？
+        * 对于{a}这个代码在JS中可能会存在两种解释，一种是它是一个表达式，表示含有a属性的一个对象；
+        * 第二种它是一个语句(代码块)，为了消除这种歧义，js开发人员规定只要行首是大括号的，一律解析成代码块。
+        * 解决上诉问题的代码如下：
+        */
+
+       let b;
+       // {b} = {b:3};  //行不通的
+       ({b} = {b:4})  ////JS中括号中的都是表达式
+       console.log(b);  //4
+
+   </script>
+</body>
+</html>

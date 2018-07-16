@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    let [(a)] = [1];
+    let {(b):c} = {b:2};
+    let {d:(e)} = {d:2};  //都报错：SyntaxError
+
+    /**
+     * 注意：以上出现错误的原因都是：
+     * 1、它们都是申明语句；
+     * 2、圆括号中的都属于模式中的一部分。
+     * 要同时不满足以上两个条件是比较困难的，所以，ES6规定，只要可能导致解构歧义就不得使用圆括号。
+     * 所以，建议在写的过程中除了上面的那个对象圆括号的例子可以使用外，其他的情况都不能使用。
+     */
+</script>
+</body>
+</html>

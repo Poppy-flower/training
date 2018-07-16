@@ -8,7 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-
+    <!--
+       默认值：
+    -->
+    <script type = 'text/javascript'>
+        var [a=3, b=5] = [undefined, 4];
+        console.log(a);  //3   undefined 时,用默认值
+        console.log(b);  //4   !undefined 时,不用默认值
+    </script>
 </body>
 </html>
-

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        数组解构：
+            ES6中只要某种数据有 iterator接口（也就是可以循环迭代），都可以进行数组的解构赋值。
+
+        example1:
+            数组的解构
+    -->
+    <script type="text/javascript">
+        var [a, b, c] = [1, 2, 3];
+        console.log(a);  //1
+        console.log(b);  //2
+        console.log(c);  //3
+
+
+        var [d, [e], ...f] = [4, [5], 6, 7, 8];
+        console.log(d);  //4
+        console.log(e);  //5
+        console.log(f);  //[6,7,8]
+    </script>
+</body>
+</html>

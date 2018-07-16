@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        对象解构：
+            数组的解构是按次序排列的，变量取值是由位置决定的，而对象的属性是没有顺序的，变量必须与属性同名才能取到正确的值。
+    -->
+
+    <script type="text/javascript">
+        var {b, a} = {a:3, b:4};
+        console.log(b); //4
+        console.log(a); //3
+
+
+        //理解
+        var _ab = {a:3,b:4};
+        var b = _ab.b;
+        var a = _ab.a;
+        console.log(a,b);   //结果为3，4
+
+
+        //===================================================
+        /**
+         * 注意：
+         *  对象的解构相当于先定义了后一个变量为_ab, 再对前一个变量解构出来的变量按照  对象先后顺序 分别进行 申明，
+         *  并且 使用对象_ab 去按照该变量名赋值对应的值。
+         *
+         *  如果前一个变量属性和后一个变量不一致， 直接定义是肯定赋值失败的，解决方法如下：
+         */
+        var {b:c, a:d} = {a:3, b:4};   // ======  {a:d, b:c}  == {a:3, b:4}
+        console.log(b);  //undefined
+        console.log(c);  //4
+        console.log(a);  //undefined
+        console.log(d);  //3
+
+
+
+        //代码解读,上面的代码等同于
+        var _ab = {a:3, b:4};
+        var c = _ab.b;
+        var d = _ab.a;
+        console.log(b, c, a, d);
+
+        /**
+         * 注意： 例子可以看出对象的解构的内部机制是先找到对象的同名属性，
+         * 然后再赋予相应的变量，真正被赋予的是  前一个对象 的  后一个变量  ，即c,d;
+         * 而不是前一个变量的  前一个模式， 即 b,a;
+         */
+        //如果想要上一个例子的模式不为undefined，那么代码可以写成如下：
+        var e = {b:c, a:d} = {a:3, b:4};
+        console.log(e.b);
+        console.log(b);  //undefined
+        console.log(c);  //4
+        console.log(e.a);
+        console.log(a);  //undefined
+        console.log(d);  //3
+    </script>
+</body>
+</html>

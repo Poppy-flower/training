@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        example2:
+            Set解构赋值
+    -->
+    <script type="text/javascript">
+        let [x, y] = new Set([1,2]);
+        console.log(x);  //1
+        console.log(y);  //2
+
+
+
+
+
+
+
+        //Set: 类似与 Map ，区别是不存value  只是存储 key key的集合
+        /*常用的函数:
+            add
+            delete
+            Set.size 元素的个数
+            has
+            keys
+        */
+        var list_key = new Set([1,2,3]);
+        console.log(list_key);
+        list_key.add(3);  //存不进去
+        list_key.add(3);  //存不进去
+        list_key.add('wang');  //[1,2,3,'wang']
+        list_key.add('3');   //[1,2,3,'wang','3']
+        list_key.delete('3');  //[1,2,3,'wang']
+
+        console.log(list_key.size);  //4
+        console.log(list_key);   //[1,2,3,'wang']
+
+
+        for (let item of list_key.keys()) {
+            console.log(item);  //1  2  3  wang
+        }
+    </script>
+</body>
+</html>
