@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/background.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/reg.reg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/深入理解-解构/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/checked.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/empty.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/first-line.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/一些伪类.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/属性选择器.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/结构性伪类.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/潭州课堂/21/not.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/属性选择器.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+              <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -71,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/结构性伪类.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+              <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -81,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/checked.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/empty.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -101,27 +92,27 @@
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/first-line.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input的伪类.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="input的伪类.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/潭州课堂/21/input的伪类.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="269">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index.html">
+      <file leaf-file-name="not.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/21/not.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="371">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -142,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/a-tanzhou/05/元素类型转换.html" />
         <option value="$PROJECT_DIR$/a-tanzhou/05/三角形.html" />
         <option value="$PROJECT_DIR$/a-tanzhou/05/样式初始化-元素类型.html" />
         <option value="$PROJECT_DIR$/a-tanzhou/05-元素类型/样式初始化-元素类型.html" />
@@ -193,6 +183,7 @@
         <option value="$PROJECT_DIR$/潭州课堂/21/empty.html" />
         <option value="$PROJECT_DIR$/潭州课堂/21/first-line.html" />
         <option value="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" />
+        <option value="$PROJECT_DIR$/潭州课堂/21/not.html" />
       </list>
     </option>
   </component>
@@ -344,12 +335,12 @@
       <workItem from="1531141542649" duration="504000" />
       <workItem from="1531205263379" duration="658000" />
       <workItem from="1531206226300" duration="1572000" />
-      <workItem from="1531540902409" duration="5332000" />
+      <workItem from="1531540902409" duration="7173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80679000" />
+    <option name="totallyTimeSpent" value="82520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -385,7 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a-tanzhou/06-第四章-样式初始化,元素类型,/样式初始化-元素类型.html" />
     <entry file="file://$PROJECT_DIR$/a-tanzhou/06-第四章-样式初始化,元素类型,/作业/images/img.JPG" />
     <entry file="file://$PROJECT_DIR$/Webpack/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -648,7 +638,7 @@
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/属性选择器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -656,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/结构性伪类.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+          <caret line="62" column="19" lean-forward="false" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -664,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/checked.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -672,7 +662,7 @@
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/empty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -680,15 +670,23 @@
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/first-line.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/潭州课堂/21/input的伪类.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="269">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/21/not.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
         </state>
       </provider>
