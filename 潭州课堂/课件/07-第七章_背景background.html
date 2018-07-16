@@ -1,0 +1,98 @@
+<!DOCTYPE html><html><head><title>第七章:背景background</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<h2 id="第七章背景background">第七章:背景background</h2>
+
+<hr>
+
+
+
+<h3 id="一背景">一.<strong>背景</strong></h3>
+
+<blockquote>
+  <ul><li>背景颜色<code>background-color</code> <br>
+  <ol>
+  <li rel="1">属性值: <br>
+  1) 颜色单词 <br>
+  2) 十六进制 <br>
+  3) rgb <code>r:red</code> <code>g:green</code> <code>b:blue</code>取值范围都是0-255 <br>
+  4) rgba <code>a:apocity</code>取值范围0-1 <br>
+  5) HSL <code>H:Hue</code>色调 取值范围0-360 <code>S:Saturation</code>饱和度 取值范围0%-100% <code>L:Lightness</code>亮度 取值范围0%-100% <br>
+  6) HSLA</li></ol></li>
+  <li><p>背景图片引入<code>background-image</code></p>
+  
+  <pre class="prettyprint hljs-dark"><code class="language-css hljs"><div class="hljs-line"><span class="hljs-selector-tag">background-image</span><span class="hljs-selector-pseudo">:url()</span>;
+</div></code></pre></li>
+  <li><p>背景图片平铺 <code>background-repeat</code></p>
+  
+  <ol>
+  <li rel="1">属性值  <br>
+  1) <code>no-repeat</code>不平铺 <br>
+  2) <code>repeat-x</code>水平方向平铺 <br>
+  3) <code>repeat-y</code>垂直方向平铺 <br>
+  4) <code>repeat</code>默认值</li></ol></li>
+  <li>背景图片位置 <code>background-position</code> <br>
+  <ol>
+  <li rel="1">属性值 <br>
+  1) 关键词 <code>top / right / bottom / right / center</code>  <br>
+  2) 属性值是两个关键词,一个的话第二个就是默认center <br>
+  3) 百分数 <br>
+  4) 像素值</li></ol></li>
+  <li>背景图片大小 <code>background-size</code> <br>
+  <ol>
+  <li rel="1">属性值 <br>
+  1) cover <code>图片缩放,直到整个背景图片占满背景框</code> <br>
+  2) contain <code>图片缩放,直到背景图片有一边触碰到背景边框就停止缩放</code> <br>
+  3) 像素值,有两个,如果写一个,第二个就默认auto <br>
+  4) 百分数</li></ol></li>
+  <li>背景图片关联 <code>background-attachment</code> <br>
+  <ol>
+  <li rel="1">属性值 <br>
+  1) scroll <code>默认值,背景图片随着页面滚动而滚动</code> <br>
+  2) fixed <code>背景图片不随着页面滚动而滚动</code></li></ol></li>
+  <li>背景图片显示基点 <code>background-origin</code> <br>
+  <ol>
+  <li rel="1">属性值 <br>
+  1) content-box <code>背景图像相对于内容边框</code> <br>
+  2) padding-box <code>背景图像相对于内边距</code> <br>
+  3) border-box <code>背景图像相对于边框</code></li></ol></li>
+  <li>背景图片裁剪区域 <code>background-clip</code> <br>
+  <ol>
+  <li rel="1">属性值 <br>
+  1) content-box <code>背景被裁剪到内容区域</code> <br>
+  2) padding-box <code>背景被裁剪到内边距</code> <br>
+  3) border-box <code>背景被裁剪到盒子边框</code> <br>
+  4) text <code>相对于文本</code></li></ol></li>
+  </ul>
+</blockquote>
+
+
+
+<h3 id="二圆角border-radius">二.<strong>圆角<code>(border-radius)</code></strong></h3>
+
+<p>1.<strong>单个角样式</strong></p>
+
+<blockquote>
+  <p>关键词:top left right bottom</p>
+  
+  <ul><li>border-top-left-radius </li>
+  <li>border-top-right-radius</li>
+  <li>border-bottom-left-radius</li>
+  <li>border-bottom-right-radius</li>
+  </ul>
+</blockquote>
+
+<p>2.<strong>多个角样式</strong></p>
+
+<blockquote>
+  <ol><li rel="1">属性值个数 <br>
+  1) 四个值: <code>左上</code> <code>右上</code> <code>右下</code> <code>左下</code> <br>
+  2) 三个值:<code>左上</code> <code>右上+左下</code> <code>右下</code> <br>
+  3) 两个值:<code>左上+右下</code> <code>右上+左下</code> <br>
+  4) 一个值: 所以角</li>
+  <li rel="2">单位 <br>
+  1) 百分数 <br>
+  2) 像素</li>
+  </ol>
+</blockquote></div></body></html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html><html><head><title>12-第十二章  table 表格</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+
+
+<h1 id="12-第十二章-table-表格">12-第十二章  table 表格</h1>
+
+<p></p>
+
+
+
+<h2 id="一table表格结构">一、table表格结构</h2>
+
+<blockquote>
+  <p><code>table</code>    定义标签表格 <br>
+  <code>thead</code>     定义标签表格头</p>
+  
+  <ul><li>tr    定义表格行</li>
+  <li>th    元素定义表头单元格</li>
+  </ul>
+  
+  <p><code>tbody</code>    定义表格主体</p>
+  
+  <ul><li>tr    定义表格行</li>
+  <li>td    定义内容单元格</li>
+  </ul>
+  
+  <p><code>tfoot</code>     定义表格尾</p>
+  
+  <ul><li>tr    定义表格行</li>
+  <li>td    定义内容单元格</li>
+  </ul>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="二table属性">二、table属性</h2>
+
+<p>属性：</p>
+
+<blockquote>
+  <ul><li>width            规定表格的宽度。</li>
+  <li>height            规定表格的高度。</li>
+  <li>border            规定表格边框的宽度  border=’1’</li>
+  </ul>
+</blockquote>
+
+<p>样式属性 ：</p>
+
+<blockquote>
+  <ul><li>border-spacing:X Y  指定单元格边界之间的水平和垂直间距            </li>
+  <li>border-collapse:collapse  如果可能，边框会合并为一个单一的边框。会忽略 border-spacing</li>
+  </ul>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="二table样式重置">二、table样式重置</h2>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs css"><div class="hljs-line"><span class="hljs-comment line-number">1.</span><span class="hljs-selector-tag">table</span>{<span class="hljs-attribute">border-collapse</span>:collapse;}    
+</div><div class="hljs-line"><span class="hljs-comment line-number">2.</span><span class="hljs-selector-tag">th</span>,<span class="hljs-selector-tag">td</span>{<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;}           
+</div><div class="hljs-line"><span class="hljs-comment line-number">3.</span>
+</div></code></pre>
+
+<hr>
+
+
+
+<h2 id="三-table的默认特性">三、 table的默认特性</h2>
+
+<blockquote>
+  <p>1、单元格默认平分table 的宽度 <br>
+  2、th里面的内容默认加粗并且左右上下居中 <br>
+  3、td里面的内容默认上下居中 左对齐显示 <br>
+  4、 table 决定了整个表格的宽度； <br>
+  5、table里面的单元格宽度会被转换成百分比； <br>
+  6、表格同一列/行会继承最大值； <br>
+  7、th,td中没有margin</p>
+</blockquote>
+
+<p>=&gt;单元格可以包含:(文本、图片、列表、段落、表单、表格) 等等</p>
+
+<hr>
+
+
+
+<h2 id="四-table的单元格合并">四、 table的单元格合并</h2>
+
+<p>rowspan     属性规定单元格跨的行数         </p>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-comment line-number">1.</span><span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">rowspan</span>=<span class="hljs-string">"2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+</div></code></pre>
+
+<p>colspan     属性规定单元格跨的列数     </p>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-comment line-number">1.</span><span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">colspan</span>=<span class="hljs-string">"2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+</div></code></pre>
+
+<hr>
+
+
+
+<h2 id="五-displaytable的特征">五、 display:table的特征</h2>
+
+<blockquote>
+  <ul><li>支持margin:auto;</li>
+  <li>默认内容撑开宽度；</li>
+  <li>支持宽高</li>
+  <li>表格前后带有换行符。</li>
+  </ul>
+</blockquote></div></body></html>

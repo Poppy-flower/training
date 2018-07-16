@@ -1,0 +1,81 @@
+<!DOCTYPE html><html><head><title>第十章:定位(position)</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<h2 id="第十章定位position">第十章:定位<code>(position)</code></h2>
+
+
+
+<h3 id="一固定定位属性值fixed">一.固定定位<code>属性值:fixed</code></h3>
+
+<blockquote>
+  <ol><li rel="1">相对于浏览器窗口定位</li>
+  <li rel="2">随着内容一起滚动</li>
+  </ol>
+</blockquote>
+
+
+
+<h3 id="二相对定位属性值relative">二.相对定位<code>属性值:relative</code></h3>
+
+<blockquote>
+  <ol><li rel="1">相对于它本身正常位置发生位置改变</li>
+  <li rel="2">关键词: left / top / right / bottom 来改变位置</li>
+  <li rel="3">特性: <br>
+  1) 相对定位元素不脱离文档流 <br>
+  2) 相对定位元素不影响元素本身特性 <br>
+  3) 如果没有关键词来改变位置,元素本身不会发生任何变化 <br>
+  4) 位置改变,原来的位置一直占据着</li>
+  </ol>
+</blockquote>
+
+
+
+<h3 id="三绝对定位属性值absolute">三.绝对定位<code>属性值:absolute</code></h3>
+
+<blockquote>
+  <ol><li rel="1">相对于已经定位的上级元素来发生位置改变 <br>
+  1) 定位上级包括:<code>fixed</code> <code>relative</code> <code>absolute</code> <br>
+  2) 没有上级定位元素参考,相对于body</li>
+  <li rel="2">关键词: left / top / right / bottom</li>
+  <li rel="3">特性: <br>
+  1) 完全脱离文档流 <br>
+  2) 行内元素支持宽高 <br>
+  3) margin:auto;无效</li>
+  </ol>
+</blockquote>
+
+
+
+<h3 id="四层级属性z-index">四.层级<code>属性:z-index</code></h3>
+
+
+
+<h3 id="五绝定位元素居中方法">五.绝定位元素居中方法</h3>
+
+<blockquote>
+  <ul><li><p>关键词都为0,margin:auto;</p>
+  
+  <pre class="prettyprint hljs-dark"><code class="language-css hljs"><div class="hljs-line"><span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line"> <span class="hljs-attribute">position</span>:absolute;
+</div><div class="hljs-line"> <span class="hljs-attribute">left</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">right</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">top</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">bottom</span>:<span class="hljs-number">0</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">margin</span>:auto;
+</div><div class="hljs-line">}
+</div></code></pre></li>
+  <li><p>百分数居中减去定位元素宽高一半</p>
+  
+  <pre class="prettyprint hljs-dark"><code class="language-css hljs"><div class="hljs-line"><span class="hljs-selector-tag">div</span>{
+</div><div class="hljs-line"> <span class="hljs-attribute">position</span>:absolute;
+</div><div class="hljs-line"> <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">left</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">top</span>:<span class="hljs-number">50%</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">margin-left</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line"> <span class="hljs-attribute">margin-top</span>:-<span class="hljs-number">50px</span>;
+</div><div class="hljs-line">}
+</div></code></pre></li>
+  </ul>
+</blockquote></div></body></html>

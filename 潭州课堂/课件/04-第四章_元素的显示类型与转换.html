@@ -1,0 +1,96 @@
+<!DOCTYPE html><html><head><title>第四章:元素的显示类型与转换</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<h2 id="第四章元素的显示类型与转换">第四章:元素的显示类型与转换</h2>
+
+<hr>
+
+
+
+<h3 id="一样式初始化">一.样式初始化</h3>
+
+<blockquote>
+  <ol><li rel="1"><strong>为什么要样式初始化</strong></li>
+  <li rel="2"><strong>通配符的弊端</strong></li>
+  <li rel="3"><strong>逐个清除</strong> <br>
+  <code>需要的才去清除</code> <br>
+  <pre class="prettyprint hljs-dark"><code class="language-css hljs"><div class="hljs-line"><span class="hljs-selector-tag">body</span>,<span class="hljs-selector-tag">p</span>,<span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">ol</span>,<span class="hljs-selector-tag">dl</span>,<span class="hljs-selector-tag">dt</span>,<span class="hljs-selector-tag">dd</span>,<span class="hljs-selector-tag">h1</span>,<span class="hljs-selector-tag">h2</span>,<span class="hljs-selector-tag">h3</span>,<span class="hljs-selector-tag">h4</span>,<span class="hljs-selector-tag">h5</span>,<span class="hljs-selector-tag">h6</span>{<span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;}
+</div><div class="hljs-line"><span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">ol</span>{<span class="hljs-attribute">list-style</span>:none;}
+</div><div class="hljs-line"><span class="hljs-selector-tag">img</span>{<span class="hljs-attribute">border</span>:<span class="hljs-number">0px</span>;}
+</div><div class="hljs-line"><span class="hljs-selector-tag">a</span>{<span class="hljs-attribute">text-decoration</span>:none;<span class="hljs-attribute">color</span>:<span class="hljs-number">#222</span>;}
+</div></code></pre></li>
+  </ol>
+</blockquote>
+
+
+
+<h3 id="二标签分类">二.标签分类</h3>
+
+<blockquote>
+  <ul><li><strong>块级元素</strong> <br>
+  <ol>
+  <li rel="1"><strong>特性</strong> <br>
+  1) 独占一行  <br>
+  2)  默认宽度100%.支持宽高.行高  <br>
+  3) 支持外边距和内边距  <br>
+  4) 可以包裹内联元素和其他块元素  <br>
+  5) p不内包裹块元素<code>特殊块级元素</code></li>
+  <li rel="2"><strong>常见块级元素</strong> <br>
+  <code>div / dl / form / h1-h6 / ol / ul / p</code> </li></ol></li>
+  <li><strong>内联元素<code>(行内元素)</code></strong> <br>
+  <ol>
+  <li rel="1"><strong>特性</strong> <br>
+  1) 和其它内联元素同处一行  <br>
+  2) 不支持宽高  <br>
+  3) 外边距上下无效.auto无效  <br>
+  4) 内边距只对内联元素产生影响.无视块元素  <br>
+  5) 标签之间空格被解析  <br>
+  6) a能包裹块元素<code>特殊内联元素</code></li>
+  <li rel="2"><strong>常见内联元素</strong> <br>
+  <code>a / b / em / i / img / input / lable / span</code></li></ol></li>
+  </ul>
+</blockquote>
+
+
+
+<h3 id="三标签转换属性display">三.标签转换<code>(属性:display)</code></h3>
+
+<blockquote>
+  <ol><li rel="1">内联元素转换为快元素<code>**(属性值:block)**</code></li>
+  <li rel="2">块元素转换为内联元素<code>**(属性值:inline)**</code></li>
+  <li rel="3"><p>转换成行内快元素<code>**(属性值:inline-block)**</code></p>
+  
+  <ul>
+  <li><strong>特性</strong> <br>
+  1) 横排显示 <br>
+  2) 支持宽高 <br>
+  3) 没有宽高时内容撑开 <br>
+  4) 支持外边距,不支持auto <br>
+  5) 标签间隔被解析</li>
+  <li><strong>间隔解析解决方法</strong> <br>
+  给行内块元素父级设置字体大小为零,行内块元素字体大小重新设置 <br>
+  <pre class="prettyprint hljs-dark"><code class="language-html hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+</span></div><div class="hljs-line"> <span class="hljs-selector-tag">ul</span>{<span class="hljs-attribute">font-size</span>:<span class="hljs-number">0</span>;}
+</div><div class="hljs-line"> <span class="hljs-selector-tag">li</span>{<span class="hljs-attribute">display</span>:inline-block;<span class="hljs-attribute">font-size</span>:<span class="hljs-number">16px</span>;}
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>我是1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>我是2<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</div></code></pre></li></ul></li>
+  <li rel="4"><p>隐藏对象<code>**(属性值:none)**</code></p>
+  
+  <ul>
+  <li>display:block;有显示的意义,和display:none;是对立的 <br>
+  <pre class="prettyprint hljs-dark"><code class="language-html hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css">
+</span></div><div class="hljs-line"> <span class="hljs-selector-class">.parent</span>{<span class="hljs-attribute">width</span>:<span class="hljs-number">200px</span>;<span class="hljs-attribute">height</span>:<span class="hljs-number">200px</span>;<span class="hljs-attribute">background-color</span>:pink;}
+</div><div class="hljs-line"> <span class="hljs-selector-class">.child</span>{<span class="hljs-attribute">display</span>:none;<span class="hljs-attribute">width</span>:<span class="hljs-number">50px</span>;<span class="hljs-attribute">height</span>:<span class="hljs-number">50px</span>;<span class="hljs-attribute">background-color</span>:yellow;<span class="hljs-attribute">margin</span>:auto;}
+</div><div class="hljs-line"> <span class="hljs-selector-class">.parent</span><span class="hljs-selector-pseudo">:hover</span> <span class="hljs-selector-class">.child</span>{<span class="hljs-attribute">display</span>:block;}
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'parent'</span>&gt;</span>
+</div><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">'child'</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div></code></pre></li></ul></li>
+  </ol>
+</blockquote></div></body></html>

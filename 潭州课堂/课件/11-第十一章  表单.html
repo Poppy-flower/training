@@ -1,0 +1,157 @@
+<!DOCTYPE html><html><head><title>11-第十一章  表单</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+
+
+<h1 id="11-第十一章-表单">11-第十一章  表单</h1>
+
+<p></p>
+
+
+
+<h2 id="一form-表单">一、form   表单</h2>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs oxygene"><div class="hljs-line"><span class="hljs-comment line-number">1.</span>&lt;form action=<span class="hljs-string">'...../xxx.asp'</span> <span class="hljs-function"><span class="hljs-keyword">method</span>='<span class="hljs-title">get</span>' <span class="hljs-title">name</span>='' &gt;&lt;/<span class="hljs-title">form</span>&gt;</span>
+</div></code></pre>
+
+<p>表单属性</p>
+
+<blockquote>
+  <p><code>action</code>       规定当提交表单时向何处发送表单数据 <br>
+  <code>method</code>    规定用于发送 form-data 的 HTTP 方法</p>
+  
+  <ul><li>get   </li>
+  <li>post</li>
+  </ul>
+  
+  <p><code>target</code>   规定action 属性中提交的页面会在何处打开</p>
+  
+  <ul><li>_blank</li>
+  <li>_self</li>
+  </ul>
+  
+  <p><code>name</code>         表单名称</p>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="二form中的input控件">二、form中的input控件</h2>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs excel"><div class="hljs-line"><span class="hljs-comment line-number">1.</span>&lt;input <span class="hljs-built_in">type</span>=<span class="hljs-string">"…… "</span> name=<span class="hljs-string">""</span> <span class="hljs-built_in">value</span>=<span class="hljs-string">""</span> /&gt;
+</div></code></pre>
+
+<p>input中的 type类型 </p>
+
+<ul><li>text              文本框</li>
+<li>password     密码</li>
+<li>radio            单选  要指定相同的name</li>
+<li>checkbox     复选</li>
+<li>label     标签为 input 元素定义标注    </li>
+</ul>
+
+<blockquote>
+  <ul><li><p><code>&lt;input type="radio" name="" id="a" /&gt;</code> <br>
+  <code>&lt;label for="a"&gt;……&lt;/label&gt;</code> for 属性应当与相关元素的 id </p></li>
+  <li><p>checked  属性定义默认选中的 input 元素。 <br>
+  <code>&lt;input type="checkbox" name="" checked/&gt;</code></p></li>
+  <li>disabled  属性规定应该禁用 input 元素。 <br>
+  <code>&lt;input type="checkbox" name="" disabled/&gt;</code></li>
+  </ul>
+</blockquote>
+
+<ul><li>submit         提交form中的数据</li>
+<li>reset            重置</li>
+<li>button         按钮 ,多数情况下，用于通过 JavaScript 启动脚本</li>
+<li>image          图片（有提交功能）</li>
+<li>file               上传，供文件上传</li>
+<li>hidden         隐藏</li>
+</ul>
+
+<hr>
+
+
+
+<h2 id="三form中的selectoption控件">三、form中的select/option控件</h2>
+
+<p>select/option 下拉选框    </p>
+
+<blockquote>
+  <p><code>&lt;select size="2"&gt; <br>
+  &lt;option value='2017'&gt;2017&lt;/option&gt; <br>
+      &lt;option value='2017'&gt;2018&lt;/option&gt; <br>
+      &lt;option value='2017'&gt;2019&lt;/option&gt; <br>
+  &lt;/select&gt;</code> <br>
+      size 规定下拉列表中可见选项的数目  <br>
+  <code>&lt;option selected='selected'&gt;&lt;/option&gt;</code> <br>
+      selected 规定在select里面默认展示第几项</p>
+</blockquote>
+
+<p>高度的支持不兼容</p>
+
+<hr>
+
+
+
+<h2 id="四form中的textarea-控件">四、form中的textarea 控件</h2>
+
+<p>textarea 文本域 <br>
+属性: </p>
+
+<blockquote>
+  <p>rows   属性定义 高度 <br>
+  cols    属性定义 宽度 <br>
+  resize  调整尺寸样式属性（css3）</p>
+  
+  <ul><li>none      禁止调整    </li>
+  <li>vertical      可调整高度</li>
+  <li>horizontal        可调整宽度</li>
+  </ul>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="五form中的fieldset分组">五、form中的fieldset分组</h2>
+
+<p><code>&lt;fieldset&gt;</code>    可将表单内的相关元素分组 <br>
+<code>&lt;legend&gt;</code>  标签为 fieldset 元素定义标题。</p>
+
+<hr>
+
+
+
+<h2 id="六焦点focus">六、焦点focus</h2>
+
+<p>focus 伪类，获取焦点,适用a,input,button</p>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs css"><div class="hljs-line"><span class="hljs-comment line-number">1.</span><span class="hljs-selector-tag">input</span><span class="hljs-selector-pseudo">:focus</span>{}
+</div></code></pre>
+
+<p>outline 外轮廓线,适用a,input,button</p>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs stylus"><div class="hljs-line"><span class="hljs-comment line-number">1.</span><span class="hljs-selector-tag">input</span>,<span class="hljs-selector-tag">a</span>,button{
+</div><div class="hljs-line"><span class="hljs-comment line-number">2.</span>        <span class="hljs-attribute">outline</span>:<span class="hljs-number">1px</span> solid red;
+</div><div class="hljs-line"><span class="hljs-comment line-number">3.</span>}  
+</div></code></pre>
+
+<p>placeholder属性 定义提示信息（ccs3）</p>
+
+
+
+<pre class="prettyprint with-line-number hljs-dark"><code class="hljs lua"><div class="hljs-line"><span class="hljs-comment line-number">1.</span>&lt;<span class="hljs-built_in">input</span> <span class="hljs-built_in">type</span>=<span class="hljs-string">"text"</span> name=<span class="hljs-string">""</span> id=<span class="hljs-string">"a"</span>  placeholder=<span class="hljs-string">'请输入密码'</span>/&gt;
+</div></code></pre></div></body></html>
