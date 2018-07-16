@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        div:target{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<!--
+    E: target  当a标签获取焦点 href所对应的  E的锚点的样式
+
+-->
+    <a href="#box1">123</a>
+    <a href="#box2">123</a>
+    <a href="#box3">123</a>
+    <div id="box1">1234567</div>
+    <div id="box2">1234567</div>
+    <div id="box3">1234567</div>
+</body>
+</html>

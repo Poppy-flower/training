@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .box:empty{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        :empty   空元素，啥也没有，空格也没有，才是空元素
+    -->
+    <div class="box">123</div>
+    <div class="box"></div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

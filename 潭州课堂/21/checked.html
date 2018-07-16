@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+        }
+        .wrap{
+            transition:2s;
+        }
+        input:checked + .wrap{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        :checked  表示已经选中的checkbox 或者 radio
+    -->
+
+    <div class="box">
+        <input type="radio"/>
+        <div class="wrap">
+
+        </div>
+    </div>
+</body>
+</html>
