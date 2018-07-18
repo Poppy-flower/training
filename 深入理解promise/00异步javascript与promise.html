@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        异步javascript与promise:
+            1.异步？
+
+
+    -->
+
+    <script type="text/javascript">
+        //异步  看一段代码：
+        var start = new Date();
+        setTimeout(function(){
+            var end = new Date();
+            console.log("Time elapsed: " + (end - start) + 'ms');
+        }, 500);
+
+        console.log(start);  //当前时间
+        while(new Date - start < 1000){    //延迟函数，会执行1000次，每秒执行一次来判断是否为true
+
+        }
+
+        //输出约为 1008ms
+
+        /**
+         * 上面函数的解释：
+         *     调用setTimeout函数时，一个延迟事件被排入队列。然后，继续执行这之后的代码，以及更后面的代码，直到没有任何代码。
+         *     没有任何代码之后，javascript 线程进入空闲，此时javascript执行引擎才去翻看队列，在队列中找到"应该触发的事件"，
+         *     然后调用这个事件的处理器（函数）。处理器执行完成之后，又再返回到队列，然后查看下一个事件。
+         *
+         * 单线程的javascript，就是这样通过队列，以事件循环的形式工作的。
+         * 所以，前面的代码中，while将执行引擎拖在代码运行时间长达1000ms , 而在全部代码运行完回到队列之前，什么也不会触发。
+         * 这就是javascript的异步机制。
+         */
+
+
+
+        //javascript 的异步难题   -----ajax 是用得最多的异步操作。
+        //jquery  ---ajax demo
+        // $.ajax({
+        //     url: 'ajax-url',
+        //     data: {},
+        //     success: function(){},
+        //     error: function(){}
+        // })
+
+        /**
+         * 这样写法的问题？
+         *  1. 简单来说，不够轻便；
+         *  2. 为什么一定要在请求的地方，就要把success 和 error 的回调写好呢？
+         *  3.
+         */
+
+        console.log('-------')
+
+        if(1 != 1){
+            console.log(1);
+        }else if(2 == 2){
+            console.log(2);
+        }else if(3 == 3){
+            console.log(3);
+        }
+
+    </script>
+</body>
+</html>
