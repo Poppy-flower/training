@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<p>
+    CSS3属性选择器：
+        a[href$='.pdf']表示href属性中以.pdf结尾的被选中
+        a[href^='mailto']表示href属性中以mailto开头的被选中
+        a[href*='item']表示href属性中含有item的都被选中
+    CSS3伪类选择器：
+    加入伪类选择器：
+        table tr:nth-of-type(odd){
+            background-color:purple;
+        }
+        table tr:nth-of-type(even){
+            background-color:red;
+        }
+        :nth-of-type()可以通过参数来选择表格的奇数行或偶数行，odd表示奇数行，even表示偶数行；
+        table  tr:nth-child(n){
+            background-color:yellow;
+        }
+        :nth-child伪类，同样是来选择行的。参数为N时选择所有行，参数为N+i时，表示从第i行开始都被选中，参数为2N时表示选中2的倍数的行，即偶数行等等。
+        还有一个：nth-last-child伪类，用法和：nth-child基本一致，只是所有规则都是从下网上数的，就相当于把表格倒过来。
+    </p>
+<p>
+    伪类
+
+    E:link          E:visited          E:hover
+    E:active        E:focus            E:lang(fr)
+    E:not(s)        E:root             E:first-child
+    E:last-child    E:only-child       E:nth-child(n)
+    E:nth-last-child(n)                E:first-of-type
+    E:last-of-type  E:only-of-type     E:nth-of-type(n)
+    E:nth-last-of-type(n)
+    E:empty E:checked                  E:enabled E:disabled E:target @page:first @page:left @page:right
+
+
+    伪对象选择器E:first-letter/E::first-letter E:first-line/E::first-line E:before/E::before E:after/E::after E::placeholder E::selection
+
+
+</p>
+</body>
+</html>

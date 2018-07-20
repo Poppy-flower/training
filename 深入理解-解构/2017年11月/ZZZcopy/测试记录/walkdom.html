@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM TRAVERSE</title>
+</head>
+<body>
+<div id="demo">
+  <h2>
+    <a><img /></a>
+  </h2>
+  <h3></h3>
+  <div>
+    <pre><span></span><span></span></pre>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var demo = document.getElementById('demo');
+  /**
+   * 题目：
+   * 访问一个节点以及该节点的子节点，在访问每一个节点的时候调用callback。
+   *
+   * 这个题目实际上是一个DFS，如果完成不了，请先通过搜索引擎学会一个DFS如何写。
+   *
+   * @param node 访问的节点
+   * @param callback 要调用。
+   */
+  var walk = function(node, callback) {
+      var items = node.childNodes;
+      if(items.nodeType === 1){
+         console.log(items);
+      
+      }
+     
+
+  };
+
+  var result = [];
+
+  walk(demo, function(node) {
+    if (node.nodeType === 1) {
+      result.push(node.tagName.toLowerCase());
+    }
+  });
+
+  console.log(result);//["div", "h2", "a", "img", "h3", "div", "pre", "span", "span"]
+</script>
+</body>
+</html>

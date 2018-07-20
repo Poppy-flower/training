@@ -1,0 +1,32 @@
+1.什么叫做跨域？
+    跨域，指的是浏览器不能执行其他网站的脚本，它是由浏览器的同源策略造成的，是浏览器对javascript的一种安全限制。
+    协议、域名、端口号，有一个不同，就会当做是不同的域。
+2.跨域的解决办法：
+    （1）JSONP（注意JSONP只支持GET请求，不支持POST请求）
+        实现原理是利用<script></script>标签的src属性可以跨域加载别的域中的文件来实现的，写的时候就是：
+        现在我假设有一个a.com和b.com,现在a.com想访问b.com,在a.com中的一个网页中加入下面的代码：
+           <script>
+               function a(data){
+                 //这个函数里面是对data的操作
+               }
+           </script>
+           <script  src="http://www.b.com/test.php?name='lisi'&callback=a"></script>
+        在b.com中的test.php中可以接受传递过来的参数name还有callback，然后执行的时候：
+            在b.com中执行；
+            echo "callback(要回传给a.com的数据)"；
+    （2）通过iframe方式实现跨域,通过修改document.domain方式来跨子域
+    （3）使用window.name来进行跨域
+    （4）使用HTML5中新引进的window.postMessage方法来跨域传送数据
+    （5）使用node的cors模块可以解决跨域问题，因为服务器端不存在跨域
+3.给我详细说一下jsonp跨域？
+    在js中，我们直接用XMLHttpRequest请求不同域上的数据时，是不可以的。但是，在页面上引入不同域上的js脚本文件却是可以的，jsonp正是利用这个特性来实现的。
+    比如，有个a.html页面，它里面的代码需要利用ajax获取一个不同域上的json数据，假设这个json数据地址是http://example.com/data.php,那么a.html中的代码就可以这样：
+         <script>
+                function dosomething(jsondata){
+                    //这个函数里面是对data的操作
+                }
+         </script>
+         <script  src="http://example.com/data.php?callback=dosomething"></script>
+    我们看到获取数据的地址后面还有一个callback参数，按惯例是用这个参数名，但是你用其他的也一样。当然如果获取数据的jsonp地址页面不是你自己能控制的，就得按照提供数据的那一方的规定格式来操作了。
+    因为是当做一个js文件来引入的，所以http://example.com/data.php返回的必须是一个能执行的js文件，所以这个页面的php代码可能是这样的:
+

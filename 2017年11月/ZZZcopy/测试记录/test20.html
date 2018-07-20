@@ -1,0 +1,22 @@
+<script>
+	//先定义一个数组，先存一个1-5之间的数进去
+	var arr = [Math.floor(Math.random()*100)+1];
+	var n = 0;//用来控制一共找5个数
+	while(true){
+		//再随机产生1-5之间的数
+		var rand = Math.floor(Math.random()*100)+1;
+		for(var i=0; i<arr.length; i++){
+			if(rand == arr[i]){
+				break;//如果arr中已经有这个数，跳出循环
+			}
+		}
+		if(i==arr.length){//如果i的值可以自增到arr数组的长度，说明上面的for循环没有break过，这就说明arr中不存在当前的rand
+			arr.push(rand);//将当前rand随机数存入数组
+			n++;//n自增
+		}
+		if(n==99){//n加到4就代表已经有5个数了，因为一开始就存一个进去了，所以现在只要循环4次
+			break;
+		}
+	}
+	console.log(arr);
+</script>

@@ -1,0 +1,28 @@
+1.CSS3有哪些新增的特性？
+    因为CSS3新增的特性较多，所以分两部分来说，第一，新的选择器，文字及块阴影，多背景图，颜色渐变，圆角等；第二，主要是CSS3 的各种动画效果，如：旋转、移动、缩放等，还包括图标字体的应用。
+2.说一下CSS3的选择器？
+    CSS3属性选择器：
+        a[href$='.pdf']表示href属性中以.pdf结尾的被选中
+        a[href^='mailto']表示href属性中以mailto开头的被选中
+        a[href*='item']表示href属性中含有item的都被选中
+    CSS3伪类选择器：
+         加入伪类选择器：
+             table tr:nth-of-type(odd){
+               background-color:purple;
+             }
+             table tr:nth-of-type(even){
+               background-color:red;
+             }
+           :nth-of-type()可以通过参数来选择表格的奇数行或偶数行，odd表示奇数行，even表示偶数行；
+             table  tr:nth-child(n){
+               background-color:yellow;
+             }
+           :nth-child伪类，同样是来选择行的。参数为N时选择所有行，参数为N+i时，表示从第i行开始都被选中，参数为2N时表示选中2的倍数的行，即偶数行等等。
+           还有一个：nth-last-child伪类，用法和：nth-child基本一致，只是所有规则都是从下网上数的，就相当于把表格倒过来。
+3.CSS3动画有哪些实现方式？
+    Transitions、transform和Animations
+    Transitions特点：平滑的改变CSS样式；
+    transform 特点：变换主要实现（拉伸、压缩、旋转、偏移）；
+    Animations 特点：适用于CSS2，CSS3；
+
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        .order-detail-wrap {
+            width: 700px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .order-detail-wrap .order-detail-header {
+            padding: 15px 0 15px 10px;
+            display: -webkit-box;
+            display: flex;
+            border-bottom: 1px solid rgba(158, 165, 170, 0.5);
+        }
+
+        .order-detail-wrap .order-detail-header table {
+            width: 100%;
+        }
+
+        /*.order-detail-wrap .order-detail-header td {*/
+        /*width: 50%;*/
+        /*}*/
+
+        .order-detail-wrap .order-detail-header td:first-of-type {
+            text-align: left;
+        }
+
+        .order-detail-wrap .order-detail-header td:last-of-type {
+            text-align: right;
+        }
+
+        .order-detail-wrap .order-detail-goods {
+            /*display: -webkit-box;*/
+            /*display: flex;*/
+            padding: 20px 0;
+            overflow: hidden;
+        }
+
+        .order-detail-wrap .order-detail-goods .order-detail-img {
+            width: 200px;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            float: left;
+        }
+
+        .order-detail-wrap .order-detail-goods .order-detail-goods-des {
+            margin-left: 25px;
+            float: left;
+            width: 450px;
+        }
+
+        .order-detail-wrap .order-detail-goods .order-detail-goods-des .order-detail-goods-title {
+            font-family: MicrosoftYaHei-Bold;
+            font-size: 18px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 24px;
+        }
+
+        .order-detail-wrap .order-detail-goods .order-detail-goods-des .order-detail-goods-title p {
+            margin-bottom: 8px;
+        }
+
+        .order-detail-wrap .order-detail-goods .order-detail-goods-des .order-detail-goods-add {
+            font-family: MicrosoftYaHei;
+            font-size: 14px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 22px;
+        }
+
+        .order-detail-wrap .order-detail-pass {
+            padding: 25px 0;
+            /*border-bottom: 1px solid rgba(158, 165, 170, 0.2);*/
+        }
+
+        .order-detail-wrap .order-detail-pass p {
+            font-family: MicrosoftYaHei;
+            font-size: 18px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 30px;
+        }
+
+        .order-detail-wrap .order-detail-pass div.section {
+            margin: 20px auto;
+        }
+
+        .order-detail-wrap .order-detail-pass div.section span {
+            display: block;
+            font-family: MicrosoftYaHei;
+            font-size: 12px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 30px;
+            display: block;
+        }
+
+        .order-detail-wrap .order-detail-pass > span {
+            font-family: MicrosoftYaHei;
+            font-size: 12px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 30px;
+            display: block;
+        }
+
+        .order-detail-wrap .order-detail-pass table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            font-size: 14px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+            line-height: 30px;
+            border: 1px solid #D3DDE6;
+            text-align: center;
+        }
+
+        .order-detail-wrap .order-detail-pass table tr:first-of-type {
+            background-color: gray;
+            font-family: PingFangSC-Semibold;
+            font-size: 12px;
+            color: #0E1A27;
+            letter-spacing: 0px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="order-detail-main">
+    <div class="order-detail-wrap">
+        <div class="order-detail-header">
+            <table>
+                <tbody>
+                <tr>
+                    <td width="40%"><p>Hotel Voucher 酒店入住单</p></td>
+                    <td width="60%"><p>PLEASE PRESENT THIS VOUCHER UPON ARRIVAL</p>
+                        <p>请在抵达时出示本单据</p></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="order-detail-goods">
+            <div class="order-detail-img"
+                 style="background-image: url(&quot;http://image.didatravel.com/Image/US/45838/Featured Image/801353_73_b.jpg&quot;);"></div>
+            <div class="order-detail-goods-des">
+                <div class="order-detail-goods-title"><p>州际酒店</p>
+                    <p>Americas Best Value Inn &amp; Suites-Haltom City/Ft. Worth</p></div>
+                <div class="order-detail-goods-rate"></div>
+                <div class="order-detail-goods-add"><p><!-- react-text: 70 -->地址：<!-- /react-text -->
+                    <!-- react-text: 71 -->5500 Ne Loop 820<!-- /react-text --></p></div>
+                <div class="order-detail-goods-add"><p><!-- react-text: 74 -->电话：<!-- /react-text -->
+                    <!-- react-text: 75 -->+0018176056200<!-- /react-text --></p></div>
+            </div>
+        </div>
+        <div class="order-detail-pass"><p>Booking Information 预订信息</p><span><!-- react-text: 79 -->2017-05-11 00:00:00
+            <!-- /react-text --><!-- react-text: 80 --> - <!-- /react-text --><!-- react-text: 81 -->2017-05-12 00:00:00
+            <!-- /react-text --></span>
+            <table>
+                <tbody>
+                <tr>
+                    <td>Unit(房间)</td>
+                    <td>Room Type and Bed Type(房型)</td>
+                    <td>Guest's(入住人)</td>
+                    <td>Breakfast(早餐)</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Double room King bed</td>
+                    <td>dong dong</td>
+                    <td><!-- react-text: 94 -->Include<!-- /react-text --><!-- react-text: 95 -->(<!-- /react-text -->
+                        <!-- react-text: 96 -->含早餐<!-- /react-text --><!-- react-text: 97 -->)<!-- /react-text --></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="section"><span>Customer Requests （客户需求）：</span><span>dongdongdong</span><span>The remarks for the establishment are for reference only. We cannot guarantee them.</span><span>客户需求仅供参考不作保证。</span>
+            </div>
+            <div class="section"><b>Attention 注意事项</b><span>入住问题处理：</span><span>1.请您于酒店前台办理入住手续时出示您的有效护照证件或提供您护照证件上的英文名，以便酒店前台准确查询到您的预订信息；</span><span>2.如出现到店无房、订单确认后酒店告知无法安排入住等情况，请及时联系为您预订酒店的旅行社或酒店代理。如果未联系而自行入住其他酒店等，视为您放弃了订单保障权利。</span>
+            </div>
+            <div class="section">
+                <span>未到店(No show)或晚至：</span><span>如订单首晚未到店(No show)或延迟入住请务必联系酒店或旅行社，否则会有整单被取消的风险。</span></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

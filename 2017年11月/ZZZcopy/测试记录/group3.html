@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var personArr = [1,2,3,4,5,6,7,8,9,0];
+		var groupNum = 4;
+
+		function group(personArr, groupNum){
+			var arr = [], result = [];
+
+			var baseNum = Math.floor(personArr.length / groupNum);//基础人数
+
+			personArr.sort(function(a, b){//打乱数组
+				return Math.random() - 0.5;
+			});
+
+			for(var i=0; i<groupNum; i++){
+				arr.push(baseNum);
+			}
+			var leftNum = personArr.length - baseNum * groupNum;//剩余人数
+			for(var i=0; i<leftNum; i++){
+				arr[i] = arr[i]+1;
+			}
+			var index = 0;//代表personArr中元素的索引
+			for(var i=0; i<arr.length; i++){
+				result[i] = [];
+				for(var j=0; j<arr[i]; j++){
+					result[i][j] = personArr[index++];
+				}
+			}
+
+			return result;
+		}	
+
+		console.log(   group(personArr, groupNum)  );
+
+
+
+
+	</script>
+</body>
+</html>

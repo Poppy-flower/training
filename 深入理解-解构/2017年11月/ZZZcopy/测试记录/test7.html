@@ -1,0 +1,18 @@
+<script>
+	function Person(){
+		
+	}
+	Person.prototype.name = 'lisi';
+	Person.prototype.brother = {name: 'lixx'};
+	Person.prototype.say = function(){
+		
+	};
+
+	var p1 = new Person();
+	var p2 = new Person();
+	p1.name = 'wangwu';
+	p1.brother.name = 'wangwu';
+
+	console.log(p2.brother.name);
+
+</script>

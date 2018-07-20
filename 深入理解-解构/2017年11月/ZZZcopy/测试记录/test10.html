@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function asyncFun(str1, str2, callback){
+			console.log(str1);
+			setTimeout(function(){
+				console.log(str2);
+				callback();
+			}, 1000);
+		}
+
+		asyncFun('A', 'B', function(){
+			asyncFun('C', 'D', function(){
+				console.log('E');
+			});
+		});
+
+		asyncFun('F', 'G', function(){
+				console.log('H');
+			});
+	</script>
+</body>
+</html>

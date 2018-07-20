@@ -1,0 +1,14 @@
+1.简单说一下自定义属性？
+    有两种方式，一种是JS原生，一种是JQuery；
+    （1）JS原生
+          1）对象.属性           //在DOM元素中看不见
+          2）setattribute       // 在DOM元素中能看见
+    注意，以data-开头的属性，可以用dataset直接取到，代码解释一下：
+        <div  id="div1"  data-aa-xx="bb"  data-dd="cc"></div>
+        var oDiv=document.querySelector('#div1');
+        console.log(oDiv.dataset);//输出DOMStringMap{aaXx:'bb' dd:'cc'}
+                                  //获取所有以data-开头的属性
+        console.log(oDiv.dataset.aaXx);//输出bb
+    （2）JQuery方式
+         1）对于HTML元素本身就带有的固有属性，在处理时，使用prop（）方法；
+         2）对于HTML元素我们自己自定义的DOM属性，在处理时，使用attr（）方法。

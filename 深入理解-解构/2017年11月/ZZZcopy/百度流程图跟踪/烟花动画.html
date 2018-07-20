@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>烟花</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        canvas{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    //可视化窗口 Size 改变时触发 resizeCanvas 函数
+    window.addEventListener("resize", resizeCanvas, false);
+    //当 DOM 解析完成后触发 onLoad 函数
+    window.addEventListener("DOMContentLoaded", onLoad, false);
+    //requestAnimationFrame 兼容
+    window.requestAnimationFrame =
+        window.requestAnimationFrame       ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame    ||
+        window.oRequestAnimationFrame      ||
+        window.msRequestAnimationFrame     ||
+        function (callback) {
+            window.setTimeout(callback, 1000/60);
+        };
+
+    //初始化变量
+    var canvas, ctx, w, h, particles = [], probability = 0.04,  //0.04 烟花出现概率
+        xPoint, yPoint;
+
+    //初始化 Canvas
+    function onLoad() {
+        canvas = document.getElementById("canvas");
+        ctx = canvas.getContext("2d");
+        resizeCanvas();
+        //渲染动画
+        window.requestAnimationFrame(updateWorld);
+    }
+
+    //改变 Canvas 可视窗口 Size 函数
+    function resizeCanvas() {
+        if (!!canvas) {
+            w = canvas.width = window.innerWidth;
+            h = canvas.height = window.innerHeight;
+        }
+    }
+
+    //更新函数
+    function updateWorld() {
+        update();
+        paint();
+        window.requestAnimationFrame(updateWorld);
+    }
+
+    //更新函数
+    function update() {
+        if (particles.length < 500 && Math.random() < probability) {
+            createFirework();
+        }
+        var alive = [];
+        for (var i = 0; i < particles.length; i++) {
+            if (particles[i].move()) {
+                alive.push(particles[i]);
+            }
+        }
+        particles = alive;
+    }
+
+    //绘制函数
+    function paint() {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.fillStyle = "rgba(0,0,0,0.2)";
+        ctx.fillRect(0, 0, w, h);
+        ctx.globalCompositeOperation = 'lighter';
+        for (var i = 0; i < particles.length; i++) {
+            particles[i].draw(ctx);
+        }
+    }
+
+    //创建烟花颗粒
+    function createFirework() {
+        xPoint = Math.random() * (w - 200) + 100;
+        yPoint = Math.random() * (h - 200) + 100;
+        var nFire = Math.random() * 50 + 100;
+        var c = "rgb("+(~~(Math.random() * 200 + 55))+","+(~~(Math.random() * 200 + 55))+","+(~~(Math.random() * 200 + 55))+")";
+        for (var i = 0; i < nFire; i++) {
+            var particle = new Particle();
+            particle.color = c;
+            var vy = Math.sqrt(25 - particle.vx * particle.vx);
+            if (Math.abs(particle.vy) > vy) {
+                particle.vy = particle.vy > 0 ? vy : -vy;
+            }
+            particles.push(particle);
+        }
+    }
+
+    //颗粒函数
+    function Particle() {
+        this.w = this.h = Math.random() * 4 + 1;
+
+        this.x = xPoint - this.w / 2;
+        this.y = yPoint - this.h / 2;
+
+        this.vx = (Math.random() - 0.5) * 10;
+        this.vy = (Math.random() - 0.5) * 10;
+
+        this.alpha = Math.random() * .5 + .5;
+
+        this.color;
+    }
+
+    Particle.prototype = {
+        gravity: 0.05,          //烟花颗粒坠落速度
+        move: function () {     //改变烟花颗粒位置
+            this.x += this.vx;
+            this.vy += this.gravity;
+            this.y += this.vy;
+            this.alpha -= 0.01;
+            if (this.x <= -this.w || this.x >= screen.width || this.y >= screen.height || this.alpha <= 0) {
+                return false;
+            }
+            return true;
+        },
+        draw: function (c) {    //渲染烟花颗粒
+            c.save();
+            c.beginPath();
+
+            c.translate(this.x+this.w / 2, this.y+this.h / 2);  //改变位置
+            c.arc(0, 0, this.w, 0, Math.PI * 2);                //圆形颗粒
+            c.fillStyle = this.color;                           //填充颜色
+            c.globalAlpha = this.alpha;                         //透明度
+
+            c.closePath();
+            c.fill();
+            c.restore();
+        }
+    }
+</script>
+</body>
+</html>

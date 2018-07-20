@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>居中</title>
+</head>
+<body>
+<h1>水平居中</h1>
+<section>
+    <p>行内元素（单行文字，图片）</p>
+    <div>text-align:center</div>
+    <p>块级元素</p>
+    <div>
+        1.定宽元素水平居中
+            width:200px;
+            margin:0 auto;
+        2.不定宽元素水平居中
+        a.
+            display:table;
+            margin: 0 auto;
+        b.
+            display:inline;
+            text-align:center;
+        c.
+            父元素设置float,position：relative；left:50；
+            子元素position:relative;left:-50%;
+
+    </div>
+</section>
+
+<h1>垂直居中</h1>
+<section>
+    <p>父元素高度确定的单行文本的竖直居中方法是设置line-height=height</p>
+    <p>父元素高度确定的多行文本的竖直居中方法有两种
+        1.使用table，td默认就设置了vertical-align:middle,可以不显示的设置；
+          不使用table，设置 display:table; vertical-align:middle;
+        2.设置块级元素的display为table-cell,vertical-align:middle;
+    </p>
+</section>
+
+
+
+<p>
+    水平居中：
+    (一) 块级元素：
+    1. 直接margin: 0 auto;
+    2. 定位：position: absolute; left: 50%; margin-left: 负的宽度一半，这种方式适合于知道宽度的情况；
+    3. css3 transform: translateX(-50%);
+    4. css3弹性盒模型：justify-content: center
+    (二) 行级元素
+    1. 直接  text-align: center;
+    2. 和上面的块级元素一样
+
+    重直居中：
+    (一) 块级元素：
+    1. 定位：position: absolute; top: 50%; margin-top: 负的高度一半，这种方式适合于知道高度的情况；
+    2. css3 transform: traslateY(-50%);
+    3. css3弹性盒模型：align-items: center
+    (二) 行级元素
+    1. 和上面的块级元素一样
+</p>
+</body>
+</html>

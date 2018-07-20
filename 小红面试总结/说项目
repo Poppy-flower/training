@@ -1,0 +1,44 @@
+悦居短租
+我主要做的是登录功能，登录功能，用户在前台输入账号密码，然后通过ajax 向后台发送账号密码信息，通过和数据库的信息对比，如果匹配成功就返回true否则就返回false。
+购物车
+在购物车功能中，主要定义了一个购物车对象，其中包括，添加物品，删除物品。添加物品，将用户添加的信息写去localstorage，提交订单的时候，会把localstorage中的信息提交到后台，写入数据库 ,
+以什么形式传信息的，把localstorage，点击生成订单的按钮，localstorage
+Ajax形式发送localstorage，遇到问题，localstorage存进a的字符串，存对象存不了，只能存字符串所以用json的方法存stringfy  取parse
+Ajax请求发送
+商品详情
+通过不同的信息筛选，向后台发送ajax，  select option信息筛选，e.target.check   true 或者false  自定义属性，true 的话把自定义属性取出来。
+在后台通过模糊查询将得到的数据通过json的形式发送到前台。然后前台渲染，通过for循环，将数据显示到页面上面。
+文章信息
+通过ajax分页，传入偏移量，和页数，将文章信息提取出来。同样是，把json数据，返回到前台，前台渲染？
+Vue问题axios问题，post请求写接受不好使，vue post参数不好使var params = new URLSearchParams();
+params.append('username',this.username)
+Ajax，dom 新增dom绑定不上事件代理解决，事件代理利用事件冒泡
+Ul下3个li 后插入的li
+Li弹出索引，appent一个li，正常绑定不上，给ul绑定，li，e.target取兼容性
+标准浏览器：ele.addEventListener('click',function(){},false//false就是事件冒泡)
+IE:ele.attachEventListener('onclick',function(){},false// false就是事件冒泡)
+一：团队问题
+a代码上传合并，自己写自己的，没有进行系统的相应的培训，有时把别人的代码弄丢，代码弄丢，影响进度，后来了解到了svn，进行了相应的学习
+b需求问题   客户不了解术语，界面写出之后，提新的需求，计划进度应该留出客户改需求的时间，要不影响进度
+c技术问题：前端+后台，后台的技术不太会，刚开始接触后台传数据，不会，并且我的apaqi端口8080 的问题调了好久，后来一点一点的熟悉了，感觉并不难了
+d做过项目，技术得到了提升，还有团队合作精神，大家需要不断的沟通，催任务，学技术
+点透问题：定义
+场景；下按钮 上弹框，上层点击事件，触碰到下面按钮了 (你可能碰到过在列表页面上创建一个弹出层，弹出层有个关闭的按钮，你点了这个按钮关闭弹出层后后，这个按钮正下方的内容也会执行点击事件（或打开链接）。这个被定义为这是一个“点透”现象。)
+原因：可以看出zepto的tap通过兼听绑定在document上的touch事件来完成tap事件的模拟的,及tap事件是冒泡到document上触发的,再点击完成时的tap事件(touchstart\touchend)需要冒泡到document上才会触发，而在冒泡到document之前，用户手的接触屏幕(touchstart)和离开屏幕(touchend)是会触发click事件的,因为click事件有延迟触发(这就是为什么移动端不用click而用tap的原因)(大概是300ms,为了实现safari的双击事件的设计)，所以在执行完tap事件之后，弹出来的选择组件马上就隐藏了，此时click事件还在延迟的300ms之中，当300ms到来的时候，click到的其实不是完成而是隐藏之后的下方的元素，如果正下方的元素绑定的有click事件此时便会触发，如果没有绑定click事件的话就当没click，但是正下方的是input输入框(或者select选择框或者单选复选框)，点击默认聚焦而弹出输入键盘，也就出现了上面的点透现象。
+解决办法：
+用touchend代替tap事件并阻止掉touchend的默认行为preventDefault()
+1 $("#cbFinish").on("touchend", function (event) {
+2     //很多处理比如隐藏什么的
+3     event.preventDefault();
+4 });
+延迟一定的时间(300ms+)来处理事件
+1 $("#cbFinish").on("tap", function (event) {
+2     setTimeout(function(){
+3     //很多处理比如隐藏什么的
+4     },320);
+5 });
+
+zepto写移动端，监听事件，来模拟的
+Css3问题
+移动端适配
+viewport的设置

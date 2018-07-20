@@ -1,0 +1,26 @@
+<script>
+	function test(str){
+		var result = 0;
+		var re = /[\+\-\*]/ig;
+		var arr1 = str.match(re);
+		var arr2 = str.split(re);
+		result += parseFloat(arr2[0]);
+
+		for(var i=0; i<arr1.length; i++){
+			switch(arr1[i]){
+				case '+':
+					result += parseFloat(arr2[i+1]);
+					break;
+				case '*':
+					result *=  parseFloat(arr2[i+1]);
+					break;
+				case '-':
+					result -=  parseFloat(arr2[i+1]);
+					break;
+			}
+		}
+		return result;
+
+	}
+	test('3+5*7*2');
+</script>

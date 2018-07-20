@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+}
+.navbar{
+	background: #80c269;
+}
+#nav{
+	height: 32px;
+}
+#nav .nav-left{
+	float: left;
+}
+#nav .nav-left li, #nav .nav-right li{
+	float: left;
+}
+#nav .nav-right{
+	float: right;
+}
+
+#nav li:hover{
+  background: #eee;
+}
+
+#nav .active{
+}
+
+.toggle-btn{
+  display: none;
+}
+
+#search {
+	width: 368px;
+    height: 174px;
+    background: #f00; 
+    float: left;
+}
+#notes{
+	width: 342px;
+    height: 174px;
+    float: right;
+    background: #0f0; 
+
+}
+
+@media screen and (max-width: 480px) {
+	.container{
+	    width: 100%;
+	}
+	#nav .nav-left{
+		float: none;
+	    display: none;
+	}
+	#nav .nav-left li{
+		float: none;
+	}
+
+	/* 切换按钮 */
+	.toggle-btn{
+	  display: inline-block;
+	  /*font-size: 25px;*/
+	  text-decoration: none;
+	  color: #fff;
+	  padding: 5px 7px;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	}
+	
+	/* 隐藏关闭按钮 */
+	#nav .close{
+	  display: none;
+	}
+	
+	/* 导航为目标状态的时候显示关闭按钮 */
+	#nav:target .close{
+	  display: inline-block;
+	}
+	
+	/* 导航为目标状态时的样式 */
+	#nav:target .nav-left{
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  padding-top: 32px;
+	  width: 100%;
+	}
+	/* 目标状态下的导航的 ul 标签 */
+	#nav:target ul{
+	  background: #000;
+	}
+	/* 目标状态下的导航的 li 与 a */
+	#nav:target li, #nav:target li a{
+	  display: block;
+	  text-align: left;
+	}
+	/* 目标状态下的导航的列表下的 a 标签的悬停样式 */
+	#nav:target li:hover{
+	  background: #3b3b3b;
+	}
+	/* 目标状态下导航的激活状态的样式 */
+	#nav:target .active{
+	  background: #272727;
+	}
+
+
+	#search , #notes{
+		width: 100%;
+	    float: none;
+	}
+
+}

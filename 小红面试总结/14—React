@@ -1,0 +1,48 @@
+1.简单介绍一下React
+
+2.说一下React的生命周期
+    组件的生命周期分成三个状态：
+    每个生命周期里的钩子函数执行几次都要知道！！！
+      Mounting:已插入真实DOM（第一次）
+      Updating：正在被重新渲染（当state被改变触发）
+      Unmounting:已移出真实DOM（组件销毁）
+    （1）实例化（渲染第一次加载）
+         第一，getDefaultprops，设置默认值，作用于组件类，只调用一次，返回对象用于设置默认的props，对于引用值，会在实例中共享；
+         第二，getInitialState，初始值，作用于组件的实例，在组件创建时调用一次，用于初始化每个实例的state，此时可以访问this.props；
+         第三，componentWillMount，想组件渲染前进行什么操作，在完成首次渲染之前调用，此时仍可以修改组件的state；
+         第四，render，渲染，必选的方法，创建虚拟DOM，该方法具有特殊规则：
+              只能通过this.props和this.state访问数据；
+              可以返回null,false或任何React组件；
+              只能出现一个顶级组件，（不能返回数组）；
+              不能改变组件的状态；
+              不能修改DOM的输出；
+         第五，componentDidMount,想组件渲染后，进行什么操作，真实的DOM被渲染出来后调用，在该方法中可以通过this.gteDOMNode（）访问到真实的DOM元素。此时已可以使用其他类库来操作这个DOM。
+             在服务端中，该方法不会被调用。
+    （2）存在期（有改变之后）
+         第六，componentWillReceiveProps(在接受参数前，已加载组建收到新的参数时调用)，组件接收到新的props时调用，并将其作为参数nextprops时使用，此时可以更改组件props及state。
+             写法如下：
+             componentWillReceiveProps:function(nextProps){
+                 if(nextProps.bool){
+                    this.setState({bool:true});
+                 }
+             }
+         第七，shouleComponentUpdate(return true的时候组件是可以更新的，false不可以)，组件是否应当渲染新的props或state，返回false表示跳过后续的生命周期方法，通常不需要使用，以避免出现bug.在出现应用的瓶颈时，可通过该方法进行适当的优化。
+             在首次渲染期间或者调用了forceUpdate方法后，该方法不会被调用
+         第八，componentWillUpdate，更新之前，接收到新的props或者state后，进行渲染之前调用，此时不允许更新props或state；
+         第九，render，必选的方法，创建虚拟DOM，该方法具有特殊规则：
+             （1）只能通过this.props或this.state访问数据；
+             （2）可以返回null,false或任何React组件；
+             （3）只能出现一个顶级组件，（不能返回数组）；
+             （4）不能改变组件的状态；
+             （5）不能修改DOM的输出；
+         第十，componentDidUpdate，更新之后，完成渲染新的props或者state之后调用，此时可以访问到新的DOM元素。
+    （3）销毁期
+         第十一，componentWillUnmount(),组件被移除之前都会调用，可以用于做一些清理工作，在componentDidMount方法中添加的所有任务都需要在该方法中撤销，比如创建的定时器或者添加的事件监听器。
+3.图示生命周期
+         实例化                      存在期                          销毁期
+      getDefaultProps      componentWillReceiveProps         componentWillUnmount
+      getInitialState       shouleComponentUpdate
+      componentWillMount      componentWillUpdate
+             |                       |
+             \         render        /
+       componentDidMount       componentDidUpdate

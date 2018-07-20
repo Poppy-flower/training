@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<p>
+    1.Media Query的使用方法
+
+        首先我们在使用Media的时候需要先设置下面这段代码，来兼容移动设备的展示效果：
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+        参数解释：
+
+            width = device-width：宽度等于当前设备的宽度
+            initial-scale：初始的缩放比例（默认设置为1.0）
+            minimum-scale：允许用户缩放到的最小比例（默认设置为1.0）
+            maximum-scale：允许用户缩放到的最大比例（默认设置为1.0）
+            user-scalable：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
+
+        使用：
+
+            @media 设备类型 and （设备特性）{样式代码}
+
+    2.Ｍedia Query的设备类型（10种）
+
+        all：所有设备
+        screen：电脑显示器
+        print：打印用纸或打印预览视图
+        handled：便携设备
+        tv：电视机类型的设备
+        …
+
+    3.CSS中的Media Query的设备特性（13种）
+
+        设备宽高：device-width,device-height
+        渲染窗口的宽和高：width,height
+        设备的手持方向：orientation
+        设备的分辨率：resolution
+        …
+
+
+    使用navigator.userAgent
+
+    操作系统是什么，cpu型号，浏览器版本号，内核版本号等，当然还有pc还是移动端的信息
+
+    比如是android 有一个mobile单词，用它来判断是否是移动
+</p>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>日历</title>
+	<style>
+		body,html{padding: 0;margin: 0;font-size: 14px;color:#000;}
+		table {border-collapse: collapse;width: 100%;table-layout: fixed;}
+		td,th {border: 1px solid #e1e1e1;padding: 0;height: 20px;line-height: 20px;text-align: center;}
+		.current{color:red;}
+	</style>
+</head>
+<body>
+	<table id="dateTable">
+	    <thead>
+	        <tr><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr>
+	    </thead>
+	    <tbody>
+	        <!-- <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	        <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr> -->
+	    </tbody>
+	</table>
+	<script>
+		function isLeap(year) {
+		 return (year%100==0?res=(year%400==0?1:0):res=(year%4==0?1:0));
+		}
+		function calendar(year, month) {
+			var oTable = document.getElementById('dateTable');
+			var arrMonth=new Array(31,28+isLeap(year),31,30,31,31,30,31,30,31,30,31);
+
+			var dateNow = new Date(year,month,1);
+			var firstDay=dateNow.getDay();
+			var day = new Date().getDate();
+			var trLength = Math.ceil((arrMonth[month] + firstDay)/7);
+			var i,k,idx,date_str;
+			for(i=0;i<trLength;i++) { //表格的行
+				var oTr = oTable.tBodies[0].insertRow();
+
+			　　for(k=0;k<7;k++) { //表格每行的单元格
+			　　　　idx=i*7+k; //单元格自然序列号
+			　　　　date_str=idx-firstDay+1; //计算日期
+			　　　　(date_str<=0 || date_str>arrMonth[month]) ? date_str=" " : date_str=idx-firstDay+1; //过滤无效日期（小于等于零的、大于月总天数的）
+			　　　　var oTd = oTr.insertCell();
+					oTd.innerHTML = date_str;
+					if(date_str == day){
+						oTd.className = 'current';
+					}
+
+			　　}
+			}
+		}
+
+		calendar(2017,4);
+	</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link rel="stylesheet" href="dataflow.css">
+	<style>
+		body{
+			background: #ccc;
+		}
+		#demo1{
+			width: 800px;
+			margin: 0 auto;
+			background: #fff;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="demo1"></div>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="dataflow.js"></script>
+	<script>
+		$(function () {
+			new DataFlow({
+                el: '#demo1',
+				type: 'basic',
+                direction: 'vertical',
+                data: 'data.json'
+            });
+        });
+	</script>
+</body>
+</html>

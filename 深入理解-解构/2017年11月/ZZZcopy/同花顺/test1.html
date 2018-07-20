@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		/*function test(){
+			var startTime = new Date().getTime();
+			//...相应的处理逻辑
+			var endTime = new Date().getTime();
+			console.log(endTime - startTime);
+			return xxx;
+		}*/
+
+		/*var foo = {
+			a: 1,
+			fn: function(prop, value){
+				if(value){
+					this[prop] = value;
+				}else{
+					return this[prop];
+				}
+			}
+		};
+
+		Object.prototype.fn = function(prop, value){
+			if(value){
+				this[prop] = value;
+			}else{
+				return this[prop];
+			}
+		};*/
+
+		/*function toCamelCase(str){
+			return str.replace(/-[a-z]/g, function(word){
+				return word.substring(1).toUpperCase();
+			});
+		}*/
+
+		function toCamelCase(str){
+			var arr = str.split('-');
+			var newStr = arr[0];
+			for(var i=1; i<arr.length; i++){
+				newStr += arr[i][0].toUpperCase() + arr[i].substring(1);
+			}
+			return newStr;
+		}
+
+		console.log(toCamelCase('border-bottom-color'));
+	</script>
+</body>
+</html>

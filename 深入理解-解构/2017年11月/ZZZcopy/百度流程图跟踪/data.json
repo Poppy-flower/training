@@ -1,0 +1,44 @@
+{
+	"title": "xxx业务流程图",
+	"desc": "xxx业务的详细描述...",
+	"nodes": [
+		{
+			"title": "PC客户端",
+			"desc": "用户从PC端访问...",
+			"status": "done"
+		},
+		{
+			"title": "移动客户端",
+			"desc": "用户从移动端访问...",
+			"status": "done"
+		},
+		{
+			"title": "建立索引",
+			"desc": "建立索引的详细描述...",
+			"shape": "square",
+			"status": "doing",
+			"subNodes": {
+				"show": true,
+				"nodes": [
+					{
+						"title": "文本",
+						"desc": "文本的详细描述..."
+					},
+					{
+						"title": "网格",
+						"desc": "网格的详细描述..."
+					},
+					{
+						"title": "营销",
+						"desc": "营销的详细描述..."
+					}
+				]
+			}
+
+		},
+		{
+			"title": "线上服务",
+			"desc": "数据增量更新..."
+		}
+	]
+}

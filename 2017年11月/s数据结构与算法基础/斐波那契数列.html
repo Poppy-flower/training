@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function getNthFibonacci(count){
+        var arr = [1,1];
+        for(var i = 0;i<arr.length;i++){
+            var param = arr[i] +arr[i+1];
+            arr.push(param);
+            if(count == 0 || count == 1){
+                console.log(arr[count]);
+                break;
+            };
+            if(arr.length == count+1){
+                console.log(arr[count]);
+                break;
+            }
+        }
+    }
+    getNthFibonacci(5);
+</script>
+</body>
+</html>

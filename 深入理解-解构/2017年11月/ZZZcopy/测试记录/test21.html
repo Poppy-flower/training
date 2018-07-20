@@ -1,0 +1,16 @@
+<script>
+	//一个字符串由大小写26个字母或0-9数字组成，长度无限，请设计一个算法打印出没有出现过的字符
+
+
+	var str = "abcdefgaddda";
+	var obj = {};
+	for(var i = 0; i < str.length; i++) {
+		var key = str[i]; 
+		if(!obj[key]) {
+			obj[key] = 1; 
+		} else {
+			obj[key]++; 
+		}
+	}
+	console.log(obj);
+</script>

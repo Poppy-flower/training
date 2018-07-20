@@ -1,0 +1,48 @@
+
+gulp是前端开发过程中对代码进行构建的工具，是自动化项目的构建利器；她不仅能对网站资源进行优化，而且在开发过程中很多重复的任务能够使用正确的工具自动完成；使用她，我们不仅可以很愉快的编写代码，而且大大提高我们的工作效率。
+
+gulp是基于Nodejs的自动任务运行器， 她能自动化地完成 javascript/coffee/sass/less/html/image/css 等文件的的测试、检查、合并、压缩、格式化、浏览器自动刷新、部署文件生成，并监听文件在改动后重复指定的这些步骤。在实现上，她借鉴了Unix操作系统的管道（pipe）思想，前一级的输出，直接变成后一级的输入，使得在操作上非常简单。通过本文，我们将学习如何使用Gulp来改变开发流程，从而使开发更加快速高效。
+
+gulp 和 grunt 非常类似，但相比于 grunt 的频繁 IO 操作，gulp 的流操作，能更快地更便捷地完成构建工作。
+
+
+gulp创建任务
+grulp.task(‘hello’,function(){ … })；
+
+gulp连接任务
+grulp.task(‘taskName’,[‘task1’,’task2’])
+
+gulp.src()   找到要处理的文件
+通配符路径匹配示例：
+“src/a.js”：指定具体文件；
+“*”：匹配所有文件
+
+
+gulp.pipe()   通过管道去处理文件(在管道里可以
+去指定功能)
+gulp.dest()  将处理好的文件放在指定的地方
+gulp.watch() watch方法是用于监听文件变化，
+文件一修改就会执行指定的任务
+
+
+编译sass：gulp-sass
+.pipe(sass({ outputStyle: 'expanded' }))
+
+创建本地服务：gulp-connect
+实时刷新：liveReload
+合并文件：grunt-concat
+最小化js:
+gulp-uglify
+
+
+最小化css:
+gulp-minify-css
+最小化图片
+gulp-imagemin
+文件重命名
+gulp-rename
+1.页面实时刷新
+
+2.css js 合并压缩
+
+

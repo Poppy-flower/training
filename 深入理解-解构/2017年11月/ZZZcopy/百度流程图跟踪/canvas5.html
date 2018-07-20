@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        body {
+            background: rgb(64, 74, 89);
+        }
+
+        #canvas {
+            background: #323c49;
+            margin: 50px auto;
+            display: block;
+        }
+
+        #btn {
+            border: 0;
+            width: 50px;
+            height: 25px;
+            display: block;
+            margin: 20px auto;
+            cursor: pointer;
+            background: #a5c941;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">Start</button>
+<canvas id="canvas" width="800" height="600"></canvas>
+<script src="jquery-1.11.3.min.js"></script>
+<script>
+    var btn = document.getElementById('btn');
+    var canvas = document.getElementById("canvas"),
+        ctx = canvas.getContext('2d'),
+        planes = [];
+
+
+    function FlowNode(options) {
+        this.x = options.x;
+        this.y = options.y;
+        this.radius = options.radius || 20;
+        this.width = options.width || 100;
+        this.height = options.height || 50;
+        this.color = options.color || '#0f0';
+        this.nextNode = options.nextNode;
+
+    }
+
+    FlowNode.prototype.draw = function () {
+        var me = this;
+        /*
+         ctx.fillStyle = this.color;
+         ctx.fillRect(this.x, this.y, this.width, this.height);
+         */
+
+//        this.timer = setInterval(function () {
+
+//            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.save();
+
+            ctx.beginPath();
+
+            ctx.arc(me.x, me.y, me.radius += 2, 0, Math.PI * 2, false);
+            if (me.radius >= 50) {
+                clearInterval(me.timer);
+            }
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = me.color;
+            ctx.fillStyle = me.color;
+            ctx.fill();
+            ctx.closePath();
+            ctx.restore();
+//        }, 30);
+
+    };
+
+
+    function FlowLink(prevNode, nextNode) {
+        /*this.fromX = options.fromX;
+         this.fromY = options.fromY;
+         this.toX = options.toX;
+         this.toY = options.toY;*/
+        this.prevNode = prevNode;
+        this.nextNode = nextNode;
+    }
+
+    FlowLink.prototype.draw = function () {
+        ctx.beginPath();
+        /*ctx.moveTo(this.prevNode.x + this.prevNode.width, this.prevNode.y + this.prevNode.height / 2);
+         ctx.lineTo(this.nextNode.x, this.nextNode.y + this.nextNode.height / 2);*/
+        ctx.arc(-115, 430, 400, 1.7 * Math.PI, 1.9 * Math.PI, false); // Earth orbit
+        ctx.strokeStyle = '#a5c941';
+        ctx.stroke();
+    };
+
+    function Plane(options) {
+        this.fromNode = options.fromNode;
+        this.toNode = options.toNode;
+        this.width = options.width || 30;
+        this.height = options.height || 30;
+        this.x = this.fromNode.x + this.fromNode.width - this.width / 2;
+        this.y = this.fromNode.y + (this.fromNode.height - this.height) / 2;
+        this.vx = options.vx || 5;//速率
+        this.vy = options.vy || 5;
+        this.color = options.color || '#00f';
+        this.src = options.src || 'plane.png';
+    }
+
+    Plane.prototype.draw = function () {
+        var me = this;
+        ctx.globalCompositeOperation = 'source-over';
+
+        //ctx.rotate(50);
+
+        ctx.beginPath();
+        //ctx.fillStyle = this.color;
+        //ctx.fillRect(this.x, this.y, this.width, this.height);
+        this.img = new Image();
+        this.img.src = this.src;
+        this.img.onload = function () {
+            ctx.drawImage(this, me.x, me.y, me.width, me.height)
+        };
+        ctx.closePath();
+
+    };
+
+    Plane.prototype.flight = function () {
+        this.x += this.vx;
+        var lenY = (this.toNode.y + this.toNode.height / 2) - (this.fromNode.y + this.fromNode.height / 2);
+        var lenX = this.toNode.x - this.fromNode.x - this.fromNode.width;
+        this.y += this.vx / (lenX / lenY);
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        init();
+
+        ctx.save();
+        //ctx.beginPath();
+        /*ctx.fillStyle = this.color;
+         var arc = Math.atan(lenY / lenX);
+         fillRotateRect(ctx, this.x, this.y, this.width, this.height, arc);*/
+        var arc = Math.atan(lenY / lenX);
+        drawRotateImage(ctx, this.img, this.x, this.y, this.width, this.height, arc)
+        // ctx.closePath();
+        ctx.restore();
+
+
+    };
+
+    function flight(plane) {
+        var callee = arguments.callee;
+        plane.flight();
+        var raf = window.requestAnimationFrame(function () {
+            console.log(plane.name);
+            callee(plane);
+        });
+        //if(plane1.y >= (plane1.toNode.y+(plane1.toNode.height-plane1.height)/2)){
+        if (plane.x >= (plane.toNode.x - plane.width / 2)) {
+            window.cancelAnimationFrame(raf);
+        }
+
+    }
+
+    function drawRotateImage(context, img, x, y, width, height, degrees) {
+        var cx = x + 0.5 * width;
+        var cy = y + 0.5 * height;
+        context.translate(cx, cy);
+        context.rotate(degrees);
+        context.translate(-cx, -cy);
+        ctx.drawImage(img, x, y, width, height)
+    }
+
+    function fillRotateRect(context, x, y, width, height, degrees) {
+        var cx = x + 0.5 * width;
+        var cy = y + 0.5 * height;
+        context.translate(cx, cy);
+        context.rotate(degrees);
+        context.translate(-cx, -cy);
+        context.fillRect(x, y, width, height);
+    }
+
+    var flow1 = new FlowNode({
+        x: 100,
+        y: 100,
+        text: 'PC客户端',
+        color: '#c47677',
+        nextNodes: [flow3]
+    });
+
+    var flow2 = new FlowNode({
+        x: 100,
+        y: 250,
+        text: '移动客户端',
+        color: '#3ac78b',
+        nextNodes: [flow3]
+    });
+
+    var flow3 = new FlowNode({
+        x: 300,
+        y: 175,
+        text: 'Load Balancer',
+        color: '#b62624',
+        prevNodes: [flow1, flow2]
+    });
+
+    function init() {
+        flow1.draw();
+        /*flow2.draw();
+        flow3.draw();*/
+
+        var flowLinks = [new FlowLink(flow1, flow3), new FlowLink(flow2, flow3)];
+
+        for (var i = 0; i < flowLinks.length; i++) {
+//            flowLinks[i].draw();
+        }
+
+        /*for(var i=0; i<planes.length; i++){
+         planes[i].draw();
+         }*/
+
+    }
+
+    init();
+
+    btn.addEventListener('click', function () {
+        var plane1 = new Plane({
+            fromNode: flow1,
+            toNode: flow3
+        });
+        plane1.name = 'plane1';
+        plane1.draw();
+        //planes.push(plane1);
+
+        /*var plane2 = new Plane({
+         fromNode: flow2,
+         toNode: flow3
+         });
+         plane2.name = 'plane2';
+         plane2.draw();
+         planes.push(plane2);*/
+
+
+        setTimeout(function () {
+            flight(plane1);
+        }, 1000);
+        /*setTimeout(function () {
+         flight(plane2);
+         }, 3000);*/
+    }, false);
+</script>
+</body>
+</html>

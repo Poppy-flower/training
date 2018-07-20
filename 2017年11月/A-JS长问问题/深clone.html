@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var obj1 = {
+        name: 'lisi',
+        brother: {
+            name: 'lixx'
+        }
+    };
+    function clone(obj){
+        var o = {};
+        for(var p in obj){
+            //obj2[p] = obj1[p];
+            if(typeof obj[p] === 'object'){
+                o[p]=arguments.callee(obj[p]);
+            }else{
+                o[p] = obj[p];
+            }
+        }
+        return o;
+    }
+
+    var obj2 = clone(obj1);
+
+    obj1.brother.name = 'wangwu';
+    console.log(obj2.brother.name);
+
+
+
+    /*var re = /a{3}/ig;
+    console.log(  re.exec('aaattyy') );*/
+
+    // var str = 'http://www.qq.com:80/xx.php';
+
+    // var re = /(http:\/\/)([^:]+):(\d+)/ig;
+
+    var str = "aabbcccdddde";
+    var re = /(\w)\1+/ig;
+
+    // console.log(re.exec(str));
+    console.log(str.match(re));
+
+
+</script>
+</body>
+</html>

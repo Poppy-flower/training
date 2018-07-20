@@ -1,0 +1,37 @@
+事件委托.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<button id="btn">click</button>
+<ul id="ul1">
+    <li>11</li>
+    <li>22</li>
+</ul>
+<script>
+    //主要是利用事件冒泡机制来实现的，就是将子元素的事件绑定给父元素上
+    //主要应用场景是：
+    //1. 可以解决后生成的元素事件绑定问题
+    //2. 子元素过多，事件绑定的性能问题
+    var oUl = document.getElementById('ul1');
+    oUl.onclick = function(e){
+        console.log(e.target);
+    };
+    var aLi = oUl.getElementsByTagName('li');
+    var oBtn = document.getElementById('btn');
+    oBtn.onclick = function(){
+        var oLi = document.createElement('li');
+        oLi.innerHTML = Math.random();
+        oUl.appendChild(oLi);
+    };
+    /*for(var i=0; i<aLi.length; i++){
+        aLi[i].onclick = function(){
+            alert(this.innerHTML);
+        };
+    }*/
+</script>
+</body>
+</html>

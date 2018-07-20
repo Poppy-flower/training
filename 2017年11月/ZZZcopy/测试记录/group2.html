@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var arr = [1,2,3,4,5,6,7,8,9,0];
+		/**
+			@personNum 总人数
+			@groupNub 组数
+			@return 数组，包含每组的人数
+		*/
+		function group(personNum, groupNum){
+			var result = [];
+
+			var baseNum = Math.floor(personNum / groupNum);//基础人数
+
+			for(var i=0; i<groupNum; i++){
+				result.push(baseNum);
+			}
+			var leftNum = personNum - baseNum * groupNum;//剩余人数
+			for(var i=0; i<leftNum; i++){
+				result[i] = result[i]+1;
+			}
+
+			return result;
+		}	
+
+		console.log(   group(10, 4)  );
+
+
+
+
+	</script>
+</body>
+</html>

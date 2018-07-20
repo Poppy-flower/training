@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link rel="stylesheet" href="dataflow.css">
+	<style>
+		body{
+			background: rgb(64, 74, 89);
+		}
+		#demo1{
+			width: 800px;
+			height: 600px;
+			margin: 50px auto;
+			background: #323c49;
+			position: relative;
+			overflow: hidden;
+		}
+		#demo1 .flow-title{
+			color: #fff;
+			font-size: 24px;
+			text-align: center;
+			margin: 20px auto;
+		}
+		.flow-content{
+			position: relative;
+		}
+		.flow-node-wrap{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+		}
+		.flow-node{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			line-height: 100px;
+			border-radius: 50%;
+			box-shadow: 0px 0px 20px rgba(58,198,138,.8);
+			color: #ffffff;
+			position: absolute;
+			background: #9ccfbb;
+			font-size: 15px;
+			z-index: 1;
+		}
+		.flow-node span{
+			display: inline-block;
+			vertical-align:middle;
+			line-height: 22px;
+		}
+		.flow-link{
+			height: 1px;
+			width: 200px;
+			background: #ffffff;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+			transform-origin: 0 0;
+		}
+		#node1{
+			left: 50px;
+			top: 100px;
+		}
+		#node1 > .flow-link{
+			transform: rotate(35deg);
+		}
+		#node2{
+			left: 50px;
+			top: 300px;
+		}
+		#node2 > .flow-link{
+			transform: rotate(-35deg);
+		}
+		#node3{
+			left: 200px;
+			top: 200px;
+		}
+		#node3 > .flow-link:nth-child(2){
+			transform: rotate(-45deg);
+		}
+		#node3 > .flow-link:nth-child(3){
+			transform: rotate(0deg);
+		}
+		#node3 > .flow-link:nth-child(4){
+			transform: rotate(45deg);
+		}
+		#node4{
+			left: 350px;
+			top: 50px;
+		}
+		#node4 > .flow-link{
+			transform: rotate(45deg);
+		}
+		#node5{
+			left: 350px;
+			top: 200px;
+		}
+		#node5 > .flow-link{
+			transform: rotate(0deg);
+		}
+		#node6{
+			left: 350px;
+			top: 350px;
+		}
+		#node6 > .flow-link{
+			transform: rotate(-45deg);
+		}
+		#node7{
+			left: 500px;
+			top: 200px;
+		}
+		#node7 > .flow-link{
+			transform: rotate(0deg);
+		}
+		#node8{
+			left: 650px;
+			top: 200px;
+		}
+		.flow-node.done{
+			background: #61B540;
+		}
+		.flow-node.undone{
+			background: #9ccfbb;
+		}
+		.flow-node.doing{
+			-webkit-animation: blink_2s 2s ease infinite;
+			-o-animation: blink_2s 2s ease infinite;
+			animation: blink_2s 2s ease infinite;
+		}
+		@-webkit-keyframes blink_2s {
+			0%{
+				background: #61B540;
+			}
+			50%{
+				background: #c2696a;
+				transform: scale(1.1,1.1);
+			}
+			100%{
+				background: #61B540;
+			}
+		}
+		.plane{
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background: #d3bb70;
+			box-shadow: 0px 0px 20px rgba(255,255,255,.8);
+			/*background: url("plane.png") no-repeat;
+			background-size: 100%;*/
+			position: absolute;
+			z-index: 2;
+			-webkit-animation: flash_2s 2s ease infinite;
+			-o-animation: flash_2s 2s ease infinite;
+			animation: flash_2s 2s ease infinite;
+
+			-webkit-transition: all 3s linear;
+			-moz-transition: all 3s linear;
+			-ms-transition: all 3s linear;
+			-o-transition: all 3s linear;
+			transition: all 3s linear;
+		}
+		@keyframes flash_2s {
+			0%{
+				background: #d3bb70;
+			}
+			50%{
+				background: #e5a700;
+				transform: scale(1.5,1.5);
+			}
+			100%{
+				background: #d3bb70;
+			}
+		}
+
+
+		.plane1{
+			left: 90px;
+			top: 215px;
+		}
+
+		.plane2{
+			left: 90px;
+			top: 415px;
+		}
+
+
+
+		#btn {
+			border: 0;
+			width: 50px;
+			height: 25px;
+			display: block;
+			margin: 20px auto;
+			cursor: pointer;
+			background: #a5c941;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<button id="btn">Start</button>
+
+	<div id="demo1" class="flow-container">
+		<h1 class="flow-title">百度业务流程图</h1>
+		<div class="flow-content">
+			<div id="node1" class="flow-node-wrap">
+				<div class="flow-node done"><span>PC客户端</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node2" class="flow-node-wrap">
+				<div class="flow-node done"><span>移动客户端</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node3" class="flow-node-wrap">
+				<div class="flow-node doing"><span>Load Balancer</span></div>
+				<div class="flow-link"></div>
+				<div class="flow-link"></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node4" class="flow-node-wrap">
+				<div class="flow-node"><span>流媒体服务器</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node5" class="flow-node-wrap">
+				<div class="flow-node"><span>流媒体服务器</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node6" class="flow-node-wrap">
+				<div class="flow-node"><span>流媒体服务器</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node7" class="flow-node-wrap">
+				<div class="flow-node"><span>数据服务器</span></div>
+				<div class="flow-link"></div>
+			</div>
+			<div id="node8" class="flow-node-wrap">
+				<div class="flow-node"><span>Web管理平台</span></div>
+			</div>
+		</div>
+		<div class="plane plane1"></div>
+		<div class="plane plane2"></div>
+	</div>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	<script>
+        $('#btn').on('click', function () {
+			setTimeout(function () {
+                $('.plane1').css({
+                    left: 240,
+                    top: 315
+                });
+                setTimeout(function () {
+                    $('.plane1').css({
+                        left: 390,
+                        top: 160
+                    });
+                }, 3000);
+            }, 0)
+
+			setTimeout(function () {
+                $('.plane2').css({
+                    left: 240,
+                    top: 315
+                });
+                setTimeout(function () {
+                    $('.plane2').css({
+                        left: 390,
+                        top: 310
+                    });
+                }, 3000);
+            }, 1000);
+        });
+
+        function Plane() {
+
+        }
+        Plane.prototype.flight = function () {
+
+        };
+
+        var plane1 = new Plane();
+
+	</script>
+</body>
+</html>

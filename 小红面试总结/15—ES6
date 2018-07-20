@@ -1,0 +1,183 @@
+1.ES6有哪些新特性？
+    类的支持；
+    模块化；
+    箭头操作符；
+    let/const块作用域；
+    字符串模版；
+    解构；
+    参数默认值／不定参数／拓展参数；
+    for遍历；
+    Generstor器；
+    Map／Set；
+    Promise！
+2.ES6的类：Class
+    （1）类的定义
+         Class 类名:Animal{
+             constructor（name）{  //ES6中新型构造器
+                 this.name=name;
+             }
+             sayName(){  //实例方法
+                 console.log("My name is"+this.name);
+             }
+         }
+    （2）类的继承：extends
+         Class 类名:Programmer extends 父类:Animal{
+             constructor(name){
+                 super(name);   //直接调用父类构造器进行初始化
+             }
+             program(){
+                 console.log("I'm coding....");
+             }
+         }
+    (3)测试一下我们的类
+         var animal=new Animal("dummy");
+         wayou=new Programmer("wayou");
+         animal.sayname();//输出 My name is dummy
+         wayou.sayname();//输出 My name is wayou
+         wayou.program();//输出 I'm coding....
+    (4)总结ES6当中的类
+         上面代码首先用Class定义了一个"类"，可以看到里面有一个constructor方法，这个就是构造方法，而this关键字则代表实例对象。
+         简单地说，constructor里面定义的方法和属性是实例对象自己的；而constructor外面定义的方法和属性则是所有实例对象可以共享的；
+
+         Class之间可以通过extends关键字来实现继承；super关键字，它指代父类的实例（即父类的this对象）；
+         子类必须在constructor中调用super方法，否则新建实例时会报错，这是因为子类没有自己的this对象，而是继承父类的this对象，然后对其进行加工；
+         如果不调用super方法，子类就得不到this对象；
+
+         ES6继承机制：实质就是先创造父类的实例对象this，然后再用子类的构造函数修改this，所以子类必须先调用super方法。
+3.ES6的模块化：module
+    module "point"{
+        export class Point{
+          constructor(x,y){
+             public x=x;
+             public y=y;
+          }
+        }
+    }
+    在myapp.js中，先声明引用的模块：
+       module point from "/point.js";
+    这里可以看出，尽管声明了引用的模块，还是可以通过指定需要的部分进行导入
+       import Point from "point"；
+    var origin=new Point(0,0);
+    console.log(origin);
+
+4.ES6的箭头函数
+    （1）用箭头函数来写function比原来的写法要简洁清晰很多，比如：
+         （i）=>i+1;    //ES6
+         （x,y）=>{x++;y--;return x+y;}   //复杂
+    （2）函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象。
+        并不是因为箭头函数内部有绑定this的机制，实际原因是箭头函数根本没有this，它的this是继承外面的，因此内部的this就是外层代码块的this。
+5.ES6的let/const作用域
+    （1）let:可以把let堪称var，只是它定义的变量被限定在了特定范围内才能使用，而离开这个范围则无效。
+            举个例子：for（let i=0;i<2;i++）{
+                       console.log(i); 结果会输出：0，1
+                    }
+                    console.log(i);  结果会输出undefined，严格模式下会报错
+    （2）const：const很直观，用来定义常量，即无法被更改值的变量。
+6.ES6的字符串模版
+    字符串模板相对简单易懂些。ES6允许使用反引号来创建字符串，此种方法创建的字符串里面可以包含由$ (美元符号)+花括号包裹的变量，如${vraible}
+    这个如果是使用过像C#等后端强类型语言的话，就不会陌生了。
+
+    产生一个随机数：
+        var number=Math.random();
+    将这个数字输出到控制台
+        console.log（(反引号)Your number is ${num}(反引号))；
+
+7.ES6的解构（从数组和对象中提取值，对变量进行赋值）
+    （1）函数返回值的解构，例如var[x,y]=getVal();
+        其中function getVal(){return[1,2];}
+    （2）数组解构，例如var[name,,age]=['wayou','male','secrect'];
+    （3）测试输出一下console.log（"x="+x+",y="+y）;    //输出x=1,y=2
+                  console.log("name="+name+",age="+age);  //输出name=wayou,age=secrect
+8.ES6 的参数默认值、不定参数、拓展参数
+    （1）参数默认值
+        ES6可以在定义函数的时候指定参数的默认值，不再像以前那样通过逻辑或操作符来达到目的了；
+        function sayHello1(name){
+           var name=name||"dude";
+           console.log("Hello "+name);
+        },这是传统的指定默认参数的方式；
+        function sayHello2（name="dude"）{
+           console.log((反引号)Hello ${name}（反引号）);
+        },这是运用ES6的方式指定默认参数；
+        测试输出一下：sayHello1();  //输出Hello dude
+                   sayHello1("wayou");  //输出Hello wayou
+                   sayHelo2();  //输出Hello dude
+                   sayHello("wayou");  //输出Hello wayou
+    (2)不定参数
+        不定参数是在函数中使用命名参数同时接收不定数量的未命名参数。这只是一种语法糖，在以前的javascript代码中我们可以通过arguments变量来达到这一目的。不定参数的格式是三个句点后跟代表不定参数的变量名。
+        比如下面这个例子，...x代表所有传入add这个将所有参数相加的这样一个函数的参数：
+           function add(...x){
+              return x.reduce((m,n)=>m+n);
+           }
+        传递任意个数的参数测试一下：
+           console.log(add(1,2,3,4));//输出10
+           console.log(add(1,2,3,4,5));//输出15
+    （3）拓展参数
+        拓展参数是另一种形式的语法糖，它允许传递数组或者类数组直接作为函数的参数而不用通过apply。
+        var people=['wayou','john','sherlock'];
+        //sayHello函数本来接收三个单独的参数人一、人二、人三
+        function sayHello(people1,people2,people3){
+           console.log((反引号)Hello ${people1},${people2},${people3}（反引号）);
+        }
+        //但是我们将一个数组以拓展参数的形式传递，它能很好的映射到每个单独的参数
+        sayHello(...people);//输出Hello wayou,john,sherlock
+        //而在以前，如果需要传递数组当参数，我们需要使用函数的apply方法
+        sayHello.apply（null,people）;//输出Hello wayou,john,sherlock
+9.ES6的for-of
+    　我们都知道for ..in..循环用于遍历数组，类数组或对象，ES6中新引入的for..of..循环功能类似，不同的是每次循环它提供的不是序号而是值。
+10.ES6的Promise的含义
+    在Promise之前，在js中的异步编程都是采用回调函数和事件的方式，但是这种编程方式在处理复杂业务的情况下，很容易出现callback hell(回调地狱)，使得代码很难被理解和维护。
+    Promise是异步编程的一种解决方案，比传统的解决方案（回调函数和事件），更合理，更强大。
+    它由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了Promise对象。
+    所谓Promise，简单说就是一个容器，里面保存着某个未来才会结束的事件的结果，这个事件通常是一个异步操作，从语法上说，Promise是一个对象，从它可以获取异步操作的消息。Promise提供统一的API。
+    各种异步操作都可以用同样的方法进行处理。
+    （1）Promise的构造函数
+        我们在通过Promise构造函数实例化一个对象时，这个函数会立即执行。
+        let promise=new Promise(function(resolve,reject){
+            console.log("Promise");
+        })；
+        console.log（"end"）;
+        程序运行结果是先输出Promise，再输出end！
+    （2）resolve和reject
+        在Promise中，对一个异步操作做出了抽象的定义，Promise操作只会处在三种状态的一种，未完成态、完成态、失败态；注意，这种状态的改变只会出现从未完成态向完成态或失败态转化，不能逆反。
+        完成态和失败态不能相互转化；而且，状态一旦转化，将不能更改。
+        只有异步操作的结果可以决定当前是哪一种状态，任何其他操作都无法改变这个状态。这也是Promise这个名字的由来，它的英文意思是承诺，表示其他手段无法改变。
+        在声明一个Promise对象实例时，我们传入的匿名函数参数中：
+           resolve就对应着完成态之后的操作；reject对应着失败态之后的操作！
+    （3）then()方法？
+        那么问题来了，then()方法有什么作用？resolve和reject又是从哪里传递过来的？
+            其实这两个问题是一个问题，在实例化一个Promise对象之后，我们调用该对象实例的then方法传递的两个参数中：
+              第一个参数（函数）对应着完成态的操作，也就是resolve；
+              第二个参数（函数）对应着失败态的操作，也就是reject；
+            那就是说，在Promise中是通过then()方法来指定处理异步操作结果的方法。
+    （4）Promise对象的优点
+        第一，有了Promise对象，就可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数；
+        第二，Promise对象提供统一的接口，使得控制异步操作更加容易。
+    （5）Promise对象的缺点
+        首先，无法取消Promise，一旦创建它，就会立即执行，无法中途取消；
+        其次，如果不设置回调函数，Promise内部抛出的错误，不会反应到外部。
+        第三，当处于Pending状态时，无法得知目前进展到哪一个阶段，判断它是刚刚开始还是即将完成；
+        如果某些事件不断的反复发生，一般来说，使用stream是比部署Promise更好的选择。
+11.ES6的Generator
+    （1）Generator函数是携程在ES6的实现，最大特点就是可以交出函数的执行权，即暂停执行。写法如下：
+         function *generator(x){
+            var y=yeild x+2;
+            return y;
+         }
+         解释一下，这就是一个Generator函数。它不同于普通函数，是可以暂停执行的。所以函数名之前要加星号，以示区别。
+         整个Generator函数就是一个封装的异步任务，或者说是异步任务的容器。异步操作需要暂停的地方，都用yeild语句注明。
+         Generator函数的执行方法如下：
+            var g=generator(1);
+            g.next();  //{value:3,done:false}
+            g.next();  //{value:undefined,done:true}
+         上面代码中，调用Generator函数，会返回一个内部指针g,即遍历器.
+    (2)这是Generator函数不同于普通函数的另一个地方，即执行它不会返回结果，返回的是指针对象，调用指针g的next方法，会移动内部指针，即执行异步任务的第一段，
+    指向第一个遇到的yeild语句，上例是执行到x+2为止。换句话说，next方法的作用是分阶段执行Generator 函数，每次调用next方法，会返回一个对象，表示当前阶段的信息，
+    value属性和done属性；
+    value属性是yeild语句后面表达式的值，表示当前阶段的值；
+    done属性是一个布尔值，表示Generator函数是否执行完毕，即是否还有下一个阶段。
+
+
+
+
+
+

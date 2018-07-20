@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<p>
+    3.本地存储：
+        （Q1）cookie和session的区别有哪些？
+        （1）存储大小：cookie存的比较小，大小只能达到4K；
+        session存的比较大，最大能达到5M；
+        （2）存储位置不同：cookie存储在客户端；session存储在服务器端；
+        （3）cookie存在客户端，它可以跟着前段请求发送到后台；
+        session本身就存储在服务器端，它不可以跟着前段请求发送到后台；
+        （4）使用场合有差别：cookie一般是用在记录用户名这种场合；
+        session一般用在用户验证这种场合；
+        （5）session的运行依赖性session ID，而session ID一般是存在cookie里的，也就是说，如果浏览器禁用cookie的话，同时session也会失效。
+        （有解决办法吗？怎么解决呢？
+        有解决办法，我们可以通过其他方式实现，比如在URL中传递session ID）
+        （Q2）sessionStorage，localStorage和cookie的区别？
+        （1）存储大小不同：首先说一下cookie，cookie数据不能超过4K，而且因为每次http请求都会携带cookie，所以cookie只适合保存很小的数据，比如说会话标识；
+        再来说一下sessionStorage和localStorage，它俩虽然也有存储大小的限制，但是跟cookie比大多了，它俩能达到5M；
+        （2）存储位置不同：cookie是存储在本地的，但是它可以在浏览器和服务器之间来回传递。另外，cookie数据还有路径的概念，可以限制cookie只属于某个路径之下；
+        sessionStorage和localStorage不会自动把数据发给服务器，仅在本地保存；
+        （3）作用域不同：cookie在所有同源窗口中都是共享的；
+        sessionStorage只在同一个浏览器窗口中共享，即使是同一个页面在不同窗口也不可以；
+        localStorage和cookie类似，也是在所有同源窗口中都是共享的；
+        （4）有效时间不同：cookie只在所设置的过期时间之前有效；
+        sessionStorage在当前浏览器窗口关闭前有效；
+        localStorage始终有效，窗口或者浏览器关闭也一直有效；
+</p>
+</body>
+</html>

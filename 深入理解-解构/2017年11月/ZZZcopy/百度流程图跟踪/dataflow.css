@@ -1,0 +1,99 @@
+.flow-holder{
+    text-align: center;
+    padding: 10px;
+}
+.flow-holder div{
+}
+.flow-holder .flow-title{
+    font-size: 28px;
+    margin: 10px auto;
+}
+.flow-holder .flow-desc{
+    font-size: 16px;
+}
+.flow-holder .flow-node{
+    width: 100px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.flow-holder .flow-node.circle{
+    border-radius: 50%;
+}
+.flow-holder .flow-subnodes{
+}
+.flow-holder .flow-subnodes li{
+    color: #fff;
+    text-align: left;
+}
+.flow-holder .flow-node.vertical{
+    margin: 20px auto;
+}
+.flow-holder .flow-node.horizontal{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+.flow-holder .flow-node.done{
+    background: #61B540;
+}
+.flow-holder .flow-node.undone{
+    background: #B50714;
+}
+.flow-holder .flow-node.doing{
+    -webkit-animation: blink_2s 2s ease infinite;
+    -o-animation: blink_2s 2s ease infinite;
+    animation: blink_2s 2s ease infinite;
+}
+@-webkit-keyframes blink_2s {
+    0%{
+        background: #61B540;
+    }
+    50%{
+        background: #FFA411;
+    }
+    100%{
+        background: #61B540;
+    }
+}
+.flow-holder .flow-node:hover{
+    -webkit-box-shadow: 0px 0px 10px rgb(236,234,6);
+    -moz-box-shadow:  0px 0px 10px rgb(236,234,6);
+    box-shadow: 0px 0px 10px rgb(236,234,6);
+}
+.flow-holder .flow-node-title{
+    color: #fff;
+    font-size: 16px;
+}
+.flow-holder .flow-node-desc{
+    display: none;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px;
+    position: absolute;
+}
+.flow-holder .flow-node-link{
+    width: 50px;
+    /*-webkit-animation: increase_2s 2s ease infinite;
+    -o-animation: increase_2s 2s ease infinite;
+    animation: increase_2s 2s ease infinite;*/
+}
+@-webkit-keyframes increase_2s {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50px;
+    }
+}
+.flow-holder .flow-node-link.vertical{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.flow-holder .flow-node-link.horizontal{
+    width: 50px;
+    vertical-align: middle;
+}

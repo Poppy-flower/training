@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自定义事件测试</title>
+	<link rel="stylesheet" href="tabview.css">
+</head>
+<body>
+
+	<div class="tabview" id="tabview1">
+		<ul class="tabview-tab">
+			<li class="active">js</li>
+			<li>css</li>
+			<li>html</li>
+		</ul>
+		<div class="tabview-content">
+			<div class="tab-pane active">111</div>
+			<div class="tab-pane">222</div>
+			<div class="tab-pane">333</div>
+		</div>
+	</div>
+
+	<script src="utils.js"></script>
+	<script src="tabview.js"></script>
+	<script src="event.js"></script>
+	<script>
+
+		//创建tabview组件，为其设置初始化参数
+		new Tabview({
+			el: '#tabview1',
+			width: 400
+		});
+
+		var myEvent = new Event();
+		myEvent.listen('tabs/js', 'open', function(data){
+			console.log(data.title);
+		});
+		myEvent.listen('tabs/css', 'open', function(data){
+			console.log(data.title);
+		});
+		myEvent.listen('tabs/html', 'open', function(data){
+			console.log(data.title);
+		});
+
+		var tabview1 = utils.$('#tabview1');
+		var aTabs = tabview1.getElementsByTagName('li');
+		for(var i=0; i<aTabs.length; i++){
+			aTabs[i].addEventListener('click', function(){
+				myEvent.fire('tabs/'+this.innerHTML, 'open', {
+					title: this.innerHTML			
+				});
+
+			}, false);
+		}
+
+	</script>
+</body>
+</html>

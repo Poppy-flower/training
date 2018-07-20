@@ -1,0 +1,42 @@
+1.VUE.js
+    VUE是以数据为驱动的，VUE自身将DOM和数据进行绑定，一旦创建绑定，DOM和数据将保持同步，每当数据发生变化，DOM会跟着变化。
+
+    ViewModel是VUE的核心，它是VUE的一个实例。VUE实例时作用域某个HTML元素上的，这个HTML元素可以是body，也可以是是某个ID所指代的元素。
+
+    DOM Listeners和DATA Bindings是实现双向数据绑定的关键。DOM Listeners监听页面所有View层DOM元素的变化，当发生变化，Model层的数据随之发生变化；DATA Bindings监听Model层的数据，当数据发生变化，View层的DOM元素随之变化。
+
+2.Vue.js特点：
+    （1）简洁：页面由HTML模板+JSON数据+Vue实例组成
+    （2）数据驱动：自动计算属性和追踪依赖的模板表达式
+    （3）组件化：用可复用、解耦的组建来构造页面
+    （4）轻量：代码量小，不依赖其他库
+    （5）快速：精确有效批量DOM更新
+    （6）模板友好：可通过npm、bower等多种方式安装，很容易融入；
+3.Vue.js常用指令
+    （1）v-if指令，条件判断指令
+    （2）v-show指令，条件渲染指令，与v-if不同的是，无论v-show的值为true或false，元素都会存在于HTML代码中；
+         而只有当v-if的值为true时，元素才会存在于HTML代码中。v-show指令只是设置了元素的style值。
+    （3）v-else指令，可配合v-if使用，v-else指令必须紧邻v-if，否则该指令无法正常工作。
+        v-else绑定的元素能否渲染在HTML中，取决于前面使用的v-if。若前面使用的是v-if，且v-if值为true时，v-else元素不会渲染；
+    （4）v-for指令，循环指令，基于一个数组渲染一个列表，与javascript遍历类似；
+    （5）v-bind指令，给DOM绑定元素属性，v-bind指令可以缩写为冒号（：）；
+    （6）v-on指令，用于监听DOM事件，v-on指令可以缩写为@符号；
+    （7）v-html指令
+    （8）v-text指令
+    （9）v-model指令，双向数据绑定
+4.VUE的生命周期？
+
+5.VUE怎么声明一个组件？
+     全局注册组件
+     Vue.component("my-component",{
+         template:''// 表示HTML结构
+     });
+     局部注册组件
+     var Child={
+         template:""// 表示HTML结构
+     }
+     new Vue({
+         components:{
+             'my-component':Child
+         }
+     })

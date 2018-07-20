@@ -1,0 +1,6 @@
+1.如何实现浏览器内多个标签页之间的通信？
+     WebSocket、SharedWorker
+     也可以调用localStorage,cookie等本地存储方式。
+     localStorage另一个浏览器上下文被添加、修改或删除时，它都会触发一个事件，我们通过监听事件，控制它的值来进行页面信息通信。
+     注意quirks:Safari在无痕模式下设置localStorage值时会抛出QuotaExceededError的异常。
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<span class="icon icon-title">title</span>
+			Hello Title.
+		</div>
+	</div>
+
+	<script>
+		/**
+			@param type 可能是一个标签的名字，也可能是一个组件函数
+			@param props 是一个js对象，代表一个属性集
+			@param children 是子元素，它一个数组或者是一个字符串
+			@return html字符串
+		*/
+		function createElement(type, props, children){
+			var html = '';
+			if(typeof type === 'string'){//代表传入标签名称
+				var sAttr = '';
+				for(var p in props){
+					sAttr += p + '="' + props[p] + '" ';// class="container"
+				}
+				html += '<' + type + ' ' + sAttr + '>'+children+'</' + type + '>';
+			}else if(typeof type === 'function'){//代表组件函数
+				var sConponent = type(props); //=>"<div class="title"></div>"
+				var tempParentNode = document.createElement('div');
+				tempParentNode.innerHTML = sConponent;
+				tempParentNode.firstChild.innerHTML = children;
+				html = tempParentNode.innerHTML;//"<div class="title">Hello Title.</div>"
+
+			}
+			props.children = children;
+			return html;
+		}
+
+		function Icon(props) {
+			return createElement('span', {class: 'icon icon-' + props.type}, props.type);
+		}
+
+		function Title(props){
+			return createElement('div', {class: 'title'}, [createElement(Icon, {type: 'title'})].concat(props.children));
+		}
+
+		var result = createElement('div', {class: 'container'}, createElement(Title, null, 'Hello Title.'));
+
+		var html = '<div class="container"><div class="title"><span class="icon icon-title">title</span>Hello Title.</div></div>';
+		//alert(result === html);//=> true
+		console.log(result);
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+3.两列布局，左边固定，右边自适应怎么实现？
+    两种方法，一种是浮动；第二种是CSS3 的弹性盒模型
+    （1）<div id='div1>  // 设置固定宽度
+            </div>
+            <div id='div2> //float:left;  margin-left:第一个div的宽度；
+        </div>
+    （2）<div  id='father'>  //父div设置display：box;
+            <div id='div1'></div>  //第一个设置固定宽度
+            <div id="div2"></div>  //第二个设置box-flex:1;
+        </div>
+
+4.三列布局，左边和右边固定，中间自适应怎么实现？
+    两种方法，一种是浮动；第二种是CSS3 的弹性盒模型
+    （1）    <div id='div1'></div>//设置固定宽度，float：left
+            <div id='div3'></div>//设置固定宽度，float：right
+            <div  id='div2'></div>//设置margin-left和margin-right，避免遮挡;
+    （2）给父div设置display：box;剩下的第一个和第三个设置固定宽度；第二个设置box-flex:1;

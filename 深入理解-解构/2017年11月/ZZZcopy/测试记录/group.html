@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		10/4=2.5;=>3,3,2,2
+		20/7=3,3,3,3,3,3,2
+		9/4=3,2,2,2
+		//[3,3,2,2]
+		function group(personNum, groupNum){
+			var result = [], 
+				average;
+			if(personNum % groupNum == 0){不按写死的
+				average = personNum / groupNum;
+				for(var i=0; i<groupNum.length; i++){
+					result.push(average);
+				}
+				personNum-Math.floor(personNum / groupNum)*    //10-Math.floor(2.5)=10-
+
+				他没明白咱们的意思
+				再重新说一次
+
+				让他别着急，再说一次
+
+				滤清思路，再说一次
+
+				我知道，
+
+				别急
+
+				先用personNum / groupNum，这样得到一个数，可能是整数，也可能是小数，但总之向下取整
+
+				用这个数乘以groupNum,这样可以得到一个8
+				然后用personNum-这个8，得到一个剩余人数，就是2
+
+				再想想吧，给他打过去一会
+
+				var num = Math.floor(personNum / groupNum);
+
+				for(var i=0; i<groupNum.length; i++){
+					result.push(groupNum * num);
+				}
+				var shengyu = num * groupNum;
+				for(var i=0; i<shengyu; i++){
+					
+				}
+
+
+
+			}else{
+				personNum / groupNum;
+				按照我刚才和你说的，我知道有一个算法去区分有多少组是向上取整，有一些是向下取整，但是这个算法我想不到
+
+				我可以肯定是一些向上取整，一些向下取整，但是我不知道哪些向上取整，哪些向下取整
+				对，我就是这个判断点想不到
+				给个提示吧
+				10/4 ~~ 2
+				??
+
+			}
+
+
+
+			return result;
+
+		}	
+
+		console.log(   group(10, 4)  );
+	</script>
+</body>
+</html>

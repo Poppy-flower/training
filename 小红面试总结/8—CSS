@@ -1,0 +1,50 @@
+1.介绍一下标准的CSS盒模型？它和低版本的IE盒模型有什么区别？
+   （1）有两种：IE盒模型、W3C标准盒模型
+   （2）盒模型：内容（content）、填充（padding）、边框（border）、边界（margin）
+   （3）区别：IE的content部分把padding和border算了进去。
+  CSS3里面有什么语法能控制浏览器以什么方式解析盒模型？
+    box-sizing的语法：
+       box-sizing:content-box||border-box;
+    其中：content-box，告知浏览器以标准模式解析，也是默认模式；
+         border-box，告知浏览器以怪异模式解析；
+2.CSS优先级算法如何计算？
+    优先级就近原则，同权重情况下样式定义最近者为准；
+    载入样式以最后载入的定位为准；
+    优先级为：!important>id>class>tag,important比内敛样式优先级高（style）
+3.position的absolute和fixed有什么区别？
+    absolute浮动定位是相对于父级中设置position为absolute或者relative的最近的父元素；
+    fixed浮动定位是相对于浏览器窗口的；
+4.IE8以下版本的浏览器中盒模型有什么不同？
+    IE8以下的版本浏览器的盒模型中定义的元素的宽高不包括内边距和边框。
+5.为什么要使用CSS sprites?
+    CSS sprites 其实就是把网页中一些背景图片整合到一张图片文件中，再利用CSS的'background-image'和'background-position'的组合进行背景定位，这样可以减少很多图片请求的开销，因为请求耗时比较长；虽然请求可以并发，但是如果请求太会给服务器增加很大的压力。
+6.CSS的哪些属性是可以继承的？哪些是不可以继承的？
+
+7.link和@import的区别？
+     （1）link属于XHTML标签，除了加载CSS外，还能用于定义RSS，还有定义rel连接属性等作用；而@import是CSS提供的，只能加载CSS；
+     （2）页面被加载时，link会同时被加载；而@import引入的CSS会等到页面被加载完再加载；
+     （3）import是CSS2.1提出的，只有IE5以上才能被识别；而link是XHTML标签，无兼容性问题
+8.display
+    display:none;（设置元素隐藏）
+    display:block;（设置元素为块级元素显示）
+    display:inline;（设置元素为行级元素显示）
+    display:inline-block;（设置元素为块行级元素显示）
+    display:table;（设置父元素多行文字居中）
+    display:table-cell;（设置子元素多行文字居中）
+    display:box;(设置父元素使用CSS3的弹性盒模型)
+9.position
+    position：static;
+    position:relative;
+    position:absolute;
+    position:fixed;
+10.取消a标签的默认行为
+    (1)href="#"
+    (2)href="javascript:void(0)"
+    (3)添加click事件,处理函数中return false;
+    (4)非IE的用"e.preventDefault();";
+       IE的用"window.event.returnValue = false;"
+11.文字超出部分省略号
+   overflow：hidden；
+   text-overflow：ellipsis；
+   white-space：nowrap;
+12.说一下CSS的兼容性问题

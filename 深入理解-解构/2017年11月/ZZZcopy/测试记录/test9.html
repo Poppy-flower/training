@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		img{
+			visibility: hidden;
+		}
+		img{
+			opacity: 0;
+			filter: alpha(opacity=0);
+		}
+	</style>
+</head>
+<body>
+	<img src="1.jpg" alt="">
+
+	<script>
+		//2,3,4,5=>5,4,3,2
+		/*Array.prototype.reverse = function(){
+			var arr2 = [];
+			for(var i=this.length-1; i>=0; i--){
+				arr2.push(arr[i]);
+			}
+			return arr2;
+		};
+
+		var arr = [2,3,4,5];
+		console.log(arr.reverse());*/
+		'use strict';
+		var b;
+		(function(){
+			var a = b = 5;
+		})();
+
+		// console.log(a);
+		console.log(b);
+	</script>
+</body>
+</html>

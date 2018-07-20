@@ -1,0 +1,52 @@
+<script>
+//如果想对某一列进行排序，只需要将该列的表头th加上class="sort_able"即可
+
+function $(elemId){
+	return document.getElementById(elemId);
+}
+function sortTable(tableId, colIdx, sortType){
+	var oTbody = $(tableId).tBodies[0];//得到指定id的表格对象下的tbody
+	var dataRows = oTbody.rows;
+	
+	var sortRows = [];
+	for(i=0; i<dataRows.length; i++){
+		sortRows.push(dataRows[i]);
+	}
+	
+	//if(oTbody.sortColIdx == colIdx){
+		//sortRows.reverse();
+	//}else{
+		sortRows.sort(function(oTr1, oTr2){
+			var cellVal1 = oTr1.cells[colIdx].textContent;//firstChild.nodeValue
+			var cellVal2 = oTr2.cells[colIdx].textContent;
+			return sortType=="asc"?compare(cellVal1, cellVal2):compare(cellVal2, cellVal1);
+		});
+	//}
+	
+	for(i=0; i<sortRows.length; i++){
+		oTbody.appendChild(sortRows[i]);
+	}
+	//oTbody.sortColIdx = colIdx;
+};
+
+function compare(val1, val2){
+	if(!isNaN(val1) && !isNaN(val2)){
+		return parseInt(val1) - parseInt(val2);
+	}
+
+	return val1.localeCompare(val2);
+}
+
+window.onload = function(){
+	var sortType = "asc";
+	var sortCols = $(tableId).getElementsByClassName("sort_able");
+	for(i=0; i<sortCols.length; i++){
+		var sortCol = sortCols[i];
+		sortCol.onclick = function(){
+			sortType = (sortType == "asc")?"desc":"asc";
+			this.className = "sort_" + sortType;			
+			sortTable("tableSort", this.parentNode.cellIndex, sortType);
+		};
+	}
+};
+</script>

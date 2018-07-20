@@ -1,0 +1,43 @@
+<script>
+	/*var foo = 10 + '20';
+	console.log(foo);*/
+	// console.log("I' m a lasagna hog".split('').reverse().join(''));
+	// console.log(window.foo||(window.foo='bar'));
+	/*var foo = {n:1};
+	var bar = foo;
+	foo.x = foo = {n:2};
+	console.log(foo.x);*/
+
+
+	var num = 45678123;
+	var group = [[],[],[]];
+
+	(function(arr, group){
+		var size = group.length;
+		var length = arr.length;
+
+		while(arr.length){
+			for(var i=0; i<length; i++){
+				var index = Math.random()*arr.length | 0;
+				group[i % size].push(arr[index]);
+				arr.splice(index, 1);
+			}
+		}
+		console.log(group);
+	})(  (num+"").split(""), group );
+
+	
+
+	/*var name = 'window1';
+	var obj = {
+		name: 'obj',
+		child: {
+			name: 'child',
+			getName: function(){
+				return this.name;
+			}
+		}
+	};
+	var getName = obj.child.getName;
+	console.log(getName());*/
+</script>

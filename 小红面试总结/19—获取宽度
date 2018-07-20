@@ -1,0 +1,11 @@
+1.说一下怎样获取宽度吧？
+    我们可以通过JS的方式获取宽度，也可以通过JQuery的方式获取宽度；
+    第一，通过JS的方式获取宽度：
+       （1）styleWidth，它获取到的是元素的content内容部分的宽度；
+       （2）clientWidth,它获取到的是元素的content+padding，内容和内边距的宽度；
+       （3）offsetWidth，它获取到的时元素的content+padding+border，内容和内边距还有边框的宽度；
+    第二，通过JQuery的方式获取宽度：
+       （1）width（）:获取的是元素的content内容宽度
+       （2）innerWidth():获取的是元素content+padding的宽度
+       （3）outerWidth():获取的是元素content+padding+border的宽度
+       （4）outerWidth(true):获取的是元素content+padding+border+margin的宽度

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>二分查找</title>
+</head>
+<body>
+<p>
+    1.js里面的数据结构有哪些？
+</p>
+<script>
+    (function(){
+        console.log(typeof a);
+        console.log(typeof a());
+        function a(){
+            return a;
+            var a=1;
+        }
+        var a=10;
+    })();
+    //变量提升，函数执行结果是function，undefined
+
+    (function(){
+        var User = {
+            count : 1,
+            getCount : function(){
+                return this.count;
+            }
+        };
+        console.log(User.getCount());
+        var func = User.getCount;
+        console.log(func());
+    })();
+    //函数执行结果是1，undefined
+
+
+
+
+</script>
+</body>
+</html>
