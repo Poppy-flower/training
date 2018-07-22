@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    /**
+     * es6 继承
+     */
+
+    class Father{
+        constructor(name){
+            this.name = name;
+        }
+
+        getName(){
+            console.log(this.name);
+        }
+
+        //这里是父类的f方法
+        f(){
+            console.log('fffffffffffffff');
+        }
+    }
+
+    class Son extends Father{
+        constructor(name, age){
+            super(name);  //HACK:这里super要写在第一行；
+            this.age = age;
+        }
+
+        getAge(){
+            console.log(this.age);
+        }
+
+        //这里是子类的f方法
+        f(){
+            console.log('ssssssssssssss');
+        }
+    }
+
+
+    var son1 = new Son('张三儿子一', 12);
+    son1.getName();  //张三儿子1
+    son1.getAge();   //12
+    console.log(son1.__proto__);  //谷歌运行是Father？  网上说：Son,不用修正
+    son1.f(); //ssssssssssssss
+
+    son1.__proto__ = new Father(); //改变son1的原型指向
+    son1.f(); //fffffffffffffff
+    console.log(son1.__proto__); //Father
+
+
+    /**
+     * __proto__:
+     *  javascript 给对象提供了一个 __proto__ 的隐藏属性，某个对象的 __proto__ 属性默认会指向它的构造器的原型对象。
+     *  这个是被实例化后的对象才有的属性，是个指向。
+     */
+
+    /**
+     * prototype:
+     *  这里prototype是个对象。
+     *  在 es5 中可以借助 classMy.prototype.fn = function(){} 来对类进行添加可以被所有子类继承的方法。
+     *  我在es6 中几乎没用到这个属性。
+     */
+
+
+
+
+</script>
+</body>
+</html>

@@ -2,54 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/10—居中和布局" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/11—HTTP／响应的状态码" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/12—jQuery" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/13—VUE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/14—React" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/15—ES6" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/16—Node" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/17—javascript基础" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/18—JS的闭包" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/19—获取宽度" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/1—自我介绍" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/2.sass" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/20—跨域" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/21—自定义属性" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/22—渐进增强，优雅降级" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/23—页面通信" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/24—require" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/26—双向数据绑定" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/27—数组去重" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/28—排序" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/29—操作系统" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/2—HTML与HTML5比较等" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/30—算法" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/31-javascript常用代码" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/3—HTML5" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/4—浏览器" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/5—前端性能优化" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/6—缓存Ajax" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/7—配置Etags" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/8—CSS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/9—CSS3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/小红面试总结/说项目" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/BFC.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/XSS 攻击.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/arguments 转化为数组.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/http状态码.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/setTimeout 输出01234改造题.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/优先队列.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/垂直居中.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/最少硬币.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/继承.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/链式调用求和.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/深入理解rem 原理/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/es6继承.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/移动端开发/深入理解rem 原理/index.html" afterPath="$PROJECT_DIR$/小红面试总结/25—Angular" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/1.html" afterPath="$PROJECT_DIR$/面试总结2017/1.html" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/10—居中和布局" afterPath="$PROJECT_DIR$/面试总结2017/10—居中和布局" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/11—HTTP／响应的状态码" afterPath="$PROJECT_DIR$/面试总结2017/11—HTTP／响应的状态码" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/12—jQuery" afterPath="$PROJECT_DIR$/面试总结2017/12—jQuery" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/13—VUE" afterPath="$PROJECT_DIR$/面试总结2017/13—VUE" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/14—React" afterPath="$PROJECT_DIR$/面试总结2017/14—React" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/15—ES6" afterPath="$PROJECT_DIR$/面试总结2017/15—ES6" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/16—Node" afterPath="$PROJECT_DIR$/面试总结2017/16—Node" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/17—javascript基础" afterPath="$PROJECT_DIR$/面试总结2017/17—javascript基础" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/18—JS的闭包" afterPath="$PROJECT_DIR$/面试总结2017/18—JS的闭包" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/19—获取宽度" afterPath="$PROJECT_DIR$/面试总结2017/19—获取宽度" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/1—自我介绍" afterPath="$PROJECT_DIR$/面试总结2017/1—自我介绍" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/2.html" afterPath="$PROJECT_DIR$/面试总结2017/2.html" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/2.sass" afterPath="$PROJECT_DIR$/面试总结2017/2.sass" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/20—跨域" afterPath="$PROJECT_DIR$/面试总结2017/20—跨域" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/21—自定义属性" afterPath="$PROJECT_DIR$/面试总结2017/21—自定义属性" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/22—渐进增强，优雅降级" afterPath="$PROJECT_DIR$/面试总结2017/22—渐进增强，优雅降级" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/23—页面通信" afterPath="$PROJECT_DIR$/面试总结2017/23—页面通信" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/24—require" afterPath="$PROJECT_DIR$/面试总结2017/24—require" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/25—Angular" afterPath="$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/26—双向数据绑定" afterPath="$PROJECT_DIR$/面试总结2017/26—双向数据绑定" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/27—数组去重" afterPath="$PROJECT_DIR$/面试总结2017/27—数组去重" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/28—排序" afterPath="$PROJECT_DIR$/面试总结2017/28—排序" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/29—操作系统" afterPath="$PROJECT_DIR$/面试总结2017/29—操作系统" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/2—HTML与HTML5比较等" afterPath="$PROJECT_DIR$/面试总结2017/2—HTML与HTML5比较等" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/30—算法" afterPath="$PROJECT_DIR$/面试总结2017/25—Angular" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/31-javascript常用代码" afterPath="$PROJECT_DIR$/面试总结2017/31-javascript常用代码" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/3—HTML5" afterPath="$PROJECT_DIR$/面试总结2017/3—HTML5" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/4—浏览器" afterPath="$PROJECT_DIR$/面试总结2017/4—浏览器" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/5—前端性能优化" afterPath="$PROJECT_DIR$/面试总结2017/5—前端性能优化" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/6—缓存Ajax" afterPath="$PROJECT_DIR$/面试总结2017/6—缓存Ajax" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/7—配置Etags" afterPath="$PROJECT_DIR$/面试总结2017/7—配置Etags" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/8—CSS" afterPath="$PROJECT_DIR$/面试总结2017/8—CSS" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/9—CSS3" afterPath="$PROJECT_DIR$/面试总结2017/9—CSS3" />
+      <change beforePath="$PROJECT_DIR$/小红面试总结/说项目" afterPath="$PROJECT_DIR$/面试总结2017/说项目" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/10/images/xiao hai.jpg" afterPath="$PROJECT_DIR$/潭州课堂/10背景/images/xiao hai.jpg" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/10/index.html" afterPath="$PROJECT_DIR$/潭州课堂/10背景/index.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/10/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/10背景/index2.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/checked.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/checked.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/empty.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/empty.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/first-line.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/first-line.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/input的伪类.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/not.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/not.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/一些伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/一些伪类.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/属性选择器.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/属性选择器.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/21/结构性伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/结构性伪类.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/images/01.jpg" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/images/01.jpg" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/index.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/index2.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/images/01.jpg" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/images/01.jpg" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index.html" />
+      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index2.html" />
+      <change beforePath="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" />
+      <change beforePath="$PROJECT_DIR$/面试笔记/今日头条社招/继承.html" afterPath="$PROJECT_DIR$/面试总结2017/30—算法" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,47 +72,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="最少硬币.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/最少硬币.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="优先队列.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/优先队列.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="垂直居中.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/垂直居中.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BFC.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/BFC.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http状态码.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="http状态码.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/http状态码.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -113,11 +82,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="链式调用求和.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/链式调用求和.html">
+      <file leaf-file-name="es6继承.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es6继承.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="201">
+              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01优先级.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es5继承.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -126,38 +125,48 @@
       <file leaf-file-name="css 动画.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-513">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XSS 攻击.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/XSS 攻击.html">
+      <file leaf-file-name="index3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-700">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arguments 转化为数组.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/arguments 转化为数组.html">
+      <file leaf-file-name="index4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setTimeout 输出01234改造题.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/setTimeout 输出01234改造题.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -178,10 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/快捷键联系/css.md" />
-        <option value="$PROJECT_DIR$/快捷键联系/html.md" />
-        <option value="$PROJECT_DIR$/快捷键联系/index.html" />
-        <option value="$PROJECT_DIR$/快捷键练习/css.md" />
         <option value="$PROJECT_DIR$/深入理解this/index.html" />
         <option value="$PROJECT_DIR$/深入理解this/严格模式.html" />
         <option value="$PROJECT_DIR$/深入理解this/箭头函数中的this.html" />
@@ -229,6 +234,10 @@
         <option value="$PROJECT_DIR$/深入理解promise/00异步javascript与promise.html" />
         <option value="$PROJECT_DIR$/小红面试总结/4—浏览器" />
         <option value="$PROJECT_DIR$/小红面试总结/6—缓存Ajax" />
+        <option value="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" />
+        <option value="$PROJECT_DIR$/面试笔记/今日头条社招/继承.html" />
+        <option value="$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html" />
+        <option value="$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html" />
       </list>
     </option>
   </component>
@@ -245,9 +254,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="y" value="-180" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,19 +305,20 @@
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="面试笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="面试笔记" type="462c0819:PsiDirectoryNode" />
-              <item name="今日头条社招" type="462c0819:PsiDirectoryNode" />
+              <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
+              <item name="20选择器优先级" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,11 +394,12 @@
       <workItem from="1531924341870" duration="1280000" />
       <workItem from="1532009070381" duration="1407000" />
       <workItem from="1532064171695" duration="930000" />
+      <workItem from="1532092634598" duration="5901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98055000" />
+    <option name="totallyTimeSpent" value="103956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -397,6 +407,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -409,7 +420,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -425,90 +435,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call - 继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解改变this/call常用应用3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解闭包/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/区别.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/解构赋值中的圆括号问题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/对象解构/对象解构.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Generator函数解构赋值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Set解构赋值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/数组解构.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/默认值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -621,94 +547,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/1.html">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/1—自我介绍">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/1—自我介绍">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/2.html">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/2.sass">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/2.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/2—HTML与HTML5比较等">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/2—HTML与HTML5比较等">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/3—HTML5">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/3—HTML5">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/4—浏览器">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/4—浏览器">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/5—前端性能优化">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/5—前端性能优化">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/6—缓存Ajax">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/6—缓存Ajax">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/7—配置Etags">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/7—配置Etags">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/8—CSS">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/8—CSS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/小红面试总结/10—居中和布局">
+    <entry file="file://$PROJECT_DIR$/面试总结2017/10—居中和布局">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -752,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/XSS 攻击.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -784,10 +695,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/21css3高级选择器/属性选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/21css3高级选择器/结构性伪类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/10背景/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/10背景/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/6/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/6/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/6/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/http状态码.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es6继承.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
