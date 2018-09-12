@@ -2,63 +2,246 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/es6继承.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript 语言精粹/第一章/javascript.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/1.html" afterPath="$PROJECT_DIR$/面试总结2017/1.html" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/10—居中和布局" afterPath="$PROJECT_DIR$/面试总结2017/10—居中和布局" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/11—HTTP／响应的状态码" afterPath="$PROJECT_DIR$/面试总结2017/11—HTTP／响应的状态码" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/12—jQuery" afterPath="$PROJECT_DIR$/面试总结2017/12—jQuery" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/13—VUE" afterPath="$PROJECT_DIR$/面试总结2017/13—VUE" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/14—React" afterPath="$PROJECT_DIR$/面试总结2017/14—React" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/15—ES6" afterPath="$PROJECT_DIR$/面试总结2017/15—ES6" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/16—Node" afterPath="$PROJECT_DIR$/面试总结2017/16—Node" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/17—javascript基础" afterPath="$PROJECT_DIR$/面试总结2017/17—javascript基础" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/18—JS的闭包" afterPath="$PROJECT_DIR$/面试总结2017/18—JS的闭包" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/19—获取宽度" afterPath="$PROJECT_DIR$/面试总结2017/19—获取宽度" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/1—自我介绍" afterPath="$PROJECT_DIR$/面试总结2017/1—自我介绍" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/2.html" afterPath="$PROJECT_DIR$/面试总结2017/2.html" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/2.sass" afterPath="$PROJECT_DIR$/面试总结2017/2.sass" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/20—跨域" afterPath="$PROJECT_DIR$/面试总结2017/20—跨域" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/21—自定义属性" afterPath="$PROJECT_DIR$/面试总结2017/21—自定义属性" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/22—渐进增强，优雅降级" afterPath="$PROJECT_DIR$/面试总结2017/22—渐进增强，优雅降级" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/23—页面通信" afterPath="$PROJECT_DIR$/面试总结2017/23—页面通信" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/24—require" afterPath="$PROJECT_DIR$/面试总结2017/24—require" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/25—Angular" afterPath="$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/26—双向数据绑定" afterPath="$PROJECT_DIR$/面试总结2017/26—双向数据绑定" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/27—数组去重" afterPath="$PROJECT_DIR$/面试总结2017/27—数组去重" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/28—排序" afterPath="$PROJECT_DIR$/面试总结2017/28—排序" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/29—操作系统" afterPath="$PROJECT_DIR$/面试总结2017/29—操作系统" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/2—HTML与HTML5比较等" afterPath="$PROJECT_DIR$/面试总结2017/2—HTML与HTML5比较等" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/30—算法" afterPath="$PROJECT_DIR$/面试总结2017/25—Angular" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/31-javascript常用代码" afterPath="$PROJECT_DIR$/面试总结2017/31-javascript常用代码" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/3—HTML5" afterPath="$PROJECT_DIR$/面试总结2017/3—HTML5" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/4—浏览器" afterPath="$PROJECT_DIR$/面试总结2017/4—浏览器" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/5—前端性能优化" afterPath="$PROJECT_DIR$/面试总结2017/5—前端性能优化" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/6—缓存Ajax" afterPath="$PROJECT_DIR$/面试总结2017/6—缓存Ajax" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/7—配置Etags" afterPath="$PROJECT_DIR$/面试总结2017/7—配置Etags" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/8—CSS" afterPath="$PROJECT_DIR$/面试总结2017/8—CSS" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/9—CSS3" afterPath="$PROJECT_DIR$/面试总结2017/9—CSS3" />
-      <change beforePath="$PROJECT_DIR$/小红面试总结/说项目" afterPath="$PROJECT_DIR$/面试总结2017/说项目" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/10/images/xiao hai.jpg" afterPath="$PROJECT_DIR$/潭州课堂/10背景/images/xiao hai.jpg" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/10/index.html" afterPath="$PROJECT_DIR$/潭州课堂/10背景/index.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/10/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/10背景/index2.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/checked.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/checked.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/empty.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/empty.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/first-line.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/first-line.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/input的伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/input的伪类.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/not.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/not.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/一些伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/一些伪类.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/属性选择器.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/属性选择器.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/21/结构性伪类.html" afterPath="$PROJECT_DIR$/潭州课堂/21css3高级选择器/结构性伪类.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/images/01.jpg" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/images/01.jpg" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/index.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-6节课作业/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-6节课作业/index2.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/images/01.jpg" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/images/01.jpg" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index.html" />
-      <change beforePath="$PROJECT_DIR$/潭州课堂/9/08-7节课作业/index2.html" afterPath="$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index2.html" />
-      <change beforePath="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" afterPath="$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html" />
-      <change beforePath="$PROJECT_DIR$/面试笔记/今日头条社招/继承.html" afterPath="$PROJECT_DIR$/面试总结2017/30—算法" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/JQ优化方案.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/WechatIMG187.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/ajs基本数据类型.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/bjs继承.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/b继承.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/call和apply区别.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/call和apply的区别.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/call和apply的区别.html" afterPath="$PROJECT_DIR$/javascript 语言精粹/第一章/program.html" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/c事件委托.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/c事件委托.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/es6基础知识.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/es6新特性.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/f作用域链.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/f原型链.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/g闭包.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/g闭包.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/jquery原理.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/jq事件绑定.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/jq原理.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/jq常见问题.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/promise.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/this.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/z-变量提升" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/创建对象的方式.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/原生AJAX.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/垃圾回收.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/深clone.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/编写代码实现一个模版处理" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/A-JS长问问题/获取宽度.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/人人网记录/test1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/同花顺/test1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/css/style2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/font/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/font/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/font/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/font/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/font/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/a.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/audio1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/audio2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/b.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/c.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/car.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/d.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/down.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/grade1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/grade2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/icon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/input.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/n.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/n.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/q.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/search.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/up.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/img/video.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/index2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/搜狗笔试题/js/jquery-1.11.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/Node.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/class.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/class.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/group.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/group2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/group3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/group4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test10.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test12.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test13.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test14.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test15.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test16.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test17.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test18.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test19.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test20.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test21.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test5.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test6.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test7.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test8.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/test9.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/translateY.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/walkdom.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/测试记录/日历.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/canvas1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/canvas2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/canvas3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/canvas4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/canvas5.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/data.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/dataflow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/dataflow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo/dataflow.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo/dataflow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo/demo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo/jquery-1.11.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/demo/plane.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/jquery-1.11.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/link.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/plane.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/太阳系动画.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/百度流程图跟踪/烟花动画.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/自定义事件/event.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/自定义事件/tabview.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/自定义事件/tabview.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/自定义事件/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/ZZZcopy/自定义事件/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/BFC规范.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/css 3动画.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/css-hack.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/css3新增的选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/css3新特性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/link和import区别.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/优先级.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/写一个三角形.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/初始化css样式问题.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/取消a标签默认行为.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/定位position.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/居中" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/布局.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/清除浮动.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/盒模型.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/省略号.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/设置display.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/选择器.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/css基础/雪碧图.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/flexible/面试可能的问题" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/Doctype 严格模式混杂模式.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/cookie那三个.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/h5新特性.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/h5新特性.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/html和h5的区别.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/元素.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/文档声明.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/画布.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/语义化.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/html和H5/语义化.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular 数据绑定用啥机制.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular2.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular依赖注入.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular怎样良好分层.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/angular的缺点.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/react.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/react基础知识.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/react组件生命周期.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/requireJS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/require框架.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue-router.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue基础知识.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue指令.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue概述.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue组件传值与vuex.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/vue钩子生命周期.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/k框架的知识/面试.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/6—缓存Ajax" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/7—配置Etags" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/Http Cookie机制及Cookie的实现原理.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/http和https.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/websocket.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/三次握手，四次挥手" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/做好SEO需要什么.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/兼容性问题.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/内核.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/前端性能优化.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/回车发生啥.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/安全性问题.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/性能优化.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/本地存储.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/浏览器状态码.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/渐进增强和优雅降级.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/跨域.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/跨域.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/重排和重绘.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/l浏览器工作机制/页面通信.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/node/node基础知识.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/node/node处理请求.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/node/node机制.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/node/事件循环.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/php/CI.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/php/PHP.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/php/apache.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/sass/glup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/sass/sass常用语法.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/sass/sass比css有哪些优点.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/sass/sass简介.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/1.基础概念.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/2.算法.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/3-排序基础知识.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/冒泡排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/基数排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/堆排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/希尔排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/常见数据结构.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/归并排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/快速排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/插入排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/数组去重" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/斐波那契数列.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/桶排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/计数排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/s数据结构与算法基础/选择排序.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/webpack/webpack简介.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/y数据库/db.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/y数据库/数据库键.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/y数据库/数据模型.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/Linux中常用到的命令.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/linux.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/操作系统.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/文件系统.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/死锁.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/进程与线程.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/z-操作系统/进程和线程.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/个人介绍与项目介绍.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/京东前端面试题.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/即刻.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/新浪面经.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/昆仑医生.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/移动端开发/响应式布局.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/移动端开发/媒体查询.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/移动端开发/移动端事件.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/网上资料.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/说项目.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/遇到的问题总结.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/深入理解-解构/2017年11月/黄包车任务总结/坑/渠道控件" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +255,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="http状态码.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/http状态码.html">
+      <file leaf-file-name="00异步javascript与promise.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解promise/00异步javascript与promise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="解构.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/解构.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -82,91 +275,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="es6继承.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es6继承.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01优先级.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html">
+      <file leaf-file-name="Generator函数解构赋值.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Generator函数解构赋值.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="es5继承.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html">
+      <file leaf-file-name="Set解构赋值.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Set解构赋值.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/9作业/08-7节课作业/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css 动画.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/面试笔记/今日头条社招/css 动画.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index3.html">
+      <file leaf-file-name="数组解构.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/数组解构.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index4.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/潭州课堂/6/index4.html">
+      <file leaf-file-name="默认值.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/默认值.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="区别.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/区别.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="解构赋值中的圆括号问题.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/解构赋值中的圆括号问题.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript 语言精粹/第一章/program.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript 语言精粹/第一章/javascript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -187,8 +370,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/深入理解this/index.html" />
-        <option value="$PROJECT_DIR$/深入理解this/严格模式.html" />
         <option value="$PROJECT_DIR$/深入理解this/箭头函数中的this.html" />
         <option value="$PROJECT_DIR$/深入理解this/window.html" />
         <option value="$PROJECT_DIR$/深入理解改变this/call.html" />
@@ -238,6 +419,8 @@
         <option value="$PROJECT_DIR$/面试笔记/今日头条社招/继承.html" />
         <option value="$PROJECT_DIR$/面试笔记/今日头条社招/es5继承.html" />
         <option value="$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html" />
+        <option value="$PROJECT_DIR$/javascript 语言精粹/第一章/program.html" />
+        <option value="$PROJECT_DIR$/javascript 语言精粹/第一章/javascript.js" />
       </list>
     </option>
   </component>
@@ -305,13 +488,13 @@
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript 语言精粹" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="潭州课堂" type="462c0819:PsiDirectoryNode" />
-              <item name="20选择器优先级" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript 语言精粹" type="462c0819:PsiDirectoryNode" />
+              <item name="第一章" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -394,12 +577,14 @@
       <workItem from="1531924341870" duration="1280000" />
       <workItem from="1532009070381" duration="1407000" />
       <workItem from="1532064171695" duration="930000" />
-      <workItem from="1532092634598" duration="5901000" />
+      <workItem from="1532092634598" duration="6164000" />
+      <workItem from="1532746004260" duration="198000" />
+      <workItem from="1536738740638" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103956000" />
+    <option name="totallyTimeSpent" value="104595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -412,7 +597,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4413543" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2853688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -435,90 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/默认值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/深入理解-解构/解构.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Webpack/webpack-work/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/01-第一章_常用HTML标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/03-第三章_两种不同的盒模型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/04-第四章_元素的显示类型与转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/5大主流浏览器.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/06-第五章_文本与字体的各种样式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/07-第七章_背景background.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/08-第八章_CSS渐变.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/09-第九章_浮动(float).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/潭州课堂/课件/10-第六章  vertical-align cursor opacity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="87" lean-forward="false" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/潭州课堂/课件/10-第十章_定位(position).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -635,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-615">
           <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="67" column="6" lean-forward="true" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-700">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="91" column="44" lean-forward="true" selection-start-line="91" selection-start-column="44" selection-end-line="91" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,14 +883,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/潭州课堂/20选择器优先级/01优先级.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解闭包/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解promise/01promise核心说明.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解promise/00异步javascript与promise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="13" lean-forward="false" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/解构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Generator函数解构赋值.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/Set解构赋值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/数组解构.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/数组解构/默认值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/区别.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/深入理解-解构/区别/解构赋值中的圆括号问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript 语言精粹/第一章/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript 语言精粹/第一章/program.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
