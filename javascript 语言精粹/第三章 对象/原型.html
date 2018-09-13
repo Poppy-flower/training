@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    //所有通过对象字面量创建的对象 都连接到 Object.prototype
+    var stooge = {
+        'first-name' : 'Jerome',
+        'last-name' : 'Howard'
+    };
+
+
+    //给Object 添加一个方法create方法，目的是创建一个使用原对象作为其原型的新对象
+    if(typeof Object.beget !== 'function'){
+        Object.create = function(obj){
+            var F = function(){};
+            F.prototype = obj;
+            return new F();
+        }
+    }
+    var another_stooge = Object.create(stooge);
+    another_stooge['first-name'] = 'Harry';
+    another_stooge['middle-name'] = 'Moses';
+    another_stooge.nickname = 'Moe';
+    console.log(another_stooge);  //F {first-name: "Harry", middle-name: "Moses", nickname: "Moe"}
+
+    //原型连接只有在检索值的时候才被用到。
+
+
+    /**
+     * 如果我们尝试去获取对象的某个属性，但该对象没有该属性名，那么javascript就会试着从原型对象中获取该属性值。如果那个原型对象
+     * 也没有该属性，那么再从他的原型中寻找，依次类推，直到该过程最后到达终点Object.prototype。
+     * 如果想要的属性完全不存在于原型链中，那么结果就是undefined值。
+     * 这个过程称为委托。
+     */
+    console.log(another_stooge['first-name']); //Harry
+    console.log(another_stooge['last-name']); //Howard
+    console.log(another_stooge['a']); //undefined
+</script>
+</body>
+</html>

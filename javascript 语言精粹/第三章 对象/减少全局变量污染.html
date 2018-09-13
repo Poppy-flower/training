@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    //最小化使用全局变量的方法之一是为你的应用只创建一个唯一的全局变量。
+    var myApp = {};
+    myApp.stooge = {
+        'first-name': 'Jerome',
+        'last-name': 'Howard'
+    };
+    myApp.flight = {
+        airline: 'Oceanic',
+        number: 815,
+        departure: {
+            IATA: 'SYD',
+            time: '2004-09-22 14:55',
+            city: 'Sydney'
+        },
+        arrival: {
+            IATA: 'LAX',
+            time: '2004-09-23 10:42',
+            city: 'Los Angeles'
+        }
+    };
+</script>
+</body>
+</html>
