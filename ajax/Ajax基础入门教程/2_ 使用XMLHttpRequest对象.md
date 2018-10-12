@@ -8,7 +8,7 @@
 var xmlHttp;
 
 function createXMLHttpRequest(){
-    if(window.activeXObject){
+    if(window.ActiveXObject){
         xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
     }else if(window.XMLHttpRequest){
         xmlHttp = new XMLHttpRequest();
@@ -49,8 +49,8 @@ var xmlHttp;
 function validateEmail(){
     var email = document.getElementById("email");
     var url = "validateEmail?"+escape(email.value);
-    if(window.activeXObject){
-        xmlHttp = new activeXObject("Microsoft.XMLHTTP");
+    if(window.ActiveXObject){
+        xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
     }else if(window.XMLHttpRequest){
         xmlHttp = new XMLHttpRequest();
     }

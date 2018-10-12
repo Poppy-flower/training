@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple XMLHttpRequest</title>
+    <script type="text/javascript">
+        var xmlHttp;
+        //创建XMLHttpRequest对象
+        function createXMLHttpRequest(){
+            if(window.ActiveXObject){  //兼容IE
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }else if(window.XMLHttpRequest){
+                xmlHttp = new XMLHttpRequest();
+            }
+        }
+        //建立与服务器的通信
+        function startRequest(){
+            createXMLHttpRequest();
+            xmlHttp.onreadystatechange = handleStateChange;
+            xmlHttp.open("GET", "simpleResponse.xml",true);
+            xmlHttp.send(null);
+        }
+        //回调函数
+        function handleStateChange(){
+            if(xmlHttp.readyState == 4){
+                if(xmlHttp.status == 200){
+                    alert('the server replied with:' + xmlHttp.responseText);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="#">
+    <input type="button" value="start basic asynchronous request" onclick="startRequest();">
+</form>
+</body>
+</html>
