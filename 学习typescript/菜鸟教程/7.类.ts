@@ -1,9 +1,30 @@
 class Shape {
 
-    area: number;
-    color: string;
+    //最初版本
+    // area: number;
+    // color: string;
+    //
+    // constructor(name: string, width: number, height: number) {
+    //     this.area = width * height;
+    //     this.color = 'pink';
+    // }
+    //
+    // shoutout() {
+    //     return "I'm " + this.color + " " + this.name +  " with an area of " + this.area + " cm squared.";
+    // }
 
-    constructor(name: string, width: number, height: number) {
+
+
+
+
+
+
+
+    //添加 private  public
+    area: number;
+    private color: string;
+
+    constructor(public name: string, width: number, height: number) {
         this.area = width * height;
         this.color = 'pink';
     }
@@ -11,6 +32,13 @@ class Shape {
     shoutout() {
         return "I'm " + this.color + " " + this.name +  " with an area of " + this.area + " cm squared.";
     }
+
+
+
+
+
+
+
 }
 
 var square = new Shape("square", 30, 30);
