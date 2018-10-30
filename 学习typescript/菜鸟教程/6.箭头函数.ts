@@ -6,7 +6,12 @@ var shape = {
     popup: function() {
         console.log(`this inside popup(): ${this.name}`);
 
-        setTimeout(function() {
+        // setTimeout(function() {
+        //     console.log(`this inside setTimeout(): ${this.name}`);
+        //     console.log(`I'm a ${this.name} !`);
+        // }, 3000)
+
+        setTimeout(() => {
             console.log(`this inside setTimeout(): ${this.name}`);
             console.log(`I'm a ${this.name} !`);
         }, 3000)
