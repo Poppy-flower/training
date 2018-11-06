@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CSS3总结记录/垂直居中.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CSS3总结记录/垂直水平居中.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CSS3总结记录/水平居中.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/《计算机网络》总结记录/1.计算及网络分几层.html" />
+      <change beforePath="$PROJECT_DIR$/CSS3总结记录/水平居中.html" afterPath="$PROJECT_DIR$/CSS3总结记录/水平居中.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2-1原型链继承.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript总结记录/继承/2-1原型链继承.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3-1构造继承.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript总结记录/继承/3-1构造继承.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="判断一个对象是不是Array.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="判断一个对象是不是Array.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -95,8 +82,18 @@
       <file leaf-file-name="水平居中.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3总结记录/水平居中.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.计算及网络分几层.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/《计算机网络》总结记录/1.计算及网络分几层.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -142,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript 语言精粹/第三章 对象/反射.html" />
-        <option value="$PROJECT_DIR$/javascript 语言精粹/第三章 对象/删除.html" />
         <option value="$PROJECT_DIR$/javascript 语言精粹/第三章 对象/对象字面量.html" />
         <option value="$PROJECT_DIR$/javascript 语言精粹/第三章 对象/引用.html" />
         <option value="$PROJECT_DIR$/javascript 语言精粹/第三章 对象/更新.html" />
@@ -193,6 +188,8 @@
         <option value="$PROJECT_DIR$/javascript总结记录/继承/7-1寄生组合继承.html" />
         <option value="$PROJECT_DIR$/javascript总结记录/继承/附录代码.js" />
         <option value="$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js" />
+        <option value="$PROJECT_DIR$/CSS3总结记录/水平居中.html" />
+        <option value="$PROJECT_DIR$/《计算机网络》总结记录/1.计算及网络分几层.html" />
       </list>
     </option>
   </component>
@@ -270,7 +267,7 @@
             <path>
               <item name="training" type="b2602c69:ProjectViewProjectNode" />
               <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="《计算机网络》总结记录" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -362,12 +359,12 @@
       <workItem from="1540781004104" duration="4000" />
       <workItem from="1540805097535" duration="1849000" />
       <workItem from="1540812072638" duration="11000" />
-      <workItem from="1540861267327" duration="17229000" />
+      <workItem from="1540861267327" duration="17924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138319000" />
+    <option name="totallyTimeSpent" value="139014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -415,14 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/快捷键练习/html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/快捷键练习/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -791,7 +780,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3总结记录/水平居中.html">
+    <entry file="file://$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3总结记录/垂直水平居中.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -807,21 +806,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3总结记录/垂直水平居中.html">
+    <entry file="file://$PROJECT_DIR$/CSS3总结记录/水平居中.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js">
+    <entry file="file://$PROJECT_DIR$/《计算机网络》总结记录/1.计算及网络分几层.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="377">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
