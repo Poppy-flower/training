@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        /**
+         *  .directive 函数来添加自定义的指令
+         *  使用驼峰法来命名一个指令， runoobDirective, 但在使用它时需要以 - 分割, runoob-directive
+         *  通过添加 restrict 属性,并设置值为 "A", 来设置指令只能通过属性的方式来调用:
+         *      A: 只能通过属性调用
+         *      E: 只能通过元素名调用
+         *      C: 只能通过类名调用
+         *      M: 只能通过注释使用
+         *  restrict 默认值为 EA, 即可以通过元素名和属性名来调用指令。
+         */
+    </script>
+</head>
+<body ng-app="myApp">
+
+<!--元素名 调用自定义指令-->
+<runoob-directive></runoob-directive>
+
+<!--属性 调用自定义指令-->
+<div runoob-directive></div>
+
+
+<!--类名 调用自定义指令-->
+<div class='runoob-directive'></div>
+
+<!--注释 调用自定义指令-->
+<!-- directive: runoob-directive -->
+
+<script type="text/javascript">
+    /**
+     * 元素名 <runoob-directive></runoob-directive>
+     * 属性 <div runoob-directive></div>
+     * 类名 <div class='runoob-directive'></div>
+     * 注释 <!-- directive: runoob-directive -->
+     * 均可以调用自定义指令
+     */
+    var app = angular.module("myApp", []);
+    app.directive('runoobDirective', function(){
+        return {
+            restrict : 'M',
+            template : "<h1>自定义指令！</h1>"
+        }
+    });
+</script>
+</body>
+</html>

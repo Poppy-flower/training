@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        /**
+         *   ng-disabled 指令绑定应用程序数据 "mySwitch" 到 HTML 的 disabled 属性。
+             ng-model 指令绑定 "mySwitch" 到 HTML input checkbox 元素的内容（value）。
+             如果 mySwitch 为true, 按钮将不可用; 如果 mySwitch 为false, 按钮则可用
+
+             ng-show 指令
+             ng-show 指令隐藏或显示一个 HTML 元素。
+
+             ng-hide 指令
+             ng-hide 指令用于隐藏或显示 HTML 元素。
+         */
+    </script>
+</head>
+<body>
+<div ng-app="" ng-init="mySwitch=true">
+
+    <p>
+        <button ng-disabled="mySwitch">点我!</button>
+    </p>
+
+    <p>
+        <input type="checkbox" ng-model="mySwitch">按钮
+    </p>
+
+    <p>
+        {{ mySwitch }}
+    </p>
+
+
+    <p ng-show="true">我是可见的。</p>
+
+    <p ng-show="false">我是不可见的。</p>
+
+
+
+
+    <p ng-hide="true">我是不可见的。</p>
+
+    <p ng-hide="false">我是可见的。</p>
+
+</div>
+</body>
+</html>

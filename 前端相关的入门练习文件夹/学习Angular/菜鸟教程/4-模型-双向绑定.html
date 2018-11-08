@@ -6,20 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-
-        .hasmargin{
-            border: 4px solid red;
-            width: 100px;
-            margin: 0 auto;
-        }
-    </style>
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        /**
+         * v-model:
+         * 2. 双向绑定
+         */
+    </script>
 </head>
 <body>
-<!--水平居中  方式1 给元素设置一个显示宽度，然后设置margin:0 auto-->
-<div class="hasmargin">hahhaha</div>
-
-
-
+<div ng-app="">
+    请输入你的名字：<input type="text" ng-model="name"> <br>
+    您输入的名字是：{{name}}
+</div>
 </body>
 </html>

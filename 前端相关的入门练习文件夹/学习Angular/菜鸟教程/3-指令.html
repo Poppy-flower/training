@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+    <script>
+        /**
+         * ng-app
+         * ng-model
+         * ng-repeat
+         */
+    </script>
+</head>
+<body>
+<div ng-app="">
+    请输入你的用户名： <br>
+    姓名： <input type="text" ng-model="name"> <br>
+    你输入的姓名是： {{name}}
+    <br>
+
+
+    数量： <input type="text" ng-model="quantity"> <br>
+    价格： <input type="text" ng-model="price"> <br>
+    总额是： {{quantity * price}}
+    <br>
+
+
+    <div ng-init="arr=['a', 'b', 'c']">
+        <p>使用ng-repeat循环数组</p>
+        <ul>
+            <li ng-repeat="x in arr">
+                x
+            </li>
+        </ul>
+    </div>
+
+    <div ng-init="objArr=[
+    {name: 'Jani',country: 'Norway'},
+    {name: 'Jani',country: 'Norway'},
+    {name: 'Jani',country: 'Norway'},
+    {name: 'Jani',country: 'Norway'}]">
+        <p>使用ng-repeat循环对象数组</p>
+        <ul>
+            <li ng-repeat="x in objArr">
+                {{x.name + ' ' + x.country}}
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
