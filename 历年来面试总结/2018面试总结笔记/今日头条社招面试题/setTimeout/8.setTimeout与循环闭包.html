@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 先说一下下面代码输出什么
+     */
+    function test(){
+        for(var i = 0; i < 5; i++){
+            setTimeout(function(){
+                console.log(new Date(), i);
+            }, 1000 * i);
+        }
+
+        console.log('end', new Date(), i);
+    }
+
+    test();
+    /**
+     * 输出 5，5---5---5---5---5  （间隔一秒）
+     */
+
+    /**
+     * 改造函数，使其输出5，0，1，2，3，4
+     *
+     */
+    //方法1：
+    function test1(){
+        for(var i = 0; i < 5; i++){
+            (function(i){
+                setTimeout(function(){
+                    console.log(i);
+                }, 1000 * i);
+            })(i);
+        }
+        console.log(i);
+    }
+
+    test1();
+
+
+    //方法2：
+    function test2(){
+        for(let i = 0; i < 5; i++){
+            setTimeout(function(){
+                console.log(i);
+            }, 1000 * i);
+        }
+    }
+
+    test2();
+
+    //方法3：函数调用按值传递，而不是引用
+    var output = function(i){
+        setTimeout(function(){
+            console.log(i);
+        }, 1000 * i);
+    }
+    function test3(){
+        for(var i = 0; i < 5; i++){
+            output(i);
+        }
+    }
+
+    test3();
+
+
+</script>
+</body>
+</html>

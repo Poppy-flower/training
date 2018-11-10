@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/BFC/BFC.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/1.setTimeout参数介绍.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/2.setTimeout的返回值.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/3.结束或阻止一个setTimeout的执行.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/4.实现异步编程.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/最少硬币找零问题-动态规划.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/最少硬币找零问题-动态规划.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.setTimeout与循环闭包.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js" afterPath="$PROJECT_DIR$/javascript总结记录/判断一个对象是不是Array.js" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2017年11月/l浏览器工作机制/做好SEO需要什么.html" afterPath="$PROJECT_DIR$/历年来面试总结/2017年11月/l浏览器工作机制/做好SEO需要什么.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/BFC.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/5.通过setTimeout优化用户体验.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/arguments 转化为数组.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/arguments 转化为数组.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/es5继承.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/继承/js原型链继承.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/es6继承.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/继承/es6继承.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/http状态码.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/http状态码.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout 输出01234改造题.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/6.不易察觉的危险-内存泄漏.html" />
-      <change beforePath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/最少硬币.html" afterPath="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/7.不要在项目中频繁的使用setTimeout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,16 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
               <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css 动画.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/css 动画.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.不要在项目中频繁的使用setTimeout.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7.不要在项目中频繁的使用setTimeout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/7.不要在项目中频繁的使用setTimeout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.setTimeout与循环闭包.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.setTimeout与循环闭包.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,9 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/6.箭头函数.html" />
-        <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/5.接口.js" />
-        <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/5.接口.ts" />
         <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/6.箭头函数.js" />
         <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/6.箭头函数.ts" />
         <option value="$PROJECT_DIR$/学习typescript/菜鸟教程/7.类.html" />
@@ -203,6 +185,9 @@
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/5.通过setTimeout优化用户体验.html" />
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/6.不易察觉的危险-内存泄漏.html" />
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/7.不要在项目中频繁的使用setTimeout.html" />
+        <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.面试题.html" />
+        <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.修改代码面试题.html" />
+        <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.setTimeout与循环闭包.html" />
       </list>
     </option>
   </component>
@@ -399,12 +384,12 @@
       <workItem from="1540781004104" duration="4000" />
       <workItem from="1540805097535" duration="1849000" />
       <workItem from="1540812072638" duration="11000" />
-      <workItem from="1540861267327" duration="46843000" />
+      <workItem from="1540861267327" duration="48003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167933000" />
+    <option name="totallyTimeSpent" value="169093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -441,14 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/历年来面试总结/2017年11月/flexible/面试可能的问题">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/历年来面试总结/2017年11月/html和H5/cookie那三个.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
@@ -842,6 +819,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/8.setTimeout与循环闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
