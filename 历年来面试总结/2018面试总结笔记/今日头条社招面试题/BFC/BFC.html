@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * BFC: 块级格式化上下文，就是一个块，块里面的元素排列不影响外面的元素排列，外面也不影响里面的元素排列。
+     *      BFC就是页面上一个独立的容器，里面的子元素不会影响外面的元素
+     *
+     *
+     *
+     * 触发BFC：
+     *   1. position 为 absolute 或者 fixed
+     *   2. float 不是 none
+     *   3. overflow 不是 visible
+     *   4. display是 table-cell table-caption 或者inline-block
+     *
+     *
+     *
+     *
+     * 普通文档流的布局规则：
+     *   1. 浮动的元素不会参与到父元素高度的计算
+     *   2. 非浮动元素会覆盖浮动元素
+     *   3. margin 会传递给父级
+     *   4. 两个相邻元素的垂直方向上的margin会出现合并。
+     *
+     * BFC布局规则：
+     *   1. 浮动元素参与父元素高度的计算。（父级触发了BFC）
+     *   2. BFC的区域不会跟浮动的区域重叠， 非浮动元素不会遮挡浮动元素。（非浮动元素触发了BFC）
+     *   3. margin 不会传递给父级（父级触发了BFC）
+     *   4. 两个相邻元素上下的margin 合并，给其中一个加 父级，并且触发BFC
+     *
+     *
+     * overflow: visible(默认值)，超出部分会显示
+     *           auto 超出部分会产生滚动条
+     *           scroll, 不管超不超出 都会产生滚动条
+     *           hidden 超出部分隐藏
+     *
+     *
+     *
+     */
+</script>
+</body>
+</html>

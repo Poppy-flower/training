@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var timeout = setTimeout(function(){
+        console.log('这是定时器里的一个打印值！');
+    }, 1000);
+
+    clearTimeout(timeout);
+
+    /**
+     * 实际项目中，添加了一个定时器之后，在定时器执行之前，满足某些条件时，可能需要取消定时器的执行，
+     * js 提供了一个取消定时器的方法 clearTimeout(参数)
+     *
+     * 参数就是定时器的返回值；
+     *
+     */
+</script>
+</body>
+</html>

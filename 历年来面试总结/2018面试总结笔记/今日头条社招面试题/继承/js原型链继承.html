@@ -29,6 +29,9 @@
         //子类的原型是父类的一个实例
         Son.prototype = new Father;
 
+        var son1 = new Son('xiaoming', 15);
+        console.log(son1);
+        son1.getName();
     </script>
 </body>
 </html>

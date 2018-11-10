@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var timeout = setTimeout(function(){
+        console.log('setTimeout打印值');
+    }, 1000);
+
+    console.log(timeout, typeof timeout);  //输出1 "number"
+
+    /**
+     * 用变量 timeout 接收setTimeout 的返回值，并且将timeout 打印出来，值是1；类型是number
+     *
+     * 为什么setTimeout 返回值是1呢，每一个都是1吗？类型为什么是number？
+     */
+
+    var timeout1 = setTimeout(function(){}, 2000);
+    var timeout2 = setTimeout(function(){}, 3000);
+    var timeout3 = setTimeout(function(){}, 4000);
+
+    console.log('timeout1----', timeout1, typeof timeout1);  //timeout1---- 2 number
+    console.log('timeout2----', timeout2, typeof timeout2);  //timeout2---- 3 number
+    console.log('timeout3----', timeout3, typeof timeout3);  //timeout3---- 4 number
+
+    /**
+     * setTimeout返回的值不都是1，返回的是一个唯一值，这个值其实就是setTimeout 的ID，可以根据这个id找到对应的setTimeout
+     */
+</script>
+</body>
+</html>

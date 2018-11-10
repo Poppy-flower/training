@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 什么是内存泄漏？
+     *      一块内存在分配使用完毕之后既不会被再次使用，也没有被及时回收，z直到程序执行完毕都始终占据着这块内存。
+     *
+     * setTimeout 什么情况会导致内存泄漏？
+     *      setTimeout第一个函数既可以是回调函数，也可以是字符串，当传入字符串时，就会造成内存泄漏
+     */
+
+    setTimeout(function test1(){
+        console.log('test1');
+    }, 1000);
+
+    setTimeout((function test2(){
+        console.log('test2');
+    }).toString(), 2000);
+
+    /**
+     * 打开控制台，分别输入 test1 test2
+     * test1 is not defined
+     * test2 会打印出函数体
+     * 说明，第一个参数为函数时，回调函数执行完毕，test1函数将被销毁，其所使用的内存也被释放；
+     *      第一个参数是字符串时，test2 始终存在，它没有被销毁，始终占据着内存，也就造成了内存泄漏
+     */
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 既然setTimeout回调函数里面的代码必须等到 主队列中的任务执行之后才会执行，那么我们在碰到一些十分
+     * 耗时的代码的时候，就可以用这个来防止页面的阻塞。
+     *
+     * 将耗时代码写进setTimeout的回调，时间设置为0，这样只要js引擎空闲下来就去执行这些耗时的代码，就不会
+     * 阻塞页面，给用户造成卡顿的体验，提升用户体验。
+     */
+</script>
+</body>
+</html>

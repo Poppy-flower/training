@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 我们使用异步编程的一个很重要的目的就是为了 不因为耗时任务而阻塞 其他js代码的执行
+     *
+     * js是单线程的，alert\confirm都会阻塞代码的执行，弹出框不点击，以下的代码就不会执行
+     *
+     */
+
+    // alert('1');
+    //
+    // console.log('这是alert之后的一个打印输出');  //点击完弹框才会执行这行代码
+
+
+    setTimeout(function(){
+        alert('后来出现的弹框');
+    }, 0);
+    console.log('先输出的test console string');
+
+    /**
+     * 在实际项目中，可以利用setTimeout的一些异步特性解决一些问题，比如一个对象还未初始化，为了保证对象在使用到的时候已经被初始化，
+     * 就可以使用setTimeout来实现。
+     */
+
+    /**
+     * setTimeout回调函数的执行时机
+     *     1. 延迟时间设置为0，为什么还是测试的字符串先输出的问题！
+     *          浏览器是基于事件循环的，其中会有多个队列，页面的渲染是一个队列，js代码的执行也是一个队列；
+     *
+     *          js代码执行时，会创建一系列的任务，而这些任务秉承着先进先出的原则被加入到队列中。但是setTimeout比较特殊，
+     *          遇到setTimeout的时候，js会将它拿出来放到一个单独的特殊队列里去，这个队列里的任务在js队列还没执行完的时
+     *          候，永远都不会执行。
+     *
+     *          所以，只有js的引擎闲下来之后，才会执行所有的setTimeout,即使延时设为了0
+     *
+     *
+     */
+
+
+    var flag = true;
+    setTimeout(function(){
+        flag = false;
+        alert('这是一个弹框'); //这个弹框永远也不会弹出来,因为while是一个耗时的代码
+    }, 0);
+    while(flag){
+
+    }
+    //总结一下，上面这段代码，这种代码在项目中几乎不会出现，代码的执行速度极快，
+    // 只要不是出现十分耗时的代码，定时器几乎还是能够按照我们的意愿在指定的时间执行。
+
+
+
+
+
+
+</script>
+</body>
+</html>

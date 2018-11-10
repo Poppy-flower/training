@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * setTimeout(function/string, number);
+     * 接受两个参数，第一个是回调函数 或者字符串(字符串会转化成js执行，如果无法被解析成js代码就会报错)
+     *             第二个是延迟时间
+     *
+     *
+     */
+    setTimeout(function(){
+        console.log('回调函数里面的打印内容');
+    }, 1000);
+
+    setTimeout('console.log("字符串里面的打印内容")', 2000);
+
+    /**
+     * setTimeout('hahaha', 3000);   //报错：hahaha is not defined
+     */
+
+</script>
+</body>
+</html>
