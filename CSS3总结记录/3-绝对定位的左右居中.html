@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .father{
+            position: relative;
+            height: 400px;
+            width: 400px;
+            border: 1px solid green;
+        }
+        .son{
+            position: absolute;
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+            margin: 0 auto;
+            left: 0;  /* 给绝对定位的元素设置left \ right 都为0，自动拉到中间*/
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="son">
+        我是儿砸
+    </div>
+</div>
+</body>
+</html>
