@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /**
+     * 网页的大小：
+     *    网页上的每个元素都有clientWidth  clientHeight属性，这两个属性分别表示包含padding的元素的宽度和高度。
+     *    不包括border,滚动条占据的空间。
+     *
+     *    所以，document元素的 clientWidth  clientHeight就代表了网页的宽度和高度。
+     */
+
+    function getViewPort(){
+        if(document.compatMode == 'BackCompat'){   //兼容IE6
+            return {
+                width: document.body.clientWidth,
+                height: document.body.clientHeight
+            }
+        }else{
+            return {
+                width: document.documentElement.clientWidth,
+                height: document.documentElement.clientHeight
+            }
+        }
+    }
+
+    /**
+     * 上面的getViewPort() 返回的就是网页的宽度和高度，需要注意三点：
+     *   1. 函数调用必须在页面加载完之后调用，否则的话document对象还没生成，浏览器会报错
+     *   2. 大多数情况下，都是document.documentElement.clientWidth返回正确值；
+     *      但是，IE6的quirks模式中，document.body.clientWidth返回正确值，因此在函数中加入了对文档模式的判断
+     *   3. clientWidth  clientHeight 都是只读属性，不能对他们进行赋值
+     */
+</script>
+</body>
+</html>
