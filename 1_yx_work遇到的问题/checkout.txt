@@ -1,0 +1,15 @@
+git checout 命令详解
+
+（一）git checkout -- filename filename
+
+      1. git checkout 是在工作区生效的
+      2. git checkout 撤销某个文件的 add 到 暂存区的操作
+      3. 只有先 add, 才存在 checkout
+
+
+（二）git checkout 用于创建分支 和 切换分支 （都叫做检出分支操作）
+
+      1. 切到master分支 git checkout master
+      2. 基于master分支创建新分支  git branch new-branch
+      3. 切换到新建的分支          git checkout new-branch
+      2&3可以合成一步命令     git checkout -b new-branch

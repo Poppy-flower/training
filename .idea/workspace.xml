@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2402b8c9-eec1-4eb3-aaab-6324a72017cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1_yx_work遇到的问题/2_git-test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_yx_work遇到的问题/one.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1_yx_work遇到的问题/checkout.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,6 +29,7 @@
           <entry key="html" value="4" />
           <entry key="less" value="1" />
           <entry key="png" value="2" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -36,18 +37,21 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="2" />
           <entry key="Less" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="538" />
           <entry key="less" value="56" />
+          <entry key="txt" value="414" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="538" />
           <entry key="Less" value="56" />
+          <entry key="PLAIN_TEXT" value="414" />
         </counts>
       </usages-collector>
     </session>
@@ -75,11 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_yx_work遇到的问题/2_git-test.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_yx_work遇到的问题/checkout.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -152,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/历年来面试总结/2017年11月/l浏览器工作机制/做好SEO需要什么.html" />
-        <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/最少硬币.html" />
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/最少硬币找零问题-动态规划.js" />
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/arguments 转化为数组.html" />
         <option value="$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/es5继承.html" />
@@ -203,6 +214,8 @@
         <option value="$PROJECT_DIR$/CSS3总结记录/背景图片大小撑开盒子大小.html" />
         <option value="$PROJECT_DIR$/CSS3总结记录/test.html" />
         <option value="$PROJECT_DIR$/1_yx_work遇到的问题/2_git-test.html" />
+        <option value="$PROJECT_DIR$/1_yx_work遇到的问题/one.txt" />
+        <option value="$PROJECT_DIR$/1_yx_work遇到的问题/checkout.txt" />
       </list>
     </option>
   </component>
@@ -368,12 +381,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196758000" />
+    <option name="totallyTimeSpent" value="197572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -386,7 +400,7 @@
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,13 +414,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/4.实现异步编程.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/历年来面试总结/2018面试总结笔记/今日头条社招面试题/setTimeout/5.通过setTimeout优化用户体验.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -730,8 +737,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_yx_work遇到的问题/2_git-test.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_yx_work遇到的问题/checkout.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
