@@ -1,0 +1,8 @@
+
+
+检查配置信息
+  git config --list
+
+
+检查git的某一项配置
+  git config <key，如user.name>
