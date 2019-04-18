@@ -1,0 +1,37 @@
+appname: microloan-homepage-lain-prod
+build:
+  base: registry.yxapp.xyz/library/node:8
+  prepare:  # lain prepare 时运行的指令，目的是在本地缓存一个阶段性成果，用来准备项目的编译依赖是最合适的
+    version: "201809013001"
+    script:
+    - apt-get update
+    - npm install
+    - npm install -g webpack@2.6.1 cross-env
+    keep:
+    - node_modules
+  script:
+  - npm run build
+release:
+  dest_base: registry.laincloud.xyz/library/nginx:stable
+  copy:
+  - src: /lain/app/nginx.conf
+    dest: /etc/nginx/nginx.conf
+  - src: /lain/app/dist
+    dest: /lain/app/
+  - src: /lain/app/startup.sh
+    dest: /lain/app/startup.sh
+  script:
+  - chmod +x /lain/app/startup.sh
+web:
+  cmd:  /lain/app/startup.sh
+  memory: 512M
+  num_instances: 1
+  env:
+  - LANG=zh_CN.UTF_8
+  port: 80
+  logs:
+  - access.log
+  mountpoint:  # 标定服务额外响应的（内外网）域名
+  - www.51jiuji.com
+notify:
+  slack: "#microloan"  # 应用相关的通知和报警都会发送到该 slack channel
