@@ -17,16 +17,21 @@
 <body>
 <div class="father">
   <p>我在father元素内部</p>
-  <iframe src="https://map.baidu.com/@12966612,4826353,15z"
-          frameborder="1"
-          width="500"
-          height="500"
+  <iframe
+      id="my-iframe"
+      src="https://map.baidu.com/@12966612,4826353,15z"
+      frameborder="1"
+      width="500"
+      height="500"
   >
     <p>我在iframe元素内部</p>
   </iframe>
 </div>
 <script>
     document.cookie = "test1=hello";
+    //获取非同源下面的iframe页面的DOM
+    document.getElementById('my-iframe').contentWindow.document;
+    console.log(document.getElementById('my-iframe').contentWindow.document);
 </script>
 </body>
 </html>
