@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+
+    /**
+     * 场景： 接口返回一个一维数组，场景是每行固定显示n个；这个时候可以将一维数组变成二维数组
+     * @param arr
+     * @param len
+     * @returns {Array}
+     */
+
+    //数组的每个元素都是 基本类型
+
+    let baseArray = [1,2,3,4,5,6,7,8,9];
+    let n = 4;
+
+    function chunk1(baseArray, n){
+        let res = [];
+        let len = baseArray.length;
+        var lineNum = Math.ceil(len/n);
+        for(var i = 0; i<lineNum; i++){
+            let temp = baseArray.slice(i*n, i*n+n);  //[].slice(a,b)返回的是一段被截取的数组
+            res.push(temp);
+        }
+        return res;
+    }
+
+    console.log(chunk1(baseArray, n));
+
+    //数组的每个元素不是基本类型
+
+    let objArray = [
+        {a: 1},
+        {b: 2},
+        {c: 3},
+        {d: 4},
+        {e: 5},
+        {f: 6},
+        {g: 7},
+        {h: 8},
+        {i: 9},
+        {j: 10},
+        {k: 11}
+    ];
+
+    // let copyArray = objArray.slice(0,2);
+    // console.log(copyArray);
+    // copyArray[0].a=10;
+    // console.log(objArray);  //此时{a:1} 被修改了，变成了{a:10} ，原因是slice是浅拷贝
+
+    //所以数组元素不是基本类型的时候，不能用slice
+
+    function chunk2(objArray, n){
+        let res = [];
+        let len = objArray.length;
+        var lineNum = Math.ceil(len/n);
+        for(var i = 0; i<lineNum; i++){
+            let temp = objArray.slice(i*n, i*n+n);  //[].slice(a,b)返回的是一段被截取的数组
+            res.push(JSON.parse(JSON.stringify(temp)));  //实现对象的深拷贝，先json编码，再解码
+        }
+        return res;
+    }
+
+    console.log(chunk2(objArray, n));
+
+    /**
+     *
+     */
+
+
+</script>
+</body>
+</html>
