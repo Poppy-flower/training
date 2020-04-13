@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  function foo(){
+      console.log(this.bar);
+  }
+
+  var bar = 'global';
+
+  var obj1 = {
+      bar: 'obj1',
+      foo: foo
+  };
+
+  var obj2 = {
+      bar: 'obj2'
+  };
+
+  //-------
+  foo();  //global
+  obj1.foo();  //obj1
+  foo.call(obj2);  //obj2
+  new foo();  //undefined
+
+  /**
+   * 如果一个函数内部有一个this引用，那么这个this通常指向一个对象。但它指向的是哪个对象要根据这个函数是如何被调用来决定的。
+   *
+   * this并不指向这个函数本身，意识到这一点非常重要，因为这是最常见的误解。
+   *
+   * 关于如何设置this有4条规则，上面4行展示了这4条规则。
+   * （1）在非严格模式下，foo()最后会将this设置为全局对象。
+   *      在严格模式下，这是未定义的行为，在访问bar属性时会出错---因此'global'是为this.bar创建的值。
+   * （2）obj1.foo()将this设置为对象obj1；
+   * （3）foo.call(obj2)将this设置为对象obj2;
+   * （4）new foo()将this设置为一个全新的空对象。
+   */
+</script>
+</body>
+</html>

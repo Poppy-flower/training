@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript">
+    /**
+     * js 作为 面向对象的 弱类型语言， 继承也是其特性之一。
+     * js 继承 实现的几种方式
+     *   1 原型链继承
+     *   2 构造继承
+     *   3 实例继承
+     *   4 拷贝继承
+     *   5 原型链和构造组合继承
+     *   6 寄生组合继承
+     */
+
+    //父类 动物   类有属性和方法
+    function Animal(name) {
+        //属性
+        this.name = name;
+
+        //方法
+        this.sleep = function(){
+            console.log(`${this.name}正在睡觉`);
+        }
+    }
+
+    //原型方法
+    Animal.prototype.eat = function(food){
+        console.log(`${this.name}正在吃${food}`);
+    }
+
+</script>
+</body>
+</html>
