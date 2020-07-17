@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            width: 400px;
+            padding: 20px;
+            border:4px solid #ccc;
+            margin:20px auto;
+        }
+
+        #target{
+            border:4px dashed #666;
+            min-height: 100px;
+            line-height: 30px;
+            transition: .3;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    如今全球都面临着严峻的能源和环境污染问题，而这也推动了生物能源的发展。最近国家发展改革委、国家能源局、财政部等十五部门联合印发了《关于扩大生物燃料乙醇生产和推广使用车用乙醇汽油的实施方案》，欲在2020年全国范围内基本实现车用E10乙醇汽油全覆盖，2025年力争纤维素乙醇实现规模化生产，形成更加完善的市场化运行机制。
+</div>
+<div id="img">
+    <img id="innerImg" src="img/1.png" alt="">
+</div>
+<div id="target" contenteditable="true">
+
+</div>
+<script>
+
+    target.ondragenter = function(){
+        this.style.borderColor = '#000';
+    }
+
+    document.ondragover = function(e){
+        e.preventDefault();
+    }
+
+    document.ondrop = function(e){
+        e.preventDefault();
+    }
+
+    target.ondragleave = function(){
+        this.style.borderColor = '#666';
+    }
+
+    target.ondrop = function(e){
+        let files = e.dataTransfer.files;
+        if(files.length){
+            Array.from(files).map((file, i) => {
+                var fr = new FileReader();
+                console.log(fr.readAsDataURL(file));
+                fr.onload = function(evt){
+                    var img = document.createElement('img');
+                    img.src = evt.target.result;
+                    document.body.appendChild(img);
+                    document.body.innerHTML += file.name+' '+ file.lastModifiedDate+' '+ (file.size/1024).toFixed(1)+'kb '+file.type;
+                }
+            });
+        }else{
+            var _src = e.dataTransfer.getData('text/uri-list');
+            if(_src){
+                var img = new Image();
+                img.src = _src;
+                target.appendChild(img);
+            }else{
+                var t = e.dataTransfer.getData('text/plain');
+                target.innerHTML += t;
+            }
+        }
+    }
+</script>
+</body>
+</html>
